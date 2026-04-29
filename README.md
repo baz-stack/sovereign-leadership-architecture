@@ -1,241 +1,196 @@
-# sovereign-leadership-architecture
-The Evidence Vault for Sovereign Leadership Architecture™ — frameworks, diagnostics, and methodology by Baz Porter | The Prestige Architect®
-# You didn't come here by accident.
+# Baz Porter — Public Profile
 
-People who find this page are usually carrying something they haven't 
-been able to name yet.
-
-They've done the work. The therapy. The masterminds. The breathwork. 
-The $25,000 programs that promised the answer and delivered a framework.
-
-And they're still here.
-
-Still performing. Still delivering. Still holding everything together.
-
-And still — privately — on the edge of something they can't quite see.
-
-That's not a personal failing.
-
-That's a structural problem.
-
-And structure is what we fix.
+### The Prestige Architect® | Baz Porter LLC®
 
 ---
 
-## This Is Not a Coaching Practice.
+## The One-Line
 
-Most people in this space will tell you what to do.
-
-They'll give you a strategy, a system, a morning routine, a mindset 
-reset. They'll teach you to regulate your nervous system and set better 
-boundaries and communicate your vision more clearly.
-
-And you'll implement it. Because that's what you do.
-
-And six months later you'll be back — more refined, more self-aware, 
-more capable of articulating the problem — and still carrying it.
-
-Because the problem was never your strategy.
-
-The problem is the architecture beneath it.
-
-**Sovereign Leadership Architecture™** is the discipline of rebuilding 
-that infrastructure — not the performance on top of it.
+Baz Porter architects the identity infrastructure beneath 
+high performance — guiding leaders from Silent Collapse™ 
+to Sovereign Leadership™.
 
 ---
 
-## The Diagnosis
+## The Short Bio (150 words)
 
-### Silent Collapse™
+Baz Porter is the founder of Baz Porter LLC® and The Prestige 
+Architect® — the category-defining practice of Sovereign 
+Leadership Architecture™.
 
-There is a specific condition that affects high-achieving leaders at 
-the level you're operating at.
+A British Army veteran of six and a half years, international 
+bestselling author, and host of the Rise From The Ashes 
+podcast on the C-Suite Network, Baz works with high-achieving 
+leaders operating at $1M–$50M+ who have done the work — the 
+therapy, the masterminds, the programs — and are still carrying 
+a weight they cannot name.
 
-It has no dramatic moment. No breakdown. No obvious signal.
+That weight has a name. Silent Collapse™.
 
-It looks like this:
+Baz doesn't coach. He architects. Through the RAMS™ Framework 
+and a proprietary system of identity excavation, he rebuilds 
+the internal operating system beneath the performance — so 
+leaders can sustain at the altitude they've already reached 
+without sacrificing the person doing the work.
 
-- You are producing at the highest level of your career.
-- You feel less than you ever have.
-- The team is capable. Everything still routes through you.
-- You take a vacation. Your nervous system doesn't.
-- You've done significant inner work. The ceiling is still there.
-- Someone close to you said recently that you seem harder than you used to be.
-- You know exactly what year three looks like if nothing changes.
-  And you don't want it.
-
-This is Silent Collapse™.
-
-Not burnout. Burnout is a symptom.
-
-Silent Collapse is what happens when a leader's external operating 
-system — their performance, their revenue, their authority — outpaces 
-the identity infrastructure beneath it.
-
-You outgrew the architecture. You kept running on the old one.
-
-The weight didn't get heavier. It got quieter. And that's the part 
-nobody warns you about.
+Power without collapse. Success without self-betrayal.
 
 ---
 
-## The Operating System
+## The Full Bio (400 words)
 
-### RAMS™ — Results · Attitude · Mastery · Systems
+Baz Porter didn't build his methodology in a classroom.
 
-Every decision. Every diagnosis. Every intervention.
+He built it from six and a half years of British Army service 
+(1997–2004). From homelessness. From standing in front of 
+35,000 people at Excel Arena London and feeling nothing. From 
+$2.1 million spent searching for the answer in every program, 
+mastermind, and mentor the coaching industry had to offer — 
+and finding only more language for the same structural problem 
+nobody was addressing at the root.
 
-Filtered through four pillars that operate simultaneously at the level 
-of identity — not behavior.
+The problem was Silent Collapse™.
 
-The body and the business run on the same architecture.
+The invisible erosion that occurs when a high-achieving 
+leader's external operating system outpaces their internal 
+identity infrastructure. They keep winning. They keep 
+delivering. They keep performing. And underneath it — the 
+architecture that was built to achieve is quietly destroying 
+the person who built it.
 
-When one is dysregulated, both are compromised.
+Baz lived it. Rebuilt from it. And then reverse-engineered 
+the system that creates it — so other leaders don't have 
+to spend a decade and $2.1 million finding out what he 
+already knows.
 
-RAMS™ is not a framework you learn.
+Today, Baz Porter LLC® operates as the leading practice in 
+Sovereign Leadership Architecture™ — the discipline of 
+rebuilding the identity infrastructure beneath high 
+performance, not the strategy on top of it.
 
-It is an operating system you install.
+His proprietary operating system — RAMS™ (Results · Attitude · 
+Mastery · Systems) — is applied simultaneously at the 
+business level and the nervous system level. Because the 
+body and the business run on the same architecture. And 
+when one is dysregulated, both are compromised.
 
----
+His client roster includes Fortune 500 executives, C-Suite 
+leaders, and founders operating at $1M–$50M+. His offer 
+architecture runs from a $97 entry point to $132,000 retained 
+power architecture — with eight seats available annually 
+at The Gravity Code™ level.
 
-## The Proprietary IP
+He is the author of two international bestsellers — 
+*Die Empty Live Full* (Part 4 international bestseller, 
+March 2025) and *Cracking the Rich Code Vol. 12* (foreword: 
+Brian Tracy, endorsed by Tony Robbins).
 
-These are not concepts borrowed from other disciplines.
+He hosts Rise From The Ashes — a podcast on the C-Suite 
+Network with 100+ episodes — and was named Best 
+Transformational Leadership Coaching 2024.
 
-They were built from the wreckage of a collapse that looked like 
-success — and the decade of architecture that followed it.
+Baz Porter does not motivate. He does not inspire. He 
+does not coach.
 
-| IP | What It Is |
-|---|---|
-| **Silent Collapse™** | The named diagnosis. The problem this category owns. |
-| **RAMS™ Framework** | The four-pillar operating system. Results · Attitude · Mastery · Systems. |
-| **The Five Imposters™** | The five systems masquerading as solutions that keep high-achievers stuck. |
-| **The Gravity Code™** | The retained power architecture for leaders who have already won — and are still carrying everything. |
-| **Identity Reset** | Private excavation and embodiment work at the Diamond level. |
-| **The Six Drives of Human Intelligence™** | The neurological and quantum architecture beneath sovereign identity. |
-| **Sovereign Operating System** | 30-day neural recalibration. The decided state replacing the survival state. |
-| **The Silent Collapse Diagnostic** | The precision entry tool. Fifteen minutes. No quiz. A mirror. |
-
----
-
-## The Five Imposters™
-
-These are the five systems high-achievers invest in — repeatedly — 
-that treat the symptom and leave the structure untouched.
-
-**The Motivation Machine** — you don't have a motivation problem.
-You have an identity misalignment problem.
-
-**The Therapy Loop** — processing the past is not the same as 
-rebuilding the present.
-
-**The Hustle Gospel** — more output from a fractured architecture 
-produces more fracture.
-
-**The Mindset Myth** — you cannot think your way out of a structural 
-problem.
-
-**The Group Container** — proximity to other high-achievers is not 
-the same as precision intervention.
-
-You've tried at least three of these.
-
-That's not failure. That's data.
+He architects.
 
 ---
 
-## The Architecture of the Work
+## Proof Points
 
-| Investment | Container | What It Does |
-|---|---|---|
-| Free | Silent Collapse Diagnostic | Names what you've been carrying |
-| $97 | The Reclamation Code | The first structural intervention |
-| $397/mo | A Million Dreams Circle | Sovereign peer architecture |
-| $5,997 | Business Profit Accelerator | 3-day identity and revenue immersion |
-| $25,000 | Identity Reset — Excavation | The deep structural rebuild |
-| $42,000 | Identity Reset — Embodiment | The decided state, installed |
-| $100,000 | The Gravity Code™ | Retained power architecture — 8 seats annually |
-| $132,000 | The Gravity Code™ — Quarterly | The full container, structured investment |
+- British Army Veteran — 6.5 years service (1997–2004)
+- International Bestselling Author ×2
+- Best Transformational Leadership Coaching 2024
+- Excel Arena London — Panel Host — 35,000 attendees
+- C-Suite Network Podcast Host — 100+ episodes
+- Fortune 500 leaders · C-Suite executives · $1M–$50M+ founders
+- Delphi AI Clone — 24.7K minds trained
 
 ---
 
-## The Body of Work
+## Published Works
 
-This is not a methodology built in a classroom.
+**Die Empty Live Full**
+International Bestseller · Part 4 · March 2025
 
-It was built from nine years of British Army service. From homelessness. 
-From standing in front of 35,000 people at Excel Arena London and 
-feeling nothing. From $2.1 million spent searching for an answer in 
-the wrong places. From the moment the performance collapsed and what 
-was left had to be rebuilt from the foundation.
-
-**Published Works**
-
-*Die Empty Live Full* — International Bestseller, Part 4 · March 2025
-
-*Cracking the Rich Code Vol. 12* — International Bestseller  
+**Cracking the Rich Code Vol. 12**
+International Bestseller
 Foreword: Brian Tracy · Endorsed: Tony Robbins
 
-**Platform**
+---
 
-Rise From The Ashes Podcast — C-Suite Network · 100+ episodes  
-Hosted by Baz Porter · Available on all major platforms
+## Podcast
 
-**Recognition**
-
-Best Transformational Leadership Coaching 2024  
-Fortune 500 leaders · C-Suite executives · Founders at $1M–$50M+  
-Excel Arena London · Panel Host · 35,000 attendees
+**Rise From The Ashes**
+C-Suite Network · 100+ episodes
+Available on Spotify, Apple Podcasts, and all major platforms
+[risefromtheashespodcast.com](https://www.risefromtheashespodcast.com)
 
 ---
 
-## The Ecosystem
+## Speaking Topics
 
-This vault is one of six landmarks in the Sovereign Leadership 
-Architecture™ category ecosystem.
-
-| Landmark | Platform | Role |
-|---|---|---|
-| Identity Anchor | LinkedIn | Where the category declaration lives |
-| Cultural Impact | Medium | Where the ideas reach beyond the audience |
-| Language Installer | Substack | Where the IP vocabulary compounds over time |
-| Evidence Vault | GitHub | Where the body of work is proven |
-| Authority Archive | YouTube | Where the methodology is validated at depth |
-| Central Hub | bazporter.com | Where everything routes back to |
+- Silent Collapse™ — The Hidden Epidemic in High-Performance Leadership
+- Sovereign Leadership Architecture™ — Building the Identity Infrastructure Beneath the Performance
+- The RAMS™ Framework — Why the Body and the Business Run on the Same Architecture
+- The Five Imposters™ — Why What You've Tried Hasn't Fixed the Structure
+- The Six Drives of Human Intelligence™ — The Quantum Architecture of Sovereign Identity
+- From Collapse to Sovereign — The Origin Story
 
 ---
 
-## If You're Ready
+## Media & Interviews
 
-You don't need more information.
+Baz Porter is available for:
+- Podcast interviews
+- Speaking engagements
+- Panel appearances
+- Executive media
 
-You need the right conversation.
-
-**Take the Silent Collapse Diagnostic — 15 minutes:**  
-[bazporter.com/silent-collapse-diagnostic](https://bazporter.com/silent-collapse-diagnostic)
-
-**Apply to work with Baz directly:**  
-[bazporter.com/work-with-me](https://bazporter.com/work-with-me)
-
-**Book a Strategic Call:**  
+**Booking:**
 [bazporter.com/strategic-call](https://bazporter.com/strategic-call)
 
-**Apply for The Gravity Code™ — 8 seats annually:**  
-[bazporter.com/gravity-code-apply](https://bazporter.com/gravity-code-apply)
+**Press & Media:**
+[bazporter.com/media](https://bazporter.com/media)
 
 ---
 
-*If you've read this far — you already know.*
+## Connect
 
-*The diagnostic is the next step.*
+| Platform | Link |
+|---|---|
+| Website | [bazporter.com](https://bazporter.com) |
+| LinkedIn | [linkedin.com/in/bazporterllc](https://www.linkedin.com/in/bazporterllc/) |
+| Podcast | [risefromtheashespodcast.com](https://www.risefromtheashespodcast.com) |
+| Substack | [substack.com/@bazporter](https://substack.com/@bazporter) |
+| YouTube | [youtube.com/@BazPorter](https://www.youtube.com/@BazPorter) |
+| Diagnostic | [bazporter.com/silent-collapse-diagnostic](https://bazporter.com/silent-collapse-diagnostic) |
+| Apply | [bazporter.com/work-with-me](https://bazporter.com/work-with-me) |
 
 ---
 
-© 2019–2026 Baz Porter LLC®. All Rights Reserved.  
-All IP — including Silent Collapse™, RAMS™, The Five Imposters™, 
-The Gravity Code™, and Sovereign Leadership Architecture™ — is 
-proprietary and protected under trademark. Unauthorized use is 
-prohibited.
+## The Offer Architecture
 
-**Baz Porter LLC® | The Prestige Architect®**  
+| Investment | Container | Format |
+|---|---|---|
+| Free | Silent Collapse Diagnostic | Precision diagnostic tool |
+| $97 | The Reclamation Code | Self-directed course |
+| $397/mo | A Million Dreams Circle | Cohort container |
+| $5,998 | Business Profit Accelerator | 3-day virtual immersion |
+| $15,000 | Coming Home to Love™ — Find Yourself | Private — Level 1 |
+| $27,000 | Coming Home to Love™ — Repair | Private — Level 2 |
+| $42,000 | Coming Home to Love™ — Your Relationship | Private — Level 3 |
+| $100,000 | The Gravity Code™ | Retained power architecture |
+| $132,000 | The Gravity Code™ — Quarterly | Full container |
+
+---
+
+© 2019–2026 Baz Porter LLC®. All Rights Reserved.
+Baz Porter LLC® and The Prestige Architect® are registered 
+trademarks. All proprietary IP including Silent Collapse™, 
+RAMS™, The Five Imposters™, The Gravity Code™, Coming Home 
+to Love™, and Sovereign Leadership Architecture™ is protected 
+under trademark.
+
+**Baz Porter LLC® | The Prestige Architect®**
 [bazporter.com](https://bazporter.com)
