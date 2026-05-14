@@ -1,5 +1,3 @@
----
-
 # Baz Porter — Public Profile
 **The Prestige Architect® | Baz Porter LLC®**
 
