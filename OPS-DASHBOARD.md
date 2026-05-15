@@ -15,19 +15,40 @@ The Ops Dashboard is the operating layer of this repository. It does two things:
 
 ---
 
-## Two Views
+## Three Ways to Use It
 
-| Surface | Path | Use when |
+| Surface | How to launch | Best for |
 |---|---|---|
-| **Interactive HTML** | [`dashboard/index.html`](dashboard/index.html) | You want the visual dashboard, click-to-run agents, and KPI inputs that persist locally. |
-| **Markdown (this file)** | `OPS-DASHBOARD.md` | You want the canonical text record in repo style. |
+| **Slash commands** (fastest) | Type `/check-everything` (or any command below) in Claude chat | Daily ops — one command, agent runs, report appears |
+| **Console UI** | Open [`dashboard/index.html`](dashboard/index.html) in a browser | Visual overview of the whole ecosystem, browsing offers/trademarks/etc. |
+| **This file** | Read `OPS-DASHBOARD.md` | Canonical text record in repo style |
 
-Open the HTML view by double-clicking `dashboard/index.html` or serving the directory locally:
+### The Slash Commands
 
-```bash
-cd dashboard && python3 -m http.server 8000
-# then open http://localhost:8000
+Type any of these in Claude chat. The right agent runs automatically.
+
 ```
+/check-everything       Full health check on all 4 parts of your business
+/ops                    Short alias for /check-everything
+/ops-help               Show this list anytime
+
+/check-offers           Audit all 12 offers — prices, tier health, conversion path
+/check-killzone         Check the $497 → $5,997 pricing bridge
+/check-pricing          Look for discounts, fake bonuses, fake scarcity
+
+/check-trademarks       Audit trademarks — what's registered, what's risky
+/trademark-priority     Tell me what to file first
+
+/check-methods          Audit all frameworks — docs, naming, deployment
+/fix-rams               Fix the RAMS naming mix-up
+/find-gaps              Find frameworks in IP-REGISTRY with no file
+
+/check-reputation       Audit reputation, credentials, channels
+/check-voice            Check writing voice consistency
+/check-content-universe Check whether the 20-piece content system exists
+```
+
+You can also just describe what you want in plain English ("audit my offers", "what trademark should I file first?") and Claude will pick the right agent.
 
 ---
 
