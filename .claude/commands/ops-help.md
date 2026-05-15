@@ -14,6 +14,7 @@ Type any of these in chat and Claude will run the agent for you.
 ## Quick action
 | Command | What it does |
 |---|---|
+| /board | **Show the visual ops board inside Claude chat** |
 | /check-everything | Full health check on all 4 parts of your business |
 | /ops | Short alias for /check-everything |
 
