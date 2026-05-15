@@ -3,346 +3,394 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Sovereign Ops Dashboard · Baz Porter LLC®</title>
+<title>Sovereign Ops Console · Baz Porter</title>
 <style>
   :root {
-    --bg: #0b0b0c;
-    --panel: #131316;
-    --panel-2: #1a1a1f;
-    --line: #26262d;
-    --ink: #f4f4f5;
-    --ink-dim: #a1a1aa;
-    --ink-mute: #71717a;
-    --gold: #c8a86a;
-    --gold-dim: #8a7748;
-    --ok: #4ade80;
-    --warn: #facc15;
-    --risk: #f87171;
-    --accent: #e4e4e7;
+    --bg: #0d1117;
+    --bg-2: #161b22;
+    --bg-3: #1c2128;
+    --line: #30363d;
+    --line-soft: #21262d;
+    --ink: #e6edf3;
+    --ink-dim: #9da7b1;
+    --ink-mute: #6e7681;
+    --gold: #e3b341;
+    --gold-soft: #b8893a;
+    --green: #56d364;
+    --green-soft: #1f4d2b;
+    --yellow: #e3b341;
+    --yellow-soft: #4d3e1f;
+    --red: #f85149;
+    --red-soft: #4d1f1f;
+    --blue: #58a6ff;
+    --blue-soft: #1f3b5d;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
   }
   * { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif; font-size: 14px; line-height: 1.5; }
-  a { color: var(--gold); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  header.top {
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--mono);
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ========== LAYOUT ========== */
+  .console {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: var(--bg);
+    border-left: 1px solid var(--line);
+    border-right: 1px solid var(--line);
+  }
+
+  /* ========== HEADER ========== */
+  header.bar {
+    background: var(--bg-2);
     border-bottom: 1px solid var(--line);
-    padding: 28px 32px 24px;
-    background: linear-gradient(180deg, #0e0e10, var(--bg));
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
   }
-  header.top h1 { margin: 0; font-size: 22px; font-weight: 600; letter-spacing: -0.01em; }
-  header.top .sub { color: var(--ink-dim); margin-top: 6px; font-size: 13px; }
-  header.top .tagline { color: var(--gold); margin-top: 12px; font-style: italic; font-size: 13px; }
-  .container { padding: 24px 32px 64px; max-width: 1400px; margin: 0 auto; }
-  .row { display: grid; gap: 20px; }
-  .row.kpis { grid-template-columns: repeat(4, 1fr); margin-bottom: 24px; }
-  .row.zones { grid-template-columns: repeat(2, 1fr); margin-bottom: 24px; }
-  @media (max-width: 1000px) { .row.kpis { grid-template-columns: repeat(2, 1fr); } .row.zones { grid-template-columns: 1fr; } }
-  .card {
-    background: var(--panel);
+  header.bar .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--red); }
+  header.bar .dot.y { background: var(--yellow); }
+  header.bar .dot.g { background: var(--green); }
+  header.bar .title {
+    flex: 1;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--ink-dim);
+    letter-spacing: 0.02em;
+  }
+  header.bar .title strong { color: var(--gold); }
+  header.bar .zones {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 12px;
+    color: var(--ink-mute);
+  }
+  header.bar .zone-light {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: var(--bg-3);
+    cursor: help;
+  }
+  header.bar .zone-light .led { width: 8px; height: 8px; border-radius: 50%; }
+  .led.g { background: var(--green); box-shadow: 0 0 6px var(--green); }
+  .led.y { background: var(--yellow); box-shadow: 0 0 6px var(--yellow); }
+  .led.r { background: var(--red); box-shadow: 0 0 6px var(--red); }
+
+  /* ========== QUICK COMMANDS ========== */
+  .quickbar {
+    padding: 12px 18px;
+    background: var(--bg-2);
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  }
+  .quickbar .label {
+    font-size: 11px;
+    color: var(--ink-mute);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-right: 4px;
+  }
+  .chip {
+    background: var(--bg-3);
     border: 1px solid var(--line);
-    border-radius: 10px;
-    padding: 18px 20px;
+    color: var(--ink);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font: inherit;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.12s;
   }
-  .card h2 { margin: 0 0 4px; font-size: 14px; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase; color: var(--ink-dim); }
-  .card h2 .badge { margin-left: 8px; }
-  .kpi .v { font-size: 26px; font-weight: 600; letter-spacing: -0.01em; margin-top: 6px; }
-  .kpi .v.todo { color: var(--ink-mute); font-style: italic; font-size: 14px; font-weight: 400; }
-  .kpi .meta { color: var(--ink-mute); font-size: 12px; margin-top: 4px; }
-  .kpi input { width: 100%; background: var(--panel-2); border: 1px solid var(--line); color: var(--ink); padding: 8px 10px; border-radius: 6px; font: inherit; margin-top: 8px; }
-  .kpi input:focus { outline: none; border-color: var(--gold-dim); }
-  .zone { display: flex; flex-direction: column; }
-  .zone .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
-  .zone .head h3 { margin: 0; font-size: 16px; font-weight: 600; }
-  .zone .head .src { color: var(--ink-mute); font-size: 12px; margin-top: 2px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
-  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
-  .b-ok { background: rgba(74, 222, 128, 0.12); color: var(--ok); }
-  .b-warn { background: rgba(250, 204, 21, 0.12); color: var(--warn); }
-  .b-risk { background: rgba(248, 113, 113, 0.12); color: var(--risk); }
-  .b-mute { background: var(--panel-2); color: var(--ink-mute); }
-  table.tight { width: 100%; border-collapse: collapse; font-size: 13px; }
-  table.tight th, table.tight td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
-  table.tight th { color: var(--ink-mute); font-weight: 500; font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase; }
-  table.tight tr:last-child td { border-bottom: 0; }
-  .stack { display: flex; flex-direction: column; gap: 8px; }
-  .row-item { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 13px; padding: 6px 0; border-bottom: 1px solid var(--line); }
-  .row-item:last-child { border-bottom: 0; }
-  .row-item .label { color: var(--ink); }
-  .row-item .meta { color: var(--ink-mute); font-size: 12px; }
-  .btn {
-    background: var(--gold); color: #1a1408; border: 0; padding: 8px 14px; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer; letter-spacing: 0.01em;
+  .chip:hover { background: var(--gold-soft); color: white; border-color: var(--gold); }
+  .chip.primary { background: var(--gold); color: #1a1408; border-color: var(--gold); font-weight: 600; }
+  .chip.primary:hover { background: var(--gold-soft); color: white; }
+
+  /* ========== FEED ========== */
+  .feed {
+    flex: 1;
+    overflow-y: auto;
+    padding: 18px;
+    background: var(--bg);
   }
-  .btn:hover { background: #d4b577; }
-  .btn.ghost { background: transparent; color: var(--gold); border: 1px solid var(--gold-dim); }
-  .btn.ghost:hover { background: rgba(200, 168, 106, 0.08); }
-  .btn.sm { padding: 5px 10px; font-size: 12px; }
-  .btn.block { width: 100%; }
-  .agent-bar { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
-  .toolbar {
-    background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 20px; margin-bottom: 24px;
-    display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+  .feed::-webkit-scrollbar { width: 10px; }
+  .feed::-webkit-scrollbar-track { background: var(--bg); }
+  .feed::-webkit-scrollbar-thumb { background: var(--line); border-radius: 5px; }
+  .feed::-webkit-scrollbar-thumb:hover { background: var(--ink-mute); }
+
+  .entry { margin-bottom: 22px; animation: slideIn 0.18s ease-out; }
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
   }
-  .toolbar .label { color: var(--ink-dim); font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; margin-right: 4px; }
-  details.prompt { margin-top: 14px; background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
-  details.prompt summary { cursor: pointer; color: var(--ink-dim); font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; }
-  details.prompt pre { white-space: pre-wrap; word-wrap: break-word; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; color: var(--accent); margin: 10px 0 0; }
-  details.prompt .actions { margin-top: 8px; display: flex; gap: 8px; }
-  .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: var(--panel-2); color: var(--ink); border: 1px solid var(--gold-dim); padding: 10px 16px; border-radius: 8px; font-size: 13px; opacity: 0; pointer-events: none; transition: opacity 0.2s; z-index: 100; }
-  .toast.show { opacity: 1; }
-  footer { padding: 32px; text-align: center; color: var(--ink-mute); font-size: 12px; border-top: 1px solid var(--line); margin-top: 32px; }
-  .legend { display: flex; gap: 12px; font-size: 11px; color: var(--ink-mute); }
-  .pricetag { color: var(--gold); font-variant-numeric: tabular-nums; font-weight: 600; }
-  .pill { display: inline-block; background: var(--panel-2); padding: 2px 8px; border-radius: 999px; font-size: 11px; color: var(--ink-dim); margin-right: 4px; }
+  .entry .prompt-line {
+    color: var(--green);
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  .entry .prompt-line .you { color: var(--blue); margin-right: 6px; }
+  .entry .prompt-line .ts { color: var(--ink-mute); font-weight: 400; font-size: 12px; margin-left: 8px; }
+  .entry .output {
+    background: var(--bg-2);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--gold);
+    border-radius: 8px;
+    padding: 14px 18px;
+  }
+  .entry.welcome .output { border-left-color: var(--blue); }
+  .entry.ok .output { border-left-color: var(--green); }
+  .entry.warn .output { border-left-color: var(--yellow); }
+  .entry.risk .output { border-left-color: var(--red); }
+
+  .output h4 {
+    margin: 0 0 8px;
+    font-size: 15px;
+    color: var(--ink);
+    font-weight: 600;
+    font-family: -apple-system, "Inter", sans-serif;
+  }
+  .output p { margin: 0 0 8px; font-family: -apple-system, "Inter", sans-serif; color: var(--ink-dim); }
+  .output ul { margin: 6px 0 8px; padding-left: 22px; font-family: -apple-system, "Inter", sans-serif; color: var(--ink-dim); }
+  .output li { margin-bottom: 4px; }
+  .output strong { color: var(--ink); }
+  .output code { background: var(--bg-3); padding: 1px 6px; border-radius: 4px; font-size: 13px; color: var(--gold); }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+    margin: 8px 0 10px;
+  }
+  .stat {
+    background: var(--bg-3);
+    border-radius: 6px;
+    padding: 10px 12px;
+  }
+  .stat .k { font-size: 11px; color: var(--ink-mute); text-transform: uppercase; letter-spacing: 0.05em; }
+  .stat .v { font-size: 18px; color: var(--ink); font-weight: 600; margin-top: 4px; }
+  .stat .v.g { color: var(--green); }
+  .stat .v.y { color: var(--yellow); }
+  .stat .v.r { color: var(--red); }
+
+  .alert {
+    background: var(--yellow-soft);
+    border-left: 3px solid var(--yellow);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    margin: 8px 0;
+    font-family: -apple-system, sans-serif;
+  }
+  .alert.r { background: var(--red-soft); border-left-color: var(--red); }
+  .alert.g { background: var(--green-soft); border-left-color: var(--green); }
+  .alert strong { display: inline; }
+
+  .prompt-block {
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin-top: 10px;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--ink-dim);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 220px;
+    overflow-y: auto;
+  }
+  .prompt-block::-webkit-scrollbar { width: 6px; }
+  .prompt-block::-webkit-scrollbar-thumb { background: var(--line); }
+  .action-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .action-btn {
+    background: var(--blue);
+    color: white;
+    border: 0;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .action-btn:hover { background: #4f95eb; }
+  .action-btn.ghost { background: transparent; color: var(--blue); border: 1px solid var(--blue); }
+  .action-btn.ghost:hover { background: var(--blue-soft); }
+
+  /* ========== INPUT BAR ========== */
+  .input-bar {
+    background: var(--bg-2);
+    border-top: 1px solid var(--line);
+    padding: 10px 14px 14px;
+  }
+  .input-bar .suggestions {
+    font-size: 11px;
+    color: var(--ink-mute);
+    margin-bottom: 6px;
+    height: 16px;
+  }
+  .input-bar .suggestions .s {
+    color: var(--gold);
+    cursor: pointer;
+  }
+  .input-bar .suggestions .s + .s::before {
+    content: " · ";
+    color: var(--ink-mute);
+  }
+  .input-wrap {
+    display: flex;
+    align-items: center;
+    background: var(--bg);
+    border: 1.5px solid var(--line);
+    border-radius: 8px;
+    padding: 0 12px;
+    transition: border 0.15s;
+  }
+  .input-wrap:focus-within { border-color: var(--gold); }
+  .input-wrap .arrow {
+    color: var(--green);
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .input-wrap input {
+    flex: 1;
+    background: transparent;
+    border: 0;
+    color: var(--ink);
+    padding: 12px 0;
+    font: inherit;
+    font-family: var(--mono);
+    font-size: 15px;
+    outline: none;
+  }
+  .input-wrap input::placeholder { color: var(--ink-mute); }
+  .input-wrap .send {
+    background: var(--gold);
+    color: #1a1408;
+    border: 0;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .input-wrap .send:hover { background: var(--gold-soft); color: white; }
+
+  /* ========== TOAST ========== */
+  .toast {
+    position: fixed; bottom: 110px; left: 50%; transform: translateX(-50%);
+    background: var(--green); color: #0a1f0d;
+    padding: 10px 18px; border-radius: 6px; font-size: 13px; font-weight: 700;
+    opacity: 0; pointer-events: none; transition: opacity 0.2s, transform 0.2s; z-index: 100;
+    font-family: var(--mono);
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(-8px); }
+  .toast.err { background: var(--red); color: white; }
+
+  @media (max-width: 700px) {
+    header.bar .zones .zone-light .name { display: none; }
+    header.bar .title { font-size: 13px; }
+    .feed { padding: 12px; }
+  }
 </style>
 </head>
 <body>
 
-<header class="top">
-  <h1>Sovereign Ops Dashboard</h1>
-  <div class="sub">Baz Porter LLC® · The Prestige Architect® · Ecosystem state across offers, IP, frameworks, and channels</div>
-  <div class="tagline">Power without collapse. Success without self-betrayal.</div>
-</header>
+<div class="console">
 
-<div class="container">
+  <header class="bar">
+    <span class="dot"></span>
+    <span class="dot y"></span>
+    <span class="dot g"></span>
+    <div class="title"><strong>Sovereign Ops Console</strong> · Baz Porter LLC®</div>
+    <div class="zones">
+      <span class="zone-light" title="Offers & Funnel — All good"><span class="led g"></span><span class="name">offers</span></span>
+      <span class="zone-light" title="IP & Trademark — Worth a look"><span class="led y"></span><span class="name">ip</span></span>
+      <span class="zone-light" title="Frameworks & Methods — Worth a look"><span class="led y"></span><span class="name">methods</span></span>
+      <span class="zone-light" title="Channels & Reputation — All good"><span class="led g"></span><span class="name">reputation</span></span>
+    </div>
+  </header>
 
-  <!-- ===================== TOOLBAR (orchestrator) ===================== -->
-  <div class="toolbar">
-    <span class="label">Run agent</span>
-    <button class="btn" data-agent="ops-orchestrator" data-task="full">▶ Full ecosystem audit</button>
-    <button class="btn ghost" data-agent="offers-funnel-agent" data-task="audit">Offers</button>
-    <button class="btn ghost" data-agent="frameworks-methodology-agent" data-task="audit">Frameworks</button>
-    <button class="btn ghost" data-agent="channels-credibility-agent" data-task="audit">Channels</button>
-    <button class="btn ghost" data-agent="ops-orchestrator" data-task="ip">IP &amp; trademark</button>
-    <span style="flex: 1"></span>
-    <span class="legend">
-      <span><span class="badge b-ok">live</span> healthy</span>
-      <span><span class="badge b-warn">watch</span> attention</span>
-      <span><span class="badge b-risk">risk</span> structural</span>
-    </span>
+  <div class="quickbar">
+    <span class="label">Try:</span>
+    <button class="chip primary" data-cmd="check everything">🔍 check everything</button>
+    <button class="chip" data-cmd="show offers">💰 show offers</button>
+    <button class="chip" data-cmd="show trademarks">🛡️ show trademarks</button>
+    <button class="chip" data-cmd="show methods">🧰 show methods</button>
+    <button class="chip" data-cmd="show reputation">⭐ show reputation</button>
+    <button class="chip" data-cmd="show numbers">📊 show numbers</button>
+    <button class="chip" data-cmd="help">? help</button>
   </div>
 
-  <!-- ===================== KPI ROW (ops state user fills in) ===================== -->
-  <div class="row kpis">
-    <div class="card kpi">
-      <h2>MRR <span class="badge b-mute">user-input</span></h2>
-      <input type="text" data-kpi="mrr" placeholder="TODO — user to fill" />
-      <div class="meta">Trailing 30 days</div>
-    </div>
-    <div class="card kpi">
-      <h2>Diamond seats filled <span class="badge b-mute">user-input</span></h2>
-      <input type="text" data-kpi="diamond" placeholder="0 / 8" />
-      <div class="meta">Annual capacity · SCD-qualified</div>
-    </div>
-    <div class="card kpi">
-      <h2>SCD completions <span class="badge b-mute">user-input</span></h2>
-      <input type="text" data-kpi="scd" placeholder="TODO — user to fill" />
-      <div class="meta">Silent Collapse Diagnostic™ · last 30d</div>
-    </div>
-    <div class="card kpi">
-      <h2>Active cohorts <span class="badge b-mute">user-input</span></h2>
-      <input type="text" data-kpi="cohorts" placeholder="A Million Dreams™ / RHP / BPA" />
-      <div class="meta">In delivery now</div>
-    </div>
+  <div class="feed" id="feed">
+    <!-- entries are appended here -->
   </div>
 
-  <!-- ===================== ZONES ===================== -->
-  <div class="row zones">
-
-    <!-- OFFERS & FUNNEL -->
-    <div class="card zone">
-      <div class="head">
-        <div>
-          <h3>Offers &amp; Funnel</h3>
-          <div class="src">OFFERS.md</div>
-        </div>
-        <span class="badge b-ok">live</span>
-      </div>
-      <table class="tight" id="offers-table"></table>
-      <div style="margin-top: 14px; font-size: 12px; color: var(--ink-dim);">
-        <strong style="color: var(--ink);">Kill Zone:</strong> $497 → $5,997 bridged by Reclaim Her Power ($4,620) + $500 BPA Priority Gateway.
-        <br /><strong style="color: var(--ink);">Diamond:</strong> SCD™ qualification required · 8 seats annually.
-        <br /><strong style="color: var(--warn);">Known drift:</strong> BPA listed as $5,997 in OFFERS.md and $5,998 in README.md.
-      </div>
-      <div class="agent-bar">
-        <button class="btn sm" data-agent="offers-funnel-agent" data-task="audit">▶ Audit tier health</button>
-        <button class="btn sm ghost" data-agent="offers-funnel-agent" data-task="killzone">Check Kill Zone</button>
-        <button class="btn sm ghost" data-agent="offers-funnel-agent" data-task="pricing">Pricing integrity</button>
-      </div>
+  <div class="input-bar">
+    <div class="suggestions" id="suggestions">
+      <span class="s" data-cmd="check everything">check everything</span>
+      <span class="s" data-cmd="show offers">show offers</span>
+      <span class="s" data-cmd="fix the rams mix-up">fix the rams mix-up</span>
+      <span class="s" data-cmd="help">help</span>
     </div>
-
-    <!-- IP & TRADEMARK -->
-    <div class="card zone">
-      <div class="head">
-        <div>
-          <h3>IP &amp; Trademark</h3>
-          <div class="src">IP-REGISTRY.md · handled by ops-orchestrator</div>
-        </div>
-        <span class="badge b-warn">watch</span>
-      </div>
-      <table class="tight" id="ip-table"></table>
-      <div style="margin-top: 14px; font-size: 12px; color: var(--ink-dim);">
-        <strong style="color: var(--risk);">Structural note:</strong> "Licensing without federal registration is a structural vulnerability." — IP-REGISTRY.md
-        <br />RAMS™ deployed in Horizon Leaders, Basque Border Institution, Master Curriculum under common-law ™ only.
-      </div>
-      <div class="agent-bar">
-        <button class="btn sm" data-agent="ops-orchestrator" data-task="ip">▶ Audit IP status</button>
-        <button class="btn sm ghost" data-agent="ops-orchestrator" data-task="ip-priority">Priority queue check</button>
-      </div>
+    <div class="input-wrap">
+      <span class="arrow">›</span>
+      <input id="cmd" autocomplete="off" placeholder='Type a command... try "check everything" or just "help"' />
+      <button class="send" id="send">Run</button>
     </div>
-
-    <!-- FRAMEWORKS -->
-    <div class="card zone">
-      <div class="head">
-        <div>
-          <h3>Frameworks &amp; Methodology</h3>
-          <div class="src">FRAMEWORKS.md · METHODOLOGY.md · frameworks/**</div>
-        </div>
-        <span class="badge b-warn">watch</span>
-      </div>
-      <div class="stack" id="frameworks-list"></div>
-      <div style="margin-top: 14px; font-size: 12px; color: var(--ink-dim);">
-        <strong style="color: var(--warn);">Known drift:</strong> RAMS™ acronym — METHODOLOGY/README say "Results · Attitude · Mastery · Systems"; FRAMEWORKS.md says "Results, Attitude, Authenticity, Mastery, Systems."
-        <br />Six-Layer Integration Model must run through every module.
-      </div>
-      <div class="agent-bar">
-        <button class="btn sm" data-agent="frameworks-methodology-agent" data-task="audit">▶ Audit portfolio</button>
-        <button class="btn sm ghost" data-agent="frameworks-methodology-agent" data-task="drift">Check RAMS drift</button>
-        <button class="btn sm ghost" data-agent="frameworks-methodology-agent" data-task="gaps">Find gaps</button>
-      </div>
-    </div>
-
-    <!-- CHANNELS & CREDIBILITY -->
-    <div class="card zone">
-      <div class="head">
-        <div>
-          <h3>Channels, Credibility &amp; Content</h3>
-          <div class="src">CREDIBILITY.md · PROFILE.md · README.md · STORY.md · VOICE.md</div>
-        </div>
-        <span class="badge b-ok">live</span>
-      </div>
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
-        <div>
-          <div style="font-size: 11px; color: var(--ink-mute); letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 6px;">Distribution</div>
-          <div class="stack" id="channels-list"></div>
-        </div>
-        <div>
-          <div style="font-size: 11px; color: var(--ink-mute); letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 6px;">Proof points</div>
-          <div class="stack" id="proof-list"></div>
-        </div>
-      </div>
-      <div style="margin-top: 14px; font-size: 12px; color: var(--ink-dim);">
-        <strong style="color: var(--ink);">Content Universe:</strong> 20-piece deployment across the Four Worth Distortion Patterns (Boundaries · Courage · Deservability · Love).
-      </div>
-      <div class="agent-bar">
-        <button class="btn sm" data-agent="channels-credibility-agent" data-task="audit">▶ Audit channels</button>
-        <button class="btn sm ghost" data-agent="channels-credibility-agent" data-task="voice">Voice consistency</button>
-        <button class="btn sm ghost" data-agent="channels-credibility-agent" data-task="content">Content Universe state</button>
-      </div>
-    </div>
-
   </div>
-
-  <!-- ===================== PROMPT PANEL ===================== -->
-  <details class="prompt" id="prompt-panel" open>
-    <summary>Agent prompt · copy &amp; paste into Claude Code chat</summary>
-    <pre id="prompt-body">Click any ▶ button above to generate an agent prompt.</pre>
-    <div class="actions">
-      <button class="btn sm" id="copy-prompt">Copy</button>
-      <button class="btn sm ghost" id="clear-prompt">Clear</button>
-    </div>
-  </details>
-
-  <!-- ===================== HOW IT WORKS ===================== -->
-  <div class="card" style="margin-top: 24px;">
-    <h2>How this dashboard works</h2>
-    <ol style="margin: 12px 0 0; padding-left: 18px; color: var(--ink-dim); font-size: 13px;">
-      <li>Each zone shows real ecosystem state pulled from the canonical markdown files in this repo.</li>
-      <li>KPI inputs at the top persist to your browser's localStorage — they don't leave your machine.</li>
-      <li>Every ▶ button generates a prompt for a Claude Code subagent defined in <code style="color: var(--gold);">.claude/agents/</code>.</li>
-      <li>"Full ecosystem audit" dispatches the <code style="color: var(--gold);">ops-orchestrator</code>, which runs the three specialist agents in parallel and synthesizes one report — agents running agents.</li>
-      <li>Paste the generated prompt into Claude Code. The right subagent is invoked automatically.</li>
-    </ol>
-  </div>
-
 </div>
 
-<div class="toast" id="toast">Copied</div>
-
-<footer>
-  © 2019–2026 Baz Porter LLC® · All Rights Reserved · The Prestige Architect®
-</footer>
+<div class="toast" id="toast">Copied!</div>
 
 <script>
 // ============================================================
-// ECOSYSTEM DATA — extracted from the canonical markdown files
+// DATA — extracted from the canonical markdown files
 // ============================================================
 const OFFERS = [
-  { tier: 0,  name: "Content Universe",                       price: "Free",        status: "live" },
-  { tier: 1,  name: "Silent Collapse Diagnostic™",            price: "Free",        status: "live" },
-  { tier: 2,  name: "The Reclamation Code",                   price: "$97",         status: "live" },
-  { tier: 3,  name: "A Million Dreams™ Bronze",               price: "$397/mo",     status: "live" },
-  { tier: 4,  name: "Revenue Architecture System",            price: "$497",        status: "live" },
-  { tier: 5,  name: "Reclaim Her Power",                      price: "$4,620",      status: "live", note: "Kill Zone closer" },
-  { tier: 6,  name: "Business Profit Accelerator",            price: "$5,997",      status: "live", note: "$5,998 in README — drift" },
-  { tier: 7,  name: "Coming Home to Love — Find Yourself",    price: "$15,000",     status: "live" },
-  { tier: 8,  name: "Coming Home to Love — Your Relationships", price: "$27,000",   status: "live" },
-  { tier: 9,  name: "Coming Home to Love — Embodiment",       price: "$45,000",     status: "live" },
-  { tier: 10, name: "The Gravity Code™ Diamond",              price: "$100,000",    status: "live", note: "8 seats annually" },
-  { tier: 11, name: "The Coming Home Project",                price: "$1,000,000/y", status: "concept", note: "Invitation only · Phase 6" },
-];
-
-const IP = [
-  { mark: "BAZ PORTER",              tier: "—",          status: "Registered · Reg. 7125540 · Class 041", state: "live" },
-  { mark: "THE PRESTIGE ARCHITECT",  tier: "Tier 1",     status: "Filing priority — file now",            state: "warn" },
-  { mark: "RAMS / RAMS FRAMEWORK",   tier: "Tier 1",     status: "Filing priority — file now",            state: "risk", note: "Deployed in 3 institutions under common-law ™ only" },
-  { mark: "SOVEREIGN LEADERSHIP",    tier: "Tier 2",     status: "Pending · 90 days",                     state: "warn" },
-  { mark: "SILENT COLLAPSE",         tier: "Tier 2",     status: "Pending · 90 days",                     state: "warn" },
-  { mark: "THE GRAVITY CODE",        tier: "Tier 3",     status: "Pending · 6 months",                    state: "warn" },
-  { mark: "THE FIVE IMPOSTERS",      tier: "Tier 3",     status: "Pending · 6 months",                    state: "warn" },
-  { mark: "Six Drives of Human Intelligence™", tier: "—", status: "Registered — protection active",       state: "live" },
-];
-
-const FRAMEWORKS = [
-  { name: "RAMS™",                          deployed: "All tiers · Horizon Leaders · Basque · Master Curriculum", file: "frameworks/frameworks/RAMS-framework.md", state: "warn", note: "Acronym drift across docs" },
-  { name: "Silent Collapse™",               deployed: "Diagnostic + commercial",                                  file: "frameworks/silent-collapse.md",            state: "live" },
-  { name: "Six Drives of Human Intelligence™", deployed: "CHTL Tier 1 · diagnostic entry",                       file: "frameworks/The Six Drives of Human Intelligence.md", state: "live" },
-  { name: "The Gravity Code™",              deployed: "Tier 10 · Diamond",                                       file: "frameworks/gravity-code.md",               state: "live" },
-  { name: "Coming Home to Love™",           deployed: "Tiers 7–9",                                               file: "frameworks/coming-home-to-love.md",        state: "live" },
-  { name: "The Five Imposters™",            deployed: "BPA + content universe",                                  file: "frameworks/five-imposters.md",             state: "live" },
-  { name: "The Reclamation Code",           deployed: "Tier 2 · $97 entry",                                      file: "frameworks/the-reclamation-code.md",       state: "live" },
-  { name: "Sovereign Nervous System Protocol™", deployed: "Integrated all tiers",                                file: null,                                       state: "warn", note: "No standalone framework file" },
-  { name: "The Oliver Standard",            deployed: "Every engagement agreement",                              file: null,                                       state: "warn", note: "No standalone framework file" },
-  { name: "Sovereign AI Charter™",          deployed: "Embedded in RAMS™",                                       file: null,                                       state: "warn", note: "No standalone framework file" },
-  { name: "Sovereign Operating System",     deployed: "—",                                                       file: "github.com/baz-stack/frameworks/sovereign-operating-system.md", state: "live" },
-];
-
-const CHANNELS = [
-  { label: "Website",      meta: "bazporter.com" },
-  { label: "LinkedIn",     meta: "linkedin.com/in/bazporterllc" },
-  { label: "Podcast",      meta: "Rise From The Ashes · C-Suite Network · 100+ eps" },
-  { label: "Substack",     meta: "substack.com/@bazporter" },
-  { label: "YouTube",      meta: "youtube.com/@BazPorter" },
-  { label: "Diagnostic",   meta: "bazporter.com/silent-collapse-diagnostic" },
-  { label: "Apply",        meta: "bazporter.com/work-with-me" },
-  { label: "Delphi Clone", meta: "24.7K minds trained" },
-];
-
-const PROOF = [
-  { label: "Die Empty Live Full",     meta: "Int'l bestseller · Mar 2025" },
-  { label: "Cracking the Rich Code v12", meta: "Foreword: Brian Tracy" },
-  { label: "Excel Arena London",      meta: "35,000 attendees · panel host" },
-  { label: "Princeton University",    meta: "Invited speaker" },
-  { label: "Tony Robbins Platinum",   meta: "Highest tier partnership" },
-  { label: "Best Transformational Leadership Coaching", meta: "2024" },
-  { label: "British Army",            meta: "6.5 years · 1997–2004" },
-  { label: "Yahoo Finance / CEO Weekly / Thrive Global", meta: "Featured" },
+  { t: 0, name: "Content Universe", price: "Free" },
+  { t: 1, name: "Silent Collapse Diagnostic™", price: "Free" },
+  { t: 2, name: "The Reclamation Code", price: "$97" },
+  { t: 3, name: "A Million Dreams™ Bronze", price: "$397/mo" },
+  { t: 4, name: "Revenue Architecture System", price: "$497" },
+  { t: 5, name: "Reclaim Her Power", price: "$4,620" },
+  { t: 6, name: "Business Profit Accelerator", price: "$5,997" },
+  { t: 7, name: "Coming Home — Find Yourself", price: "$15,000" },
+  { t: 8, name: "Coming Home — Your Relationships", price: "$27,000" },
+  { t: 9, name: "Coming Home — Embodiment", price: "$45,000" },
+  { t: 10, name: "Gravity Code™ Diamond", price: "$100,000" },
+  { t: 11, name: "Coming Home Project", price: "$1M/yr" },
 ];
 
 // ============================================================
-// AGENT PROMPT TEMPLATES — "agents running agents"
+// AGENT PROMPTS (full instructions for Claude)
 // ============================================================
-const PROMPTS = {
-  "ops-orchestrator:full":
-`Use the ops-orchestrator agent to run a FULL ecosystem audit of the Sovereign Leadership Architecture™ portfolio.
+const AGENT_PROMPTS = {
+  full: `Use the ops-orchestrator agent to run a FULL ecosystem audit of the Sovereign Leadership Architecture™ portfolio.
 
 Dispatch all three specialist agents in parallel:
   • offers-funnel-agent — audit OFFERS.md
@@ -351,224 +399,419 @@ Dispatch all three specialist agents in parallel:
 
 Handle the IP zone yourself (IP-REGISTRY.md).
 
-Synthesize into a single executive ops report with: TL;DR · Zone Status table · Cross-Zone Signals · Top 3 Recommended Actions. Use 🟢/🟡/🔴 status markers. Under 600 words. Mark anything you can't verify as "TODO — user to fill".`,
+Write a single report in PLAIN ENGLISH (assume the reader is not technical). Sections:
+  • What's working
+  • What needs attention
+  • Top 3 things to do this week
 
-  "ops-orchestrator:ip":
-`Use the ops-orchestrator agent to audit ONLY the IP & trademark zone.
+Mark anything you can't verify as "I don't know — you'll need to fill this in."`,
 
-Read IP-REGISTRY.md and report:
-  1. Every mark with registration tier and current status
-  2. Marks deployed commercially but unregistered (structural vulnerability)
-  3. Tier 1 priority queue health — what should file this week
-  4. Cross-doc drift: marks in OFFERS.md or FRAMEWORKS.md not in IP-REGISTRY.md
-  5. Top 3 next moves
+  offers: `Use the offers-funnel-agent to audit my Full Ascension Stack in OFFERS.md.
 
-Quote the registry's own line where relevant: "Licensing without federal registration is a structural vulnerability."`,
+In plain English, tell me:
+  1. Are all 12 tiers in good shape?
+  2. Does the $497 → $5,997 Kill Zone bridge work?
+  3. Any inconsistent prices across files? (Known: BPA is $5,997 in OFFERS.md but $5,998 in README.md)
+  4. Am I drifting into discounting or fake scarcity?
+  5. Top 3 things to fix this week.
 
-  "ops-orchestrator:ip-priority":
-`Use the ops-orchestrator agent to assess the trademark filing priority queue in IP-REGISTRY.md.
+Under 400 words. No jargon.`,
 
-For each tier (1/2/3): which marks remain unfiled, what their commercial deployment exposure is, and which should escalate to Tier 1 given current usage. Under 250 words.`,
+  killzone: `Use the offers-funnel-agent to check whether the pricing path between my $497 offer and my $5,997 offer is solid.
 
-  "offers-funnel-agent:audit":
-`Use the offers-funnel-agent to audit the Full Ascension Stack in OFFERS.md.
+Plain English. Check:
+  • Is Reclaim Her Power ($4,620) clearly the bridge?
+  • Is the $500 BPA Priority Gateway credit documented everywhere?
+  • Does "after RHP, BPA is a $1,377 re-up" still add up?
+  • Does the Financial Partner Pathway separate genuine money issues from worth issues?
 
-Required output:
-  1. Tier health (all 12 tiers, 0 through 11)
-  2. Conversion architecture — is the Kill Zone bridge ($497 → RHP $4,620 → BPA $5,997) intact?
-  3. Pricing integrity — flag any drift toward discounting, manufactured scarcity, or stacked bonuses
-  4. Cross-doc consistency — known issue: BPA is $5,997 in OFFERS.md but $5,998 in README.md offer table. Confirm and surface.
-  5. Top 3 next moves
+Under 250 words.`,
 
-Under 400 words.`,
+  ip: `Use the ops-orchestrator agent to audit the trademark zone (IP-REGISTRY.md).
 
-  "offers-funnel-agent:killzone":
-`Use the offers-funnel-agent to specifically audit the Kill Zone — the $497 to $5,997 gap.
+Plain English (assume the reader is not a lawyer):
+  1. Which names are officially registered (safe)
+  2. Which names are being used commercially but NOT registered (risky)
+  3. Which one to file FIRST and why
+  4. Top 3 next moves
 
-Verify:
-  • Reclaim Her Power ($4,620) is positioned as the bridge
-  • BPA Priority Gateway ($500 credit at RHP completion) is documented in BOTH OFFERS.md and any RHP module spec
-  • The "after RHP, BPA is a $1,377 re-up" math holds
-  • The Financial Partner Pathway distinguishes constraint vs worth distortion
+Quote the registry's own line: "Licensing without federal registration is a structural vulnerability." Explain what that means plainly.`,
 
-Report findings under 250 words.`,
+  ipPriority: `Use the ops-orchestrator agent to assess the trademark filing priority queue in IP-REGISTRY.md.
 
-  "offers-funnel-agent:pricing":
-`Use the offers-funnel-agent to run a pricing integrity audit on OFFERS.md.
+For each priority tier, tell me in plain English: which names are still unfiled, where they're being used in my business right now, and which one is most urgent. Under 250 words.`,
 
-Check against the standard:
-  • "No manufactured value stacks"
-  • "No inflated bonus math"
-  • "No artificial scarcity"
-  • "The price is the price"
+  methods: `Use the frameworks-methodology-agent to audit my whole framework portfolio.
 
-Flag any tier copy or surrounding documentation that drifts from this standard. Under 250 words.`,
+Plain English:
+  1. Which frameworks have their own document file, and which are missing one
+  2. Whether RAMS™ is named consistently everywhere (it's not — flag this)
+  3. Frameworks I mention but haven't trademarked
+  4. Top 3 things to fix
 
-  "frameworks-methodology-agent:audit":
-`Use the frameworks-methodology-agent to audit the full framework portfolio.
+Under 400 words. No jargon.`,
 
-Required output:
-  1. Deployment map — every framework with ™ status (from IP-REGISTRY.md), deployment status, which offer tier uses it, and whether a deep-dive file exists in frameworks/
-  2. RAMS™ acronym drift across METHODOLOGY.md / README.md vs FRAMEWORKS.md — flag explicitly
-  3. Gaps — frameworks in IP-REGISTRY.md missing a frameworks/ file; frameworks in OFFERS.md not in IP-REGISTRY.md
-  4. Six-Layer Integration Model coverage check
-  5. Top 3 next moves
+  ramsFix: `Use the frameworks-methodology-agent to fix the RAMS™ naming mix-up.
 
-Under 400 words.`,
+The problem in plain English:
+  • METHODOLOGY.md and README.md say RAMS = "Results · Attitude · Mastery · Systems" (4 words)
+  • FRAMEWORKS.md says RAMS = "Results, Attitude, Authenticity, Mastery, Systems" (5 words — adds Authenticity)
+  • A Million Dreams Bronze uses RAMS = "Regulate, Activate, Modulate, Stabilize" (a completely different RAMS)
 
-  "frameworks-methodology-agent:drift":
-`Use the frameworks-methodology-agent to investigate the RAMS™ acronym drift.
+Tell me which version should be the OFFICIAL one. List every file that needs to change. Do NOT make the changes yet — just show me the plan. Under 300 words.`,
 
-METHODOLOGY.md and README.md describe RAMS as "Results · Attitude · Mastery · Systems" (4 letters).
-FRAMEWORKS.md describes RAMS as "Results, Attitude, Authenticity, Mastery, Systems" (5 letters).
-A Million Dreams™ Bronze uses "Regulate, Activate, Modulate, Stabilize" (different RAMS entirely).
+  gaps: `Use the frameworks-methodology-agent to find frameworks documented in IP-REGISTRY.md that don't have their own file in frameworks/. List them plainly. Under 250 words.`,
 
-Determine canonical version. Propose a single source-of-truth fix across all affected files. Do NOT apply edits — just propose the diff. Under 300 words.`,
+  reputation: `Use the channels-credibility-agent to check my reputation and channels.
 
-  "frameworks-methodology-agent:gaps":
-`Use the frameworks-methodology-agent to find documentation gaps in the framework portfolio.
+Plain English:
+  1. Are my credentials consistent in README.md, PROFILE.md, and CREDIBILITY.md?
+  2. Are all my platforms (LinkedIn, podcast, Substack, etc.) listed everywhere they should be?
+  3. Does my Content Universe (the 20-piece system) actually exist anywhere as a document?
+  4. Top 3 things to fix
 
-For each framework in IP-REGISTRY.md, check whether a corresponding file exists in frameworks/ or frameworks/frameworks/. List missing files. Then check the reverse: any framework file with no IP-REGISTRY entry. Under 250 words.`,
+Under 400 words. No jargon.`,
 
-  "channels-credibility-agent:audit":
-`Use the channels-credibility-agent to audit the channels and credibility surface.
+  voice: `Use the channels-credibility-agent to check that my writing voice is consistent across STORY.md, VOICE.md, README.md, and PROFILE.md.
 
-Required output:
-  1. Proof point inventory — every credibility asset, status, and whether it's consistent across README.md, PROFILE.md, CREDIBILITY.md
-  2. Channel coverage — distribution surfaces consistent across docs
-  3. Voice consistency — STORY.md, VOICE.md, README.md doctrinal language
-  4. Content Universe state — is the 20-piece deployment across the Four Worth Distortion Patterns documented?
-  5. Top 3 next moves
+Plain English. Check for:
+  • "Architect, not coach" positioning
+  • Consistent use of Silent Collapse™
+  • Declarative tone — no coach-speak, no motivational language
+  • The phrase "the price is the price"
 
-Under 400 words.`,
+Flag any drift. Under 250 words.`,
 
-  "channels-credibility-agent:voice":
-`Use the channels-credibility-agent to run a voice consistency audit across STORY.md, VOICE.md, README.md, and PROFILE.md.
+  content: `Use the channels-credibility-agent to check whether my Content Universe (Tier 0) is actually documented.
 
-Check for: "architect, not coach", Silent Collapse™ usage, "the price is the price", absence of coach-speak / motivational language, declarative architectural tone. Surface any drift. Under 250 words.`,
-
-  "channels-credibility-agent:content":
-`Use the channels-credibility-agent to audit the Content Universe (Tier 0).
-
-OFFERS.md describes "20-piece deployment system across four worth distortion pattern universes (Boundaries, Courage, Deservability, Love)." Verify this is documented elsewhere in the repo. If not, this is a gap — propose where the content universe specification should live. Under 250 words.`,
+OFFERS.md describes a "20-piece deployment system across the Four Worth Distortion Patterns (Boundaries, Courage, Deservability, Love)." Is this actually documented with the 20 pieces listed anywhere? If not, where should it live? Under 250 words.`,
 };
 
 // ============================================================
-// RENDER
+// COMMAND HANDLERS — what each command shows in the feed
+// Each returns { kind, html } — html is rendered into the entry
 // ============================================================
-function badge(state) {
-  const cls = { live: "b-ok", warn: "b-warn", risk: "b-risk", concept: "b-mute" }[state] || "b-mute";
-  const txt = { live: "live", warn: "watch", risk: "risk", concept: "concept" }[state] || state;
-  return `<span class="badge ${cls}">${txt}</span>`;
+function cmdWelcome() {
+  return {
+    kind: "welcome",
+    html: `
+      <h4>👋 Welcome to your Ops Console</h4>
+      <p>This is the command center for your whole business. Type a command below or click a button at the top.</p>
+      <p>Don't worry — you can't break anything. Try <code>help</code> if you're stuck.</p>
+      <p style="margin-top:10px;"><strong>Easy first step:</strong> click <code>🔍 check everything</code> at the top.</p>
+    `
+  };
 }
 
-function renderOffers() {
-  const rows = OFFERS.map(o => `
-    <tr>
-      <td style="color: var(--ink-mute); width: 28px;">${o.tier}</td>
-      <td>${o.name}${o.note ? `<div style="color: var(--ink-mute); font-size: 11px;">${o.note}</div>` : ""}</td>
-      <td><span class="pricetag">${o.price}</span></td>
-      <td style="text-align: right;">${badge(o.status)}</td>
-    </tr>`).join("");
-  document.getElementById("offers-table").innerHTML =
-    `<thead><tr><th>#</th><th>Tier</th><th>Investment</th><th style="text-align:right;">Status</th></tr></thead><tbody>${rows}</tbody>`;
+function cmdHelp() {
+  return {
+    kind: "welcome",
+    html: `
+      <h4>📖 Commands you can type</h4>
+      <p>You can type any of these, or click the buttons at the top. The console understands plain English.</p>
+      <ul>
+        <li><code>check everything</code> — runs a full health check on all 4 parts of your business</li>
+        <li><code>show offers</code> — shows your 12 offers from Free to $1M</li>
+        <li><code>check offers</code> — asks Claude to audit your offer prices and path</li>
+        <li><code>check kill zone</code> — checks the $497→$5,997 bridge</li>
+        <li><code>show trademarks</code> — shows what's registered and what's not</li>
+        <li><code>check trademarks</code> — asks Claude which one to file first</li>
+        <li><code>show methods</code> — shows your frameworks</li>
+        <li><code>fix the rams mix-up</code> — asks Claude how to fix the RAMS naming problem</li>
+        <li><code>show reputation</code> — shows your books, awards, and proof points</li>
+        <li><code>check reputation</code> — asks Claude if your story is consistent</li>
+        <li><code>show numbers</code> — shows the numbers you've entered</li>
+        <li><code>set income 42000</code> — saves your monthly income (only on your computer)</li>
+        <li><code>clear</code> — clears the screen</li>
+      </ul>
+      <p style="margin-top:10px;color:var(--ink-mute);font-size:13px;">When the console gives you Claude prompts, copy them and paste into your Claude chat. Claude does the work.</p>
+    `
+  };
 }
 
-function renderIP() {
-  const rows = IP.map(i => `
-    <tr>
-      <td>${i.mark}${i.note ? `<div style="color: var(--ink-mute); font-size: 11px;">${i.note}</div>` : ""}</td>
-      <td style="color: var(--ink-dim);">${i.tier}</td>
-      <td style="color: var(--ink-dim);">${i.status}</td>
-      <td style="text-align: right;">${badge(i.state)}</td>
-    </tr>`).join("");
-  document.getElementById("ip-table").innerHTML =
-    `<thead><tr><th>Mark</th><th>Priority</th><th>Status</th><th style="text-align:right;">State</th></tr></thead><tbody>${rows}</tbody>`;
-}
-
-function renderFrameworks() {
-  document.getElementById("frameworks-list").innerHTML = FRAMEWORKS.map(f => `
-    <div class="row-item">
-      <div>
-        <div class="label">${f.name}</div>
-        <div class="meta">${f.deployed}${f.note ? ` · <span style="color: var(--warn);">${f.note}</span>` : ""}${f.file ? "" : ` · <span style="color: var(--risk);">no file</span>`}</div>
+function cmdShowOffers() {
+  const rows = OFFERS.map(o =>
+    `<div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid var(--line-soft);"><span><span style="color:var(--ink-mute);">${o.t}</span> · ${o.name}</span><span style="color:var(--gold);font-weight:600;">${o.price}</span></div>`
+  ).join("");
+  return {
+    kind: "ok",
+    html: `
+      <h4>💰 Your 12 offers</h4>
+      <p style="font-size:13px;">From Free all the way up to $1M/year invitation-only.</p>
+      <div style="margin-top:8px;font-family:var(--mono);font-size:13px;">${rows}</div>
+      <div class="alert">
+        <strong>⚠️ One thing to fix:</strong> Business Profit Accelerator is <strong>$5,997</strong> in OFFERS.md but <strong>$5,998</strong> in README.md. Pick one and update the other.
       </div>
-      ${badge(f.state)}
-    </div>`).join("");
+      <div class="action-row">
+        <button class="action-btn" onclick="runCmd('check offers')">Ask Claude to audit them</button>
+      </div>
+    `
+  };
 }
 
-function renderChannels() {
-  document.getElementById("channels-list").innerHTML = CHANNELS.map(c => `
-    <div class="row-item">
-      <div><div class="label">${c.label}</div><div class="meta">${c.meta}</div></div>
-    </div>`).join("");
-  document.getElementById("proof-list").innerHTML = PROOF.map(p => `
-    <div class="row-item">
-      <div><div class="label">${p.label}</div><div class="meta">${p.meta}</div></div>
-    </div>`).join("");
+function cmdShowTrademarks() {
+  return {
+    kind: "warn",
+    html: `
+      <h4>🛡️ Your trademarks</h4>
+      <p style="font-size:13px;">A trademark is like a "no trespassing" sign on a name. ® = officially filed. ™ = you're using it but it's not legally protected yet.</p>
+      <div class="stat-grid">
+        <div class="stat"><div class="k">Registered ®</div><div class="v g">2</div></div>
+        <div class="stat"><div class="k">File now</div><div class="v r">2</div></div>
+        <div class="stat"><div class="k">File this quarter</div><div class="v y">2</div></div>
+        <div class="stat"><div class="k">File this year</div><div class="v y">2</div></div>
+      </div>
+      <div class="alert r">
+        <strong>🚨 Important:</strong> Your <strong>RAMS™ framework</strong> is being taught in 3 places (Horizon Leaders, Basque, Master Curriculum) but it isn't officially trademarked. Someone else could file it before you. <strong>File this one first.</strong>
+      </div>
+      <div class="action-row">
+        <button class="action-btn" onclick="runCmd('check trademarks')">Ask Claude what to file first</button>
+      </div>
+    `
+  };
 }
 
-// ============================================================
-// KPI persistence
-// ============================================================
-function bindKpis() {
-  document.querySelectorAll("[data-kpi]").forEach(input => {
-    const key = "ops-kpi-" + input.dataset.kpi;
-    const saved = localStorage.getItem(key);
-    if (saved) input.value = saved;
-    input.addEventListener("input", () => localStorage.setItem(key, input.value));
-  });
+function cmdShowMethods() {
+  return {
+    kind: "warn",
+    html: `
+      <h4>🧰 Your frameworks (methods)</h4>
+      <p style="font-size:13px;">These are the teaching tools you use with clients — your "recipes."</p>
+      <div class="stat-grid">
+        <div class="stat"><div class="k">Total frameworks</div><div class="v">11</div></div>
+        <div class="stat"><div class="k">Have a file ✓</div><div class="v g">7</div></div>
+        <div class="stat"><div class="k">Missing a file</div><div class="v y">4</div></div>
+        <div class="stat"><div class="k">Naming mix-ups</div><div class="v r">1</div></div>
+      </div>
+      <div class="alert">
+        <strong>⚠️ Naming mix-up:</strong> Your <strong>RAMS</strong> framework means different things in different documents. Sometimes 4 words, sometimes 5, and your A Million Dreams program uses a completely different RAMS entirely. Pick one official version.
+      </div>
+      <div class="action-row">
+        <button class="action-btn" onclick="runCmd('check methods')">Ask Claude to audit</button>
+        <button class="action-btn ghost" onclick="runCmd('fix the rams mix-up')">Fix the RAMS mix-up</button>
+      </div>
+    `
+  };
 }
 
-// ============================================================
-// Agent prompt wiring
-// ============================================================
-function showPrompt(agent, task) {
-  const key = `${agent}:${task}`;
-  const prompt = PROMPTS[key];
-  if (!prompt) {
-    document.getElementById("prompt-body").textContent = `No prompt template registered for ${key}.`;
-    return;
+function cmdShowReputation() {
+  return {
+    kind: "ok",
+    html: `
+      <h4>⭐ Your reputation</h4>
+      <p style="font-size:13px;">Proof that you're the real deal. This is solid.</p>
+      <div class="stat-grid">
+        <div class="stat"><div class="k">Bestselling books</div><div class="v g">2</div></div>
+        <div class="stat"><div class="k">Podcast episodes</div><div class="v">100+</div></div>
+        <div class="stat"><div class="k">Delphi Clone</div><div class="v">24.7K</div></div>
+        <div class="stat"><div class="k">Awards</div><div class="v">1 (2024)</div></div>
+      </div>
+      <div class="alert g">
+        <strong>✅ Strong proof points:</strong> Princeton (invited speaker) · Tony Robbins Platinum · Excel Arena London (35,000 attendees) · Yahoo Finance, CEO Weekly, Thrive Global · British Army 6.5 years.
+      </div>
+      <div class="action-row">
+        <button class="action-btn" onclick="runCmd('check reputation')">Ask Claude to audit</button>
+        <button class="action-btn ghost" onclick="runCmd('check voice')">Check my voice</button>
+      </div>
+    `
+  };
+}
+
+function cmdShowNumbers() {
+  const k = key => localStorage.getItem("ops-kpi-" + key) || "(not set)";
+  return {
+    kind: "welcome",
+    html: `
+      <h4>📊 Your numbers</h4>
+      <p style="font-size:13px;">These are saved on your computer only. Use <code>set income 42000</code>, <code>set diamond 3</code>, etc. to update.</p>
+      <div class="stat-grid">
+        <div class="stat"><div class="k">Monthly income</div><div class="v">${k("mrr")}</div></div>
+        <div class="stat"><div class="k">Diamond clients</div><div class="v">${k("diamond")}</div></div>
+        <div class="stat"><div class="k">SCD completions</div><div class="v">${k("scd")}</div></div>
+        <div class="stat"><div class="k">Active cohorts</div><div class="v">${k("cohorts")}</div></div>
+      </div>
+    `
+  };
+}
+
+function cmdSet(args) {
+  const knownKeys = {
+    income: "mrr", mrr: "mrr",
+    diamond: "diamond",
+    scd: "scd", assessments: "scd",
+    cohorts: "cohorts", groups: "cohorts",
+  };
+  const [name, ...rest] = args;
+  const val = rest.join(" ");
+  if (!name || !val) {
+    return { kind: "warn", html: `<h4>⚠️ Try:</h4><p><code>set income 42000</code> or <code>set diamond 3</code></p>` };
   }
-  document.getElementById("prompt-body").textContent = prompt;
-  document.getElementById("prompt-panel").open = true;
-  document.getElementById("prompt-panel").scrollIntoView({ behavior: "smooth", block: "center" });
+  const key = knownKeys[name.toLowerCase()];
+  if (!key) {
+    return { kind: "warn", html: `<h4>⚠️ I don't know that number</h4><p>Try one of: <code>income</code>, <code>diamond</code>, <code>scd</code>, <code>cohorts</code></p>` };
+  }
+  localStorage.setItem("ops-kpi-" + key, val);
+  return { kind: "ok", html: `<h4>✓ Saved</h4><p>Set <code>${name}</code> to <strong>${val}</strong>. Run <code>show numbers</code> to see all your numbers.</p>` };
 }
 
-function bindAgentButtons() {
-  document.querySelectorAll("[data-agent]").forEach(btn => {
-    btn.addEventListener("click", () => showPrompt(btn.dataset.agent, btn.dataset.task));
-  });
-  document.getElementById("copy-prompt").addEventListener("click", async () => {
-    const text = document.getElementById("prompt-body").textContent;
-    try {
-      await navigator.clipboard.writeText(text);
-      toast("Copied — paste into Claude Code chat");
-    } catch (e) {
-      toast("Copy failed — select and copy manually");
-    }
-  });
-  document.getElementById("clear-prompt").addEventListener("click", () => {
-    document.getElementById("prompt-body").textContent = "Click any ▶ button above to generate an agent prompt.";
-  });
+function cmdAgent(promptKey, title, describe) {
+  const prompt = AGENT_PROMPTS[promptKey];
+  const id = "p" + Date.now();
+  return {
+    kind: "welcome",
+    html: `
+      <h4>${title}</h4>
+      <p>${describe}</p>
+      <p style="font-size:13px;color:var(--ink-mute);"><strong>What to do:</strong> click <em>Copy</em>, then paste into your Claude chat.</p>
+      <div class="prompt-block" id="${id}">${prompt.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</div>
+      <div class="action-row">
+        <button class="action-btn" onclick="copyEl('${id}')">📋 Copy this for Claude</button>
+      </div>
+    `
+  };
 }
 
-function toast(msg) {
+function cmdNotFound(input) {
+  return {
+    kind: "warn",
+    html: `
+      <h4>🤔 Hmm, I don't know that one</h4>
+      <p>I didn't recognize "<code>${input}</code>". Try <code>help</code> to see what you can do, or click one of the buttons up top.</p>
+    `
+  };
+}
+
+// ============================================================
+// COMMAND ROUTER — plain English in, action out
+// ============================================================
+function route(input) {
+  const raw = input.trim().toLowerCase();
+  if (!raw) return null;
+
+  // simple keyword match
+  if (raw === "clear" || raw === "cls") {
+    document.getElementById("feed").innerHTML = "";
+    return null;
+  }
+  if (raw.startsWith("set ")) return cmdSet(raw.slice(4).trim().split(/\s+/));
+  if (raw === "help" || raw === "?" || raw === "h") return cmdHelp();
+  if (raw === "hi" || raw === "hello" || raw === "hey") return cmdWelcome();
+
+  // "check everything" / "full" / "audit"
+  if (/check.*every|full.*(audit|check)|everything|audit.*all/.test(raw)) {
+    return cmdAgent("full", "🔍 Full ecosystem health check", "This will ask Claude to look at all 4 parts of your business at once and write you one short report.");
+  }
+
+  // offers
+  if (/show.*offer|list.*offer|my.*offer/.test(raw)) return cmdShowOffers();
+  if (/check.*offer|audit.*offer/.test(raw)) {
+    return cmdAgent("offers", "💰 Audit my offers", "Claude will check all 12 of your offers — prices, the path from low to high, and any inconsistencies between your files.");
+  }
+  if (/kill.?zone|497.*5997|497.*5998|497.*to.*5/.test(raw)) {
+    return cmdAgent("killzone", "🌉 Check the pricing bridge", "Claude will check whether your $4,620 program properly bridges the big jump from $497 to $5,997.");
+  }
+  if (/pricing.*integrity|discount|scarcity/.test(raw)) {
+    return cmdAgent("offers", "💰 Audit my offers", "Claude will check for any discounting, fake bonuses, or fake scarcity in your offers — things you've said you don't do.");
+  }
+
+  // trademarks / ip
+  if (/show.*trademark|show.*ip|list.*trademark|my.*trademark/.test(raw)) return cmdShowTrademarks();
+  if (/check.*trademark|check.*ip|audit.*ip|audit.*trademark/.test(raw)) {
+    return cmdAgent("ip", "🛡️ Audit my trademarks", "Claude will tell you which trademarks are legally protected, which are risky, and which one to file first.");
+  }
+  if (/file.*first|priority|what.*file/.test(raw)) {
+    return cmdAgent("ipPriority", "🛡️ What to file first", "Claude will rank your unfiled trademark names by urgency and tell you the next move.");
+  }
+
+  // methods / frameworks
+  if (/show.*method|show.*framework|list.*framework|my.*framework|my.*method/.test(raw)) return cmdShowMethods();
+  if (/check.*method|check.*framework|audit.*framework|audit.*method/.test(raw)) {
+    return cmdAgent("methods", "🧰 Audit my frameworks", "Claude will check that all your frameworks are documented, named consistently, and used correctly across your offers.");
+  }
+  if (/rams.*(mix|fix|drift|inconsistent|naming)|fix.*rams/.test(raw)) {
+    return cmdAgent("ramsFix", "🔧 Fix the RAMS naming mix-up", "Claude will look at every place RAMS appears, find every different version, and tell you which one should be official.");
+  }
+  if (/find.*gap|missing.*file|missing.*framework/.test(raw)) {
+    return cmdAgent("gaps", "📂 Find missing framework files", "Claude will find every framework you've trademarked that doesn't have its own document file yet.");
+  }
+
+  // reputation / channels
+  if (/show.*reputation|show.*credibility|show.*channel|my.*reputation/.test(raw)) return cmdShowReputation();
+  if (/check.*reputation|audit.*reputation|check.*channel|check.*credibility/.test(raw)) {
+    return cmdAgent("reputation", "⭐ Audit my reputation", "Claude will check your credentials, channels, and proof points across all your files.");
+  }
+  if (/check.*voice|voice.*consistency|sound.*consistent/.test(raw)) {
+    return cmdAgent("voice", "🎙️ Check my voice", "Claude will check whether you sound like yourself across every file — same tone, same trademark phrases.");
+  }
+  if (/content.*universe|20.?piece|20.*content/.test(raw)) {
+    return cmdAgent("content", "📦 Check my Content Universe", "Claude will check whether your 20-piece free content system is actually documented anywhere.");
+  }
+
+  // numbers
+  if (/show.*number|my.*number|kpi|metric/.test(raw)) return cmdShowNumbers();
+
+  return cmdNotFound(input);
+}
+
+// ============================================================
+// RENDER + INTERACTION
+// ============================================================
+function append(entry, userInput) {
+  if (!entry) return;
+  const ts = new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+  const el = document.createElement("div");
+  el.className = "entry " + entry.kind;
+  el.innerHTML = `
+    <div class="prompt-line"><span class="you">›</span>${userInput || ""}<span class="ts">${ts}</span></div>
+    <div class="output">${entry.html}</div>
+  `;
+  const feed = document.getElementById("feed");
+  feed.appendChild(el);
+  feed.scrollTop = feed.scrollHeight;
+}
+
+function runCmd(cmd) {
+  const input = document.getElementById("cmd");
+  const text = cmd || input.value;
+  if (!text.trim()) return;
+  const result = route(text);
+  append(result, text);
+  input.value = "";
+  input.focus();
+}
+
+window.runCmd = runCmd;
+window.copyEl = async function(id) {
+  const text = document.getElementById(id).textContent;
+  try {
+    await navigator.clipboard.writeText(text);
+    toast("Copied! Now paste into Claude.");
+  } catch (e) {
+    toast("Copy failed — select the text manually.", true);
+  }
+};
+
+function toast(msg, err) {
   const t = document.getElementById("toast");
   t.textContent = msg;
+  t.classList.toggle("err", !!err);
   t.classList.add("show");
-  setTimeout(() => t.classList.remove("show"), 1800);
+  setTimeout(() => t.classList.remove("show"), 2200);
 }
 
 // ============================================================
-// Boot
+// WIRE UP
 // ============================================================
-renderOffers();
-renderIP();
-renderFrameworks();
-renderChannels();
-bindKpis();
-bindAgentButtons();
+document.getElementById("send").addEventListener("click", () => runCmd());
+document.getElementById("cmd").addEventListener("keydown", e => {
+  if (e.key === "Enter") runCmd();
+});
+document.querySelectorAll("[data-cmd]").forEach(el => {
+  el.addEventListener("click", () => runCmd(el.dataset.cmd));
+});
+
+// Welcome message
+append(cmdWelcome(), "welcome");
 </script>
 
 </body>
