@@ -1,0 +1,21 @@
+{
+  "name": "sovereign-leadership-architecture",
+  "version": "0.1.0",
+  "description": "Coaching and diagnostic plugin for Sovereign Leadership Architecture (SLA): runs the Silent Collapse, Five Imposters, and Six Drives diagnostics, and produces readings in the SLA voice.",
+  "author": {
+    "name": "Baz Porter LLC",
+    "url": "https://bazporter.com"
+  },
+  "homepage": "https://bazporter.com",
+  "license": "Proprietary",
+  "keywords": [
+    "coaching",
+    "diagnostic",
+    "leadership",
+    "sovereign-leadership-architecture",
+    "silent-collapse",
+    "five-imposters",
+    "six-drives",
+    "rams"
+  ]
+}
