@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sovereign Ops Dashboard · Baz Porter LLC®</title>
+<style>
+  :root {
+    --bg: #0b0b0c;
+    --panel: #131316;
+    --panel-2: #1a1a1f;
+    --line: #26262d;
+    --ink: #f4f4f5;
+    --ink-dim: #a1a1aa;
+    --ink-mute: #71717a;
+    --gold: #c8a86a;
+    --gold-dim: #8a7748;
+    --ok: #4ade80;
+    --warn: #facc15;
+    --risk: #f87171;
+    --accent: #e4e4e7;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif; font-size: 14px; line-height: 1.5; }
+  a { color: var(--gold); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  header.top {
+    border-bottom: 1px solid var(--line);
+    padding: 28px 32px 24px;
+    background: linear-gradient(180deg, #0e0e10, var(--bg));
+  }
+  header.top h1 { margin: 0; font-size: 22px; font-weight: 600; letter-spacing: -0.01em; }
+  header.top .sub { color: var(--ink-dim); margin-top: 6px; font-size: 13px; }
+  header.top .tagline { color: var(--gold); margin-top: 12px; font-style: italic; font-size: 13px; }
+  .container { padding: 24px 32px 64px; max-width: 1400px; margin: 0 auto; }
+  .row { display: grid; gap: 20px; }
+  .row.kpis { grid-template-columns: repeat(4, 1fr); margin-bottom: 24px; }
+  .row.zones { grid-template-columns: repeat(2, 1fr); margin-bottom: 24px; }
+  @media (max-width: 1000px) { .row.kpis { grid-template-columns: repeat(2, 1fr); } .row.zones { grid-template-columns: 1fr; } }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px;
+  }
+  .card h2 { margin: 0 0 4px; font-size: 14px; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase; color: var(--ink-dim); }
+  .card h2 .badge { margin-left: 8px; }
+  .kpi .v { font-size: 26px; font-weight: 600; letter-spacing: -0.01em; margin-top: 6px; }
+  .kpi .v.todo { color: var(--ink-mute); font-style: italic; font-size: 14px; font-weight: 400; }
+  .kpi .meta { color: var(--ink-mute); font-size: 12px; margin-top: 4px; }
+  .kpi input { width: 100%; background: var(--panel-2); border: 1px solid var(--line); color: var(--ink); padding: 8px 10px; border-radius: 6px; font: inherit; margin-top: 8px; }
+  .kpi input:focus { outline: none; border-color: var(--gold-dim); }
+  .zone { display: flex; flex-direction: column; }
+  .zone .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
+  .zone .head h3 { margin: 0; font-size: 16px; font-weight: 600; }
+  .zone .head .src { color: var(--ink-mute); font-size: 12px; margin-top: 2px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
+  .b-ok { background: rgba(74, 222, 128, 0.12); color: var(--ok); }
+  .b-warn { background: rgba(250, 204, 21, 0.12); color: var(--warn); }
+  .b-risk { background: rgba(248, 113, 113, 0.12); color: var(--risk); }
+  .b-mute { background: var(--panel-2); color: var(--ink-mute); }
+  table.tight { width: 100%; border-collapse: collapse; font-size: 13px; }
+  table.tight th, table.tight td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  table.tight th { color: var(--ink-mute); font-weight: 500; font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase; }
+  table.tight tr:last-child td { border-bottom: 0; }
+  .stack { display: flex; flex-direction: column; gap: 8px; }
+  .row-item { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 13px; padding: 6px 0; border-bottom: 1px solid var(--line); }
+  .row-item:last-child { border-bottom: 0; }
+  .row-item .label { color: var(--ink); }
+  .row-item .meta { color: var(--ink-mute); font-size: 12px; }
+  .btn {
+    background: var(--gold); color: #1a1408; border: 0; padding: 8px 14px; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer; letter-spacing: 0.01em;
+  }
+  .btn:hover { background: #d4b577; }
+  .btn.ghost { background: transparent; color: var(--gold); border: 1px solid var(--gold-dim); }
+  .btn.ghost:hover { background: rgba(200, 168, 106, 0.08); }
+  .btn.sm { padding: 5px 10px; font-size: 12px; }
+  .btn.block { width: 100%; }
+  .agent-bar { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+  .toolbar {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 20px; margin-bottom: 24px;
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+  }
+  .toolbar .label { color: var(--ink-dim); font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; margin-right: 4px; }
+  details.prompt { margin-top: 14px; background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+  details.prompt summary { cursor: pointer; color: var(--ink-dim); font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; }
+  details.prompt pre { white-space: pre-wrap; word-wrap: break-word; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; color: var(--accent); margin: 10px 0 0; }
+  details.prompt .actions { margin-top: 8px; display: flex; gap: 8px; }
+  .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: var(--panel-2); color: var(--ink); border: 1px solid var(--gold-dim); padding: 10px 16px; border-radius: 8px; font-size: 13px; opacity: 0; pointer-events: none; transition: opacity 0.2s; z-index: 100; }
+  .toast.show { opacity: 1; }
+  footer { padding: 32px; text-align: center; color: var(--ink-mute); font-size: 12px; border-top: 1px solid var(--line); margin-top: 32px; }
+  .legend { display: flex; gap: 12px; font-size: 11px; color: var(--ink-mute); }
+  .pricetag { color: var(--gold); font-variant-numeric: tabular-nums; font-weight: 600; }
+  .pill { display: inline-block; background: var(--panel-2); padding: 2px 8px; border-radius: 999px; font-size: 11px; color: var(--ink-dim); margin-right: 4px; }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <h1>Sovereign Ops Dashboard</h1>
+  <div class="sub">Baz Porter LLC® · The Prestige Architect® · Ecosystem state across offers, IP, frameworks, and channels</div>
+  <div class="tagline">Power without collapse. Success without self-betrayal.</div>
+</header>
+
+<div class="container">
+
+  <!-- ===================== TOOLBAR (orchestrator) ===================== -->
+  <div class="toolbar">
+    <span class="label">Run agent</span>
+    <button class="btn" data-agent="ops-orchestrator" data-task="full">▶ Full ecosystem audit</button>
+    <button class="btn ghost" data-agent="offers-funnel-agent" data-task="audit">Offers</button>
+    <button class="btn ghost" data-agent="frameworks-methodology-agent" data-task="audit">Frameworks</button>
+    <button class="btn ghost" data-agent="channels-credibility-agent" data-task="audit">Channels</button>
+    <button class="btn ghost" data-agent="ops-orchestrator" data-task="ip">IP &amp; trademark</button>
+    <span style="flex: 1"></span>
+    <span class="legend">
+      <span><span class="badge b-ok">live</span> healthy</span>
+      <span><span class="badge b-warn">watch</span> attention</span>
+      <span><span class="badge b-risk">risk</span> structural</span>
+    </span>
+  </div>
+
+  <!-- ===================== KPI ROW (ops state user fills in) ===================== -->
+  <div class="row kpis">
+    <div class="card kpi">
+      <h2>MRR <span class="badge b-mute">user-input</span></h2>
+      <input type="text" data-kpi="mrr" placeholder="TODO — user to fill" />
+      <div class="meta">Trailing 30 days</div>
+    </div>
+    <div class="card kpi">
+      <h2>Diamond seats filled <span class="badge b-mute">user-input</span></h2>
+      <input type="text" data-kpi="diamond" placeholder="0 / 8" />
+      <div class="meta">Annual capacity · SCD-qualified</div>
+    </div>
+    <div class="card kpi">
+      <h2>SCD completions <span class="badge b-mute">user-input</span></h2>
+      <input type="text" data-kpi="scd" placeholder="TODO — user to fill" />
+      <div class="meta">Silent Collapse Diagnostic™ · last 30d</div>
+    </div>
+    <div class="card kpi">
+      <h2>Active cohorts <span class="badge b-mute">user-input</span></h2>
+      <input type="text" data-kpi="cohorts" placeholder="A Million Dreams™ / RHP / BPA" />
+      <div class="meta">In delivery now</div>
+    </div>
+  </div>
+
+  <!-- ===================== ZONES ===================== -->
+  <div class="row zones">
+
+    <!-- OFFERS & FUNNEL -->
+    <div class="card zone">
+      <div class="head">
+        <div>
+          <h3>Offers &amp; Funnel</h3>
+          <div class="src">OFFERS.md</div>
+        </div>
+        <span class="badge b-ok">live</span>
+      </div>
+      <table class="tight" id="offers-table"></table>
+      <div style="margin-top: 14px; font-size: 12px; color: var(--ink-dim);">
+        <strong style="color: var(--ink);">Kill Zone:</strong> $497 → $5,997 bridged by Reclaim Her Power ($4,620) + $500 BPA Priority Gateway.
+        <br /><strong style="color: var(--ink);">Diamond:</strong> SCD™ qualification required · 8 seats annually.
+        <br /><strong style="color: var(--warn);">Known drift:</strong> BPA listed as $5,997 in OFFERS.md and $5,998 in README.md.
+      </div>
+      <div class="agent-bar">
+        <button class="btn sm" data-agent="offers-funnel-agent" data-task="audit">▶ Audit tier health</button>
+        <button class="btn sm ghost" data-agent="offers-funnel-agent" data-task="killzone">Check Kill Zone</button>
+        <button class="btn sm ghost" data-agent="offers-funnel-agent" data-task="pricing">Pricing integrity</button>
+      </div>
+    </div>
+
+    <!-- IP & TRADEMARK -->
+    <div class="card zone">
+      <div class="head">
+        <div>
+          <h3>IP &amp; Trademark</h3>
+          <div class="src">IP-REGISTRY.md · handled by ops-orchestrator</div>
+        </div>
+        <span class="badge b-warn">watch</span>
+      </div>
+      <table class="tight" id="ip-table"></table>
+      <div style="margin-top: 14px; font-size: 12px; color: var(--ink-dim);">
+        <strong style="color: var(--risk);">Structural note:</strong> "Licensing without federal registration is a structural vulnerability." — IP-REGISTRY.md
+        <br />RAMS™ deployed in Horizon Leaders, Basque Border Institution, Master Curriculum under common-law ™ only.
+      </div>
+      <div class="agent-bar">
+        <button class="btn sm" data-agent="ops-orchestrator" data-task="ip">▶ Audit IP status</button>
+        <button class="btn sm ghost" data-agent="ops-orchestrator" data-task="ip-priority">Priority queue check</button>
+      </div>
+    </div>
+
+    <!-- FRAMEWORKS -->
+    <div class="card zone">
+      <div class="head">
+        <div>
+          <h3>Frameworks &amp; Methodology</h3>
+          <div class="src">FRAMEWORKS.md · METHODOLOGY.md · frameworks/**</div>
+        </div>
+        <span class="badge b-warn">watch</span>
+      </div>
+      <div class="stack" id="frameworks-list"></div>
+      <div style="margin-top: 14px; font-size: 12px; color: var(--ink-dim);">
+        <strong style="color: var(--warn);">Known drift:</strong> RAMS™ acronym — METHODOLOGY/README say "Results · Attitude · Mastery · Systems"; FRAMEWORKS.md says "Results, Attitude, Authenticity, Mastery, Systems."
+        <br />Six-Layer Integration Model must run through every module.
+      </div>
+      <div class="agent-bar">
+        <button class="btn sm" data-agent="frameworks-methodology-agent" data-task="audit">▶ Audit portfolio</button>
+        <button class="btn sm ghost" data-agent="frameworks-methodology-agent" data-task="drift">Check RAMS drift</button>
+        <button class="btn sm ghost" data-agent="frameworks-methodology-agent" data-task="gaps">Find gaps</button>
+      </div>
+    </div>
+
+    <!-- CHANNELS & CREDIBILITY -->
+    <div class="card zone">
+      <div class="head">
+        <div>
+          <h3>Channels, Credibility &amp; Content</h3>
+          <div class="src">CREDIBILITY.md · PROFILE.md · README.md · STORY.md · VOICE.md</div>
+        </div>
+        <span class="badge b-ok">live</span>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+        <div>
+          <div style="font-size: 11px; color: var(--ink-mute); letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 6px;">Distribution</div>
+          <div class="stack" id="channels-list"></div>
+        </div>
+        <div>
+          <div style="font-size: 11px; color: var(--ink-mute); letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 6px;">Proof points</div>
+          <div class="stack" id="proof-list"></div>
+        </div>
+      </div>
+      <div style="margin-top: 14px; font-size: 12px; color: var(--ink-dim);">
+        <strong style="color: var(--ink);">Content Universe:</strong> 20-piece deployment across the Four Worth Distortion Patterns (Boundaries · Courage · Deservability · Love).
+      </div>
+      <div class="agent-bar">
+        <button class="btn sm" data-agent="channels-credibility-agent" data-task="audit">▶ Audit channels</button>
+        <button class="btn sm ghost" data-agent="channels-credibility-agent" data-task="voice">Voice consistency</button>
+        <button class="btn sm ghost" data-agent="channels-credibility-agent" data-task="content">Content Universe state</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ===================== PROMPT PANEL ===================== -->
+  <details class="prompt" id="prompt-panel" open>
+    <summary>Agent prompt · copy &amp; paste into Claude Code chat</summary>
+    <pre id="prompt-body">Click any ▶ button above to generate an agent prompt.</pre>
+    <div class="actions">
+      <button class="btn sm" id="copy-prompt">Copy</button>
+      <button class="btn sm ghost" id="clear-prompt">Clear</button>
+    </div>
+  </details>
+
+  <!-- ===================== HOW IT WORKS ===================== -->
+  <div class="card" style="margin-top: 24px;">
+    <h2>How this dashboard works</h2>
+    <ol style="margin: 12px 0 0; padding-left: 18px; color: var(--ink-dim); font-size: 13px;">
+      <li>Each zone shows real ecosystem state pulled from the canonical markdown files in this repo.</li>
+      <li>KPI inputs at the top persist to your browser's localStorage — they don't leave your machine.</li>
+      <li>Every ▶ button generates a prompt for a Claude Code subagent defined in <code style="color: var(--gold);">.claude/agents/</code>.</li>
+      <li>"Full ecosystem audit" dispatches the <code style="color: var(--gold);">ops-orchestrator</code>, which runs the three specialist agents in parallel and synthesizes one report — agents running agents.</li>
+      <li>Paste the generated prompt into Claude Code. The right subagent is invoked automatically.</li>
+    </ol>
+  </div>
+
+</div>
+
+<div class="toast" id="toast">Copied</div>
+
+<footer>
+  © 2019–2026 Baz Porter LLC® · All Rights Reserved · The Prestige Architect®
+</footer>
+
+<script>
+// ============================================================
+// ECOSYSTEM DATA — extracted from the canonical markdown files
+// ============================================================
+const OFFERS = [
+  { tier: 0,  name: "Content Universe",                       price: "Free",        status: "live" },
+  { tier: 1,  name: "Silent Collapse Diagnostic™",            price: "Free",        status: "live" },
+  { tier: 2,  name: "The Reclamation Code",                   price: "$97",         status: "live" },
+  { tier: 3,  name: "A Million Dreams™ Bronze",               price: "$397/mo",     status: "live" },
+  { tier: 4,  name: "Revenue Architecture System",            price: "$497",        status: "live" },
+  { tier: 5,  name: "Reclaim Her Power",                      price: "$4,620",      status: "live", note: "Kill Zone closer" },
+  { tier: 6,  name: "Business Profit Accelerator",            price: "$5,997",      status: "live", note: "$5,998 in README — drift" },
+  { tier: 7,  name: "Coming Home to Love — Find Yourself",    price: "$15,000",     status: "live" },
+  { tier: 8,  name: "Coming Home to Love — Your Relationships", price: "$27,000",   status: "live" },
+  { tier: 9,  name: "Coming Home to Love — Embodiment",       price: "$45,000",     status: "live" },
+  { tier: 10, name: "The Gravity Code™ Diamond",              price: "$100,000",    status: "live", note: "8 seats annually" },
+  { tier: 11, name: "The Coming Home Project",                price: "$1,000,000/y", status: "concept", note: "Invitation only · Phase 6" },
+];
+
+const IP = [
+  { mark: "BAZ PORTER",              tier: "—",          status: "Registered · Reg. 7125540 · Class 041", state: "live" },
+  { mark: "THE PRESTIGE ARCHITECT",  tier: "Tier 1",     status: "Filing priority — file now",            state: "warn" },
+  { mark: "RAMS / RAMS FRAMEWORK",   tier: "Tier 1",     status: "Filing priority — file now",            state: "risk", note: "Deployed in 3 institutions under common-law ™ only" },
+  { mark: "SOVEREIGN LEADERSHIP",    tier: "Tier 2",     status: "Pending · 90 days",                     state: "warn" },
+  { mark: "SILENT COLLAPSE",         tier: "Tier 2",     status: "Pending · 90 days",                     state: "warn" },
+  { mark: "THE GRAVITY CODE",        tier: "Tier 3",     status: "Pending · 6 months",                    state: "warn" },
+  { mark: "THE FIVE IMPOSTERS",      tier: "Tier 3",     status: "Pending · 6 months",                    state: "warn" },
+  { mark: "Six Drives of Human Intelligence™", tier: "—", status: "Registered — protection active",       state: "live" },
+];
+
+const FRAMEWORKS = [
+  { name: "RAMS™",                          deployed: "All tiers · Horizon Leaders · Basque · Master Curriculum", file: "frameworks/frameworks/RAMS-framework.md", state: "warn", note: "Acronym drift across docs" },
+  { name: "Silent Collapse™",               deployed: "Diagnostic + commercial",                                  file: "frameworks/silent-collapse.md",            state: "live" },
+  { name: "Six Drives of Human Intelligence™", deployed: "CHTL Tier 1 · diagnostic entry",                       file: "frameworks/The Six Drives of Human Intelligence.md", state: "live" },
+  { name: "The Gravity Code™",              deployed: "Tier 10 · Diamond",                                       file: "frameworks/gravity-code.md",               state: "live" },
+  { name: "Coming Home to Love™",           deployed: "Tiers 7–9",                                               file: "frameworks/coming-home-to-love.md",        state: "live" },
+  { name: "The Five Imposters™",            deployed: "BPA + content universe",                                  file: "frameworks/five-imposters.md",             state: "live" },
+  { name: "The Reclamation Code",           deployed: "Tier 2 · $97 entry",                                      file: "frameworks/the-reclamation-code.md",       state: "live" },
+  { name: "Sovereign Nervous System Protocol™", deployed: "Integrated all tiers",                                file: null,                                       state: "warn", note: "No standalone framework file" },
+  { name: "The Oliver Standard",            deployed: "Every engagement agreement",                              file: null,                                       state: "warn", note: "No standalone framework file" },
+  { name: "Sovereign AI Charter™",          deployed: "Embedded in RAMS™",                                       file: null,                                       state: "warn", note: "No standalone framework file" },
+  { name: "Sovereign Operating System",     deployed: "—",                                                       file: "github.com/baz-stack/frameworks/sovereign-operating-system.md", state: "live" },
+];
+
+const CHANNELS = [
+  { label: "Website",      meta: "bazporter.com" },
+  { label: "LinkedIn",     meta: "linkedin.com/in/bazporterllc" },
+  { label: "Podcast",      meta: "Rise From The Ashes · C-Suite Network · 100+ eps" },
+  { label: "Substack",     meta: "substack.com/@bazporter" },
+  { label: "YouTube",      meta: "youtube.com/@BazPorter" },
+  { label: "Diagnostic",   meta: "bazporter.com/silent-collapse-diagnostic" },
+  { label: "Apply",        meta: "bazporter.com/work-with-me" },
+  { label: "Delphi Clone", meta: "24.7K minds trained" },
+];
+
+const PROOF = [
+  { label: "Die Empty Live Full",     meta: "Int'l bestseller · Mar 2025" },
+  { label: "Cracking the Rich Code v12", meta: "Foreword: Brian Tracy" },
+  { label: "Excel Arena London",      meta: "35,000 attendees · panel host" },
+  { label: "Princeton University",    meta: "Invited speaker" },
+  { label: "Tony Robbins Platinum",   meta: "Highest tier partnership" },
+  { label: "Best Transformational Leadership Coaching", meta: "2024" },
+  { label: "British Army",            meta: "6.5 years · 1997–2004" },
+  { label: "Yahoo Finance / CEO Weekly / Thrive Global", meta: "Featured" },
+];
+
+// ============================================================
+// AGENT PROMPT TEMPLATES — "agents running agents"
+// ============================================================
+const PROMPTS = {
+  "ops-orchestrator:full":
+`Use the ops-orchestrator agent to run a FULL ecosystem audit of the Sovereign Leadership Architecture™ portfolio.
+
+Dispatch all three specialist agents in parallel:
+  • offers-funnel-agent — audit OFFERS.md
+  • frameworks-methodology-agent — audit FRAMEWORKS.md, METHODOLOGY.md, frameworks/**
+  • channels-credibility-agent — audit CREDIBILITY.md, PROFILE.md, README.md
+
+Handle the IP zone yourself (IP-REGISTRY.md).
+
+Synthesize into a single executive ops report with: TL;DR · Zone Status table · Cross-Zone Signals · Top 3 Recommended Actions. Use 🟢/🟡/🔴 status markers. Under 600 words. Mark anything you can't verify as "TODO — user to fill".`,
+
+  "ops-orchestrator:ip":
+`Use the ops-orchestrator agent to audit ONLY the IP & trademark zone.
+
+Read IP-REGISTRY.md and report:
+  1. Every mark with registration tier and current status
+  2. Marks deployed commercially but unregistered (structural vulnerability)
+  3. Tier 1 priority queue health — what should file this week
+  4. Cross-doc drift: marks in OFFERS.md or FRAMEWORKS.md not in IP-REGISTRY.md
+  5. Top 3 next moves
+
+Quote the registry's own line where relevant: "Licensing without federal registration is a structural vulnerability."`,
+
+  "ops-orchestrator:ip-priority":
+`Use the ops-orchestrator agent to assess the trademark filing priority queue in IP-REGISTRY.md.
+
+For each tier (1/2/3): which marks remain unfiled, what their commercial deployment exposure is, and which should escalate to Tier 1 given current usage. Under 250 words.`,
+
+  "offers-funnel-agent:audit":
+`Use the offers-funnel-agent to audit the Full Ascension Stack in OFFERS.md.
+
+Required output:
+  1. Tier health (all 12 tiers, 0 through 11)
+  2. Conversion architecture — is the Kill Zone bridge ($497 → RHP $4,620 → BPA $5,997) intact?
+  3. Pricing integrity — flag any drift toward discounting, manufactured scarcity, or stacked bonuses
+  4. Cross-doc consistency — known issue: BPA is $5,997 in OFFERS.md but $5,998 in README.md offer table. Confirm and surface.
+  5. Top 3 next moves
+
+Under 400 words.`,
+
+  "offers-funnel-agent:killzone":
+`Use the offers-funnel-agent to specifically audit the Kill Zone — the $497 to $5,997 gap.
+
+Verify:
+  • Reclaim Her Power ($4,620) is positioned as the bridge
+  • BPA Priority Gateway ($500 credit at RHP completion) is documented in BOTH OFFERS.md and any RHP module spec
+  • The "after RHP, BPA is a $1,377 re-up" math holds
+  • The Financial Partner Pathway distinguishes constraint vs worth distortion
+
+Report findings under 250 words.`,
+
+  "offers-funnel-agent:pricing":
+`Use the offers-funnel-agent to run a pricing integrity audit on OFFERS.md.
+
+Check against the standard:
+  • "No manufactured value stacks"
+  • "No inflated bonus math"
+  • "No artificial scarcity"
+  • "The price is the price"
+
+Flag any tier copy or surrounding documentation that drifts from this standard. Under 250 words.`,
+
+  "frameworks-methodology-agent:audit":
+`Use the frameworks-methodology-agent to audit the full framework portfolio.
+
+Required output:
+  1. Deployment map — every framework with ™ status (from IP-REGISTRY.md), deployment status, which offer tier uses it, and whether a deep-dive file exists in frameworks/
+  2. RAMS™ acronym drift across METHODOLOGY.md / README.md vs FRAMEWORKS.md — flag explicitly
+  3. Gaps — frameworks in IP-REGISTRY.md missing a frameworks/ file; frameworks in OFFERS.md not in IP-REGISTRY.md
+  4. Six-Layer Integration Model coverage check
+  5. Top 3 next moves
+
+Under 400 words.`,
+
+  "frameworks-methodology-agent:drift":
+`Use the frameworks-methodology-agent to investigate the RAMS™ acronym drift.
+
+METHODOLOGY.md and README.md describe RAMS as "Results · Attitude · Mastery · Systems" (4 letters).
+FRAMEWORKS.md describes RAMS as "Results, Attitude, Authenticity, Mastery, Systems" (5 letters).
+A Million Dreams™ Bronze uses "Regulate, Activate, Modulate, Stabilize" (different RAMS entirely).
+
+Determine canonical version. Propose a single source-of-truth fix across all affected files. Do NOT apply edits — just propose the diff. Under 300 words.`,
+
+  "frameworks-methodology-agent:gaps":
+`Use the frameworks-methodology-agent to find documentation gaps in the framework portfolio.
+
+For each framework in IP-REGISTRY.md, check whether a corresponding file exists in frameworks/ or frameworks/frameworks/. List missing files. Then check the reverse: any framework file with no IP-REGISTRY entry. Under 250 words.`,
+
+  "channels-credibility-agent:audit":
+`Use the channels-credibility-agent to audit the channels and credibility surface.
+
+Required output:
+  1. Proof point inventory — every credibility asset, status, and whether it's consistent across README.md, PROFILE.md, CREDIBILITY.md
+  2. Channel coverage — distribution surfaces consistent across docs
+  3. Voice consistency — STORY.md, VOICE.md, README.md doctrinal language
+  4. Content Universe state — is the 20-piece deployment across the Four Worth Distortion Patterns documented?
+  5. Top 3 next moves
+
+Under 400 words.`,
+
+  "channels-credibility-agent:voice":
+`Use the channels-credibility-agent to run a voice consistency audit across STORY.md, VOICE.md, README.md, and PROFILE.md.
+
+Check for: "architect, not coach", Silent Collapse™ usage, "the price is the price", absence of coach-speak / motivational language, declarative architectural tone. Surface any drift. Under 250 words.`,
+
+  "channels-credibility-agent:content":
+`Use the channels-credibility-agent to audit the Content Universe (Tier 0).
+
+OFFERS.md describes "20-piece deployment system across four worth distortion pattern universes (Boundaries, Courage, Deservability, Love)." Verify this is documented elsewhere in the repo. If not, this is a gap — propose where the content universe specification should live. Under 250 words.`,
+};
+
+// ============================================================
+// RENDER
+// ============================================================
+function badge(state) {
+  const cls = { live: "b-ok", warn: "b-warn", risk: "b-risk", concept: "b-mute" }[state] || "b-mute";
+  const txt = { live: "live", warn: "watch", risk: "risk", concept: "concept" }[state] || state;
+  return `<span class="badge ${cls}">${txt}</span>`;
+}
+
+function renderOffers() {
+  const rows = OFFERS.map(o => `
+    <tr>
+      <td style="color: var(--ink-mute); width: 28px;">${o.tier}</td>
+      <td>${o.name}${o.note ? `<div style="color: var(--ink-mute); font-size: 11px;">${o.note}</div>` : ""}</td>
+      <td><span class="pricetag">${o.price}</span></td>
+      <td style="text-align: right;">${badge(o.status)}</td>
+    </tr>`).join("");
+  document.getElementById("offers-table").innerHTML =
+    `<thead><tr><th>#</th><th>Tier</th><th>Investment</th><th style="text-align:right;">Status</th></tr></thead><tbody>${rows}</tbody>`;
+}
+
+function renderIP() {
+  const rows = IP.map(i => `
+    <tr>
+      <td>${i.mark}${i.note ? `<div style="color: var(--ink-mute); font-size: 11px;">${i.note}</div>` : ""}</td>
+      <td style="color: var(--ink-dim);">${i.tier}</td>
+      <td style="color: var(--ink-dim);">${i.status}</td>
+      <td style="text-align: right;">${badge(i.state)}</td>
+    </tr>`).join("");
+  document.getElementById("ip-table").innerHTML =
+    `<thead><tr><th>Mark</th><th>Priority</th><th>Status</th><th style="text-align:right;">State</th></tr></thead><tbody>${rows}</tbody>`;
+}
+
+function renderFrameworks() {
+  document.getElementById("frameworks-list").innerHTML = FRAMEWORKS.map(f => `
+    <div class="row-item">
+      <div>
+        <div class="label">${f.name}</div>
+        <div class="meta">${f.deployed}${f.note ? ` · <span style="color: var(--warn);">${f.note}</span>` : ""}${f.file ? "" : ` · <span style="color: var(--risk);">no file</span>`}</div>
+      </div>
+      ${badge(f.state)}
+    </div>`).join("");
+}
+
+function renderChannels() {
+  document.getElementById("channels-list").innerHTML = CHANNELS.map(c => `
+    <div class="row-item">
+      <div><div class="label">${c.label}</div><div class="meta">${c.meta}</div></div>
+    </div>`).join("");
+  document.getElementById("proof-list").innerHTML = PROOF.map(p => `
+    <div class="row-item">
+      <div><div class="label">${p.label}</div><div class="meta">${p.meta}</div></div>
+    </div>`).join("");
+}
+
+// ============================================================
+// KPI persistence
+// ============================================================
+function bindKpis() {
+  document.querySelectorAll("[data-kpi]").forEach(input => {
+    const key = "ops-kpi-" + input.dataset.kpi;
+    const saved = localStorage.getItem(key);
+    if (saved) input.value = saved;
+    input.addEventListener("input", () => localStorage.setItem(key, input.value));
+  });
+}
+
+// ============================================================
+// Agent prompt wiring
+// ============================================================
+function showPrompt(agent, task) {
+  const key = `${agent}:${task}`;
+  const prompt = PROMPTS[key];
+  if (!prompt) {
+    document.getElementById("prompt-body").textContent = `No prompt template registered for ${key}.`;
+    return;
+  }
+  document.getElementById("prompt-body").textContent = prompt;
+  document.getElementById("prompt-panel").open = true;
+  document.getElementById("prompt-panel").scrollIntoView({ behavior: "smooth", block: "center" });
+}
+
+function bindAgentButtons() {
+  document.querySelectorAll("[data-agent]").forEach(btn => {
+    btn.addEventListener("click", () => showPrompt(btn.dataset.agent, btn.dataset.task));
+  });
+  document.getElementById("copy-prompt").addEventListener("click", async () => {
+    const text = document.getElementById("prompt-body").textContent;
+    try {
+      await navigator.clipboard.writeText(text);
+      toast("Copied — paste into Claude Code chat");
+    } catch (e) {
+      toast("Copy failed — select and copy manually");
+    }
+  });
+  document.getElementById("clear-prompt").addEventListener("click", () => {
+    document.getElementById("prompt-body").textContent = "Click any ▶ button above to generate an agent prompt.";
+  });
+}
+
+function toast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.classList.add("show");
+  setTimeout(() => t.classList.remove("show"), 1800);
+}
+
+// ============================================================
+// Boot
+// ============================================================
+renderOffers();
+renderIP();
+renderFrameworks();
+renderChannels();
+bindKpis();
+bindAgentButtons();
+</script>
+
+</body>
+</html>
