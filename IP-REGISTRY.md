@@ -28,7 +28,7 @@
 
 | MARK | DOMAIN | DEFINITION |
 |:----|:----|:----|
-| RAMS™ | Operating system | Results · Attitude · Mastery · Systems |
+| RAMS™ | Operating system | Results · Authenticity · Attitude · Mastery · Systems |
 | Silent Collapse™ | Diagnostic state | The condition the architecture addresses |
 | Sovereign Leadership™ | Outcome state | The destination the architecture produces |
 | Sovereign Leadership Architecture™ | Full system | The complete methodology |
@@ -82,7 +82,7 @@ See `RETIRED.md` for full retirement detail.
 
 ## CLASS E — RETIRED ACRONYM
 
-The previous RAMS definition (Reach · Acquire · Monetize · Scale) is **retired and obsolete**. Any reference to that definition is incorrect. Current and only valid definition: **Results · Attitude · Mastery · Systems**.
+The previous RAMS definition (Reach · Acquire · Monetize · Scale) is **retired and obsolete**. Any reference to that definition is incorrect. Current and only valid definition: **Results · Authenticity · Attitude · Mastery · Systems** (5 pillars).
 
 ---
 
@@ -92,7 +92,7 @@ The previous RAMS definition (Reach · Acquire · Monetize · Scale) is **retire
 2. Every public mention of a Class B mark carries the ™ symbol
 3. Class C names are never written on any client-facing surface
 4. Class D marks are not referenced in any output, planning, or strategy
-5. The RAMS acronym always resolves to Results · Attitude · Mastery · Systems
+5. The RAMS acronym always resolves to Results · Authenticity · Attitude · Mastery · Systems (5 pillars)
 
 ---
 
