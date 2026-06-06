@@ -43,10 +43,18 @@ Retirement is permanent. If an asset returns, it returns under a new name and a 
 | ATTRIBUTE | DETAIL |
 |:----|:----|
 | **Status** | Retired |
-| **Replaced by** | RAMS — Results · Attitude · Mastery · Systems |
+| **Replaced by** | RAMS — Results · Authenticity · Attitude · Mastery · Systems (5 pillars) |
 | **Reason** | Previous definition was tactical. Current definition is structural and operates simultaneously at the business level and the nervous system level. |
 
-**Permanent rule:** Any reference to RAMS resolves to Results · Attitude · Mastery · Systems. The previous acronym is obsolete.
+### RAMS — 4-Pillar Definition (Results · Attitude · Mastery · Systems)
+
+| ATTRIBUTE | DETAIL |
+|:----|:----|
+| **Status** | Retired (v2026.06.06) |
+| **Replaced by** | RAMS — Results · Authenticity · Attitude · Mastery · Systems (5 pillars) |
+| **Reason** | Authenticity formalized as second pillar. Closes the gap between public performance and private reality at the framework level. |
+
+**Permanent rule:** Any reference to RAMS resolves to Results · Authenticity · Attitude · Mastery · Systems (5 pillars). All prior definitions are obsolete.
 
 ---
 
