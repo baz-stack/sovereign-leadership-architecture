@@ -1,145 +1,95 @@
-# Baz Porter — Public Profile
-**The Prestige Architect® | Baz Porter LLC®**
+# Sovereign Leadership Architecture
+
+**Version:** v2026.06.06
+**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Founder:** Baz Porter
+**Mission:** Power without collapse. Success without self-betrayal.
 
 ---
 
-## The One-Line
+## CHANGELOG
 
-Baz Porter architects the identity infrastructure beneath high performance — guiding leaders from Silent Collapse™ to Sovereign Leadership™.
-
----
-
-## The Short Bio (150 words)
-
-Baz Porter is the founder of Baz Porter LLC® and The Prestige Architect® — the category-defining practice of Sovereign Leadership Architecture™.
-
-A British Army veteran of six and a half years, international bestselling author, and host of the Rise From The Ashes podcast on the C-Suite Network, Baz works with high-achieving leaders operating at $1M–$50M+ who have done the work — the therapy, the masterminds, the programs — and are still carrying a weight they cannot name.
-
-That weight has a name. Silent Collapse™.
-
-Baz doesn't coach. He architects. Through the RAMS™ Framework and a proprietary system of identity excavation, he rebuilds the internal operating system beneath the performance — so leaders can sustain at the altitude they've already reached without sacrificing the person doing the work.
-
-Power without collapse. Success without self-betrayal.
+- **v2026.06.06** — Full canon update. RHP retired. The Becoming™ confirmed at Gold. 12-tier ladder locked. Discovery Layer separated. Affiliate program documented. All canon files version-stamped.
 
 ---
 
-## The Full Bio (400 words)
+## REPOSITORY PURPOSE
 
-Baz Porter didn't build his methodology in a classroom.
+This repository is the single source of truth for Baz Porter LLC. Every skill, page builder, workflow, email, sales page, podcast description, and content asset resolves against this canon.
 
-He built it from six and a half years of British Army service (1997–2004). From homelessness. From standing in front of 35,000 people at Excel Arena London and feeling nothing. From $2.1 million spent searching for the answer in every program, mastermind, and mentor the coaching industry had to offer — and finding only more language for the same structural problem nobody was addressing at the root.
-
-The problem was Silent Collapse™.
-
-The invisible erosion that occurs when a high-achieving leader's external operating system outpaces their internal identity infrastructure. They keep winning. They keep delivering. They keep performing. And underneath it — the architecture that was built to achieve is quietly destroying the person who built it.
-
-Baz lived it. Rebuilt from it. And then reverse-engineered the system that creates it — so other leaders don't have to spend a decade and $2.1 million finding out what he already knows.
-
-Today, Baz Porter LLC® operates as the leading practice in Sovereign Leadership Architecture™ — the discipline of rebuilding the identity infrastructure beneath high performance, not the strategy on top of it.
-
-His proprietary operating system — RAMS™ (Results · Attitude · Mastery · Systems) — is applied simultaneously at the business level and the nervous system level. Because the body and the business run on the same architecture. And when one is dysregulated, both are compromised.
-
-His client roster includes Fortune 500 executives, C-Suite leaders, and founders operating at $1M–$50M+. His offer architecture runs from a $97 entry point to $132,000 retained power architecture — with eight seats available annually at The Gravity Code™ Diamond level.
-
-He is the author of two international bestsellers — Die Empty Live Full (Part 4 international bestseller, March 2025) and Cracking the Rich Code Vol. 12 (foreword: Brian Tracy, endorsed by Tony Robbins).
-
-He hosts Rise From The Ashes — a podcast on the C-Suite Network with 100+ episodes — and was named Best Transformational Leadership Coaching 2024.
-
-Baz Porter does not motivate. He does not inspire. He does not coach.
-
-He architects.
+If an output conflicts with this canon, the canon wins.
 
 ---
 
-## Proof Points
+## CANON FILE INDEX
 
-- British Army Veteran — 6.5 years service (1997–2004)
-- International Bestselling Author ×2
-- Best Transformational Leadership Coaching 2024
-- Excel Arena London — Panel Host — 35,000 attendees
-- C-Suite Network Podcast Host — 100+ episodes
-- Fortune 500 leaders · C-Suite executives · $1M–$50M+ founders
-- Delphi AI Clone — 24.7K minds trained
-
----
-
-## Published Works
-
-**Die Empty Live Full**
-International Bestseller · Part 4 · March 2025
-
-**Cracking the Rich Code Vol. 12**
-International Bestseller · Foreword: Brian Tracy · Endorsed: Tony Robbins
-
----
-
-## Podcast
-
-**Rise From The Ashes**
-C-Suite Network · 100+ episodes
-Available on Spotify, Apple Podcasts, and all major platforms
-risefromtheashespodcast.com
+| FILE | PURPOSE |
+|:----|:----|
+| README.md | This file. Top-level summary and navigation. |
+| OFFERS.md | The 12-tier offer stack. Pricing, structural roles, naming rules. |
+| IP-REGISTRY.md | Trademark register. All ® and ™ marks. Usage rules. |
+| DISCOVERY-LAYER.md | Top-of-funnel assets: books, podcast, YouTube, meditation, newsletters. |
+| AFFILIATE.md | Affiliate program + Delphi productization + speaking (parked). |
+| RETIRED.md | Retired offers, frameworks, and names. Permanent exclusion log. |
+| VOICE.md | Voice canon. Banned language. Preferred substitutes. Layered voice modes. |
+| ICA.md | Ideal Client Avatar. Victoria Reynolds → Victoria Hathaway arc. |
+| FRAMEWORKS.md | RAMS™ · Five Imposters™ · Six Drives™ · methodology architecture. |
+| METHODOLOGY.md | How the work is delivered. Counsel vs. coaching. Reverse-engineering protocol. |
+| MANIFESTO.md | Public-facing manifesto. The category position. |
+| STORY.md | Founder story. From homelessness to seven-figure architecture. |
+| PROFILE.md | Brand bio. Long-form, medium-form, short-form. |
+| CREDIBILITY.md | Credentials, bestseller status, awards, partnerships. |
+| CATEGORY.md | Category authority position. Sovereign Leadership as a category. |
 
 ---
 
-## Speaking Topics
+## ARCHITECTURE OVERVIEW
 
-- Silent Collapse™ — The Hidden Epidemic in High-Performance Leadership
-- Sovereign Leadership Architecture™ — Building the Identity Infrastructure Beneath the Performance
-- The RAMS™ Framework — Why the Body and the Business Run on the Same Architecture
-- The Five Imposters™ — Why What You've Tried Hasn't Fixed the Structure
-- The Six Drives of Human Intelligence™ — The Quantum Architecture of Sovereign Identity
-- From Collapse to Sovereign — The Origin Story
+The brand operates four layers:
 
----
+1. **Discovery Layer** — free brand authority that routes into the stack
+2. **Value Tier** — free Silent Collapse Diagnostic, entry to the priced stack
+3. **Priced Offer Stack** — 12 tiers from $97 (Bronze) to $1M/year (Ruby)
+4. **Parallel Revenue Lines** — affiliate program and speaking (parked)
 
-## Media & Interviews
-
-Baz Porter is available for:
-- Podcast interviews
-- Speaking engagements
-- Panel appearances
-- Executive media
-
-**Booking:** bazporter.com/strategic-call
-**Press & Media:** bazporter.com/media
+See OFFERS.md for full stack detail. See DISCOVERY-LAYER.md for top-of-funnel detail. See AFFILIATE.md for parallel revenue lines.
 
 ---
 
-## Connect
+## FOUNDER
 
-| Platform | Link |
-|---|---|
-| Website | bazporter.com |
-| LinkedIn | linkedin.com/in/bazporterllc |
-| Podcast | risefromtheashespodcast.com |
-| Substack | substack.com/@bazporter |
-| YouTube | youtube.com/@BazPorter |
-| Diagnostic | bazporter.com/silent-collapse-diagnostic |
-| Apply | bazporter.com/work-with-me |
+Baz Porter is the founder of Baz Porter LLC® and The Prestige Architect®. British Army veteran (1997–2004). Two-time international bestselling author. Host of the Rise From The Ashes podcast on the C-Suite Network. Recipient of the Best Transformational Leadership Coaching award (2024). Speaker at Excel Arena London (35,000 attendees). AI clone live at delphi.ai/bazporter with 24,700 minds trained.
+
+Books:
+
+1. Cracking the Rich Code Vol. 12 — foreword Brian Tracy, endorsed Tony Robbins
+2. Die Empty Live Full — Part 4 international bestseller, March 2025
 
 ---
 
-## The Offer Architecture
+## CORE IP
 
-| Investment | Container | Format |
-|---|---|---|
-| Free | Content Universe | Ambient qualification |
-| Free | Silent Collapse Diagnostic™ | Precision diagnostic tool |
-| $97 | The Reclamation Code | Self-directed course |
-| $397/mo | A Million Dreams™ — Bronze | Cohort · 20 women · 3 months |
-| $497 | Revenue Architecture System | Standalone course |
-| $4,620 | Reclaim Her Power | 12-week trust-builder |
-| $5,998 | Business Profit Accelerator | 3-day virtual immersion |
-| $15,000 | Coming Home to Love™ — Find Yourself | Private · Level 1 |
-| $27,000 | Coming Home to Love™ — Repair | Private · Level 2 |
-| $45,000 | Coming Home to Love™ — Your Relationship | Private · Level 3 |
-| $100,000 | The Gravity Code™ — Diamond | Retained power architecture · 8 seats annually |
-| $132,000 | The Gravity Code™ — Quarterly | Full container |
+| MARK | DOMAIN |
+|:----|:----|
+| RAMS™ | Operating system (Results · Attitude · Mastery · Systems) |
+| Silent Collapse™ | Diagnostic state |
+| Sovereign Leadership™ | Outcome state |
+| The Five Imposters™ | Diagnostic framework |
+| The Six Drives of Human Intelligence™ | Diagnostic framework |
+| The Gravity Code™ | Sovereign Scale offer |
+| The Becoming™ | Gold tier offer |
+| Coming Home™ | Awakening · Reckoning · Ascension tiers |
+
+Full IP register: IP-REGISTRY.md.
 
 ---
 
-*© 2019–2026 Baz Porter LLC®. All Rights Reserved. Baz Porter LLC® and The Prestige Architect® are registered trademarks. All proprietary IP including Silent Collapse™, RAMS™, The Five Imposters™, The Gravity Code™, Coming Home to Love™, and Sovereign Leadership Architecture™ is protected under trademark.*
+## REVENUE FLOOR
 
-*Baz Porter LLC® | The Prestige Architect®*
-*bazporter.com*
+$83,400/month minimum. Every offer, every funnel decision, every content piece serves this floor.
+
+---
+
+## SOURCE OF TRUTH
+
+This repository is the canon. All downstream Claude skills and Anthropic tooling resolve against these files. If a skill or output drifts from canon, the canon wins and the skill updates.
