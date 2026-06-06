@@ -5,6 +5,22 @@
 
 ---
 
+## v2026.06.06.1 — RAMS Pillar Patch
+
+**Files updated:** IP-REGISTRY.md · CHANGELOG.md · README.md · RETIRED.md
+
+### Reason
+
+The v2026.06.06 commit batch carried inconsistent RAMS™ pillar references. Some files showed 4 pillars, some showed 5. The 4-pillar version is retired. This patch enforces 5-pillar RAMS™ across all canon files.
+
+### Locked Definition
+
+**RAMS™ = Results · Authenticity · Attitude · Mastery · Systems (5 pillars).**
+
+The 4-pillar version (Results · Attitude · Mastery · Systems) is retired and logged in RETIRED.md as a prior framework state.
+
+---
+
 ## v2026.06.06 — Full Canon Reset
 
 **Files updated:** README.md · OFFERS.md · IP-REGISTRY.md
@@ -13,6 +29,10 @@
 ### Retirements
 
 1. **Reclaim Her Power (RHP)** — formally retired. Replaced by The Becoming™ at the Gold tier ($4,620). Logged in `RETIRED.md`. Permanent exclusion from all output.
+
+### RAMS™ Definition Update
+
+1. **RAMS™ now 5 pillars** (was 4): Results · **Authenticity** · Attitude · Mastery · Systems. Authenticity inserted between Results and Attitude. Confirmed June 6, 2026.
 
 ### Locks
 
@@ -51,7 +71,7 @@ All canon files now carry a version stamp at top: `v2026.06.06`. Every future up
 | Discovery Layer | Embedded inside offer documentation | Separated into `DISCOVERY-LAYER.md` |
 | Affiliate program | Implicit | Formalized in `AFFILIATE.md` |
 | Delphi positioning | Credential | Productized through affiliate campaign |
-| RAMS definition | Reach · Acquire · Monetize · Scale (retired) | Results · Attitude · Mastery · Systems (current) |
+| RAMS definition | Reach · Acquire · Monetize · Scale (retired pre-2026) → 4-pillar (retired v2026.06.06) | Results · Authenticity · Attitude · Mastery · Systems (5 pillars, current) |
 
 ---
 
