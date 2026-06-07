@@ -5,19 +5,108 @@
 
 ---
 
-## v2026.06.06.1 — RAMS Pillar Patch
+## v2026.06.06.2 — Full Repository Canon Alignment
 
-**Files updated:** IP-REGISTRY.md · CHANGELOG.md · README.md · RETIRED.md
+**Date:** June 6, 2026
+**Scope:** Comprehensive canon reset across all root files and framework files
 
-### Reason
+### Major Decisions Locked
 
-The v2026.06.06 commit batch carried inconsistent RAMS™ pillar references. Some files showed 4 pillars, some showed 5. The 4-pillar version is retired. This patch enforces 5-pillar RAMS™ across all canon files.
+1. **RAMS™ pillar order — manifesto canon wins** — Results · Attitude · Authenticity · Mastery · Systems (Attitude in position 2, Authenticity in position 3). Matches bazporter.com/manifesto.
+2. **Silent Collapse Diagnostic™ live duration** — 60 minutes, conducted personally by Baz. Replaces all prior durations (15 / 45 minutes).
+3. **Coming Home™ replaces Coming Home to Love™** — canonical methodology name across all external and internal output. Tier names: Awakening · Reckoning · Ascension.
+4. **Paradigmatic Healing** confirmed as Ruby-tier canonical name. The Coming Home Project (as Ruby external/internal name) fully retired.
+5. **Service length** — 6 years British Army, locked canon-wide.
+6. **The Becoming™** confirmed at Gold ($4,620). Reclaim Her Power formally retired and logged.
+7. **Identity Reset (Excavation $25K + Embodiment $42K)** — fully retired. Absorbed into The Becoming™ + Coming Home™ ladder.
+8. **Using Trauma to Thrive** — old title logged as retired. Remains on Amazon listings; never promoted.
 
-### Locked Definition
+### Framework Updates
 
-**RAMS™ = Results · Authenticity · Attitude · Mastery · Systems (5 pillars).**
+1. The Five Pillars of RAMS™ formalized with weighting (Results 30 / Attitude 15 / Authenticity 20 / Mastery 20 / Systems 15)
+2. The Six Integration Layers reclassified — not a pillar, separate framework layer
+3. The Sovereign Return Architecture™ formalized as proprietary 6-stage pathway
+4. The Sovereign Nervous System Protocol™ formalized
+5. The Sovereign AI Charter™ formalized
+6. The Oliver Standard™ trademark applied consistently
+7. The Becoming™ documented as standalone framework
+8. Coming Home™ methodology documented with three tiers
 
-The 4-pillar version (Results · Attitude · Mastery · Systems) is retired and logged in RETIRED.md as a prior framework state.
+### IP-REGISTRY Expansion
+
+17+ proprietary assets added to the registry:
+
+1. The Sovereign Return Architecture™
+2. The Sovereign Nervous System Protocol™
+3. The Sovereign Operating System™
+4. The Sovereign AI Charter™
+5. The Oliver Standard™
+6. The Four Worth Distortion Patterns
+7. The Dual Audit Architecture
+8. The Four-Question Diagnostic Protocol
+9. The Three-Stage Pre-Engagement Architecture
+10. The Victoria-to-Oliver Bridge
+11. The Twelve Core Patterns Architecture
+12. The Six Integration Layers
+13. The 74 Cosmic Laws
+14. 101-Question Leadership Self-Audit
+15. Money Mirrors / Old Money New Money
+16. Horizon Leaders
+17. The Congruence Gate / Congruence Certification Standard
+
+Plus two brand taglines:
+18. Power Without Performance. Peace Without Retreat.™
+19. Not transformation. Return.™
+
+### Files Touched
+
+**Root files (rewrites):**
+1. FRAMEWORKS.md — full rewrite
+2. METHODOLOGY.md — full rewrite
+3. PROFILE.md — full rewrite
+4. CATEGORY.md — patched + cleaned
+5. CREDIBILITY.md — patched + cleaned
+6. CONTRIBUTING.md — patched
+7. OFFERS.md — updated
+8. IP-REGISTRY.md — expanded
+9. RETIRED.md — expanded
+10. README.md — updated
+11. CHANGELOG.md — this entry
+
+**Framework files (frameworks/):**
+12. RAMS-framework.md — full rewrite (was truncated)
+13. coming-home.md — created (renamed from coming-home-to-love.md, rewritten)
+14. silent-collapse.md — patched
+15. gravity-code.md — patched (Obsidian/Meridian hybrid naming)
+16. five-imposters.md — patched
+17. the-reclamation-code.md — patched (Tier 3 to $45K, naming, Gold tier added)
+18. brand-narrative.md — created (renamed from "The Six Drives of Human Intelligence.md")
+19. six-drives.md — patched (Class B mark added, links fixed)
+20. sovereign-operating-system.md — patched (Identity Reset references removed)
+21. the-becoming.md — NEW
+22. sovereign-return-architecture.md — NEW
+23. sovereign-nervous-system-protocol.md — NEW
+24. sovereign-ai-charter.md — NEW
+25. oliver-standard.md — NEW
+
+### Directory Cleanup
+
+1. `frameworks/frameworks/` nested folder — DELETED (contents moved to `frameworks/`)
+2. `github.com/baz-stack/frameworks/` malformed folder — DELETED (contents moved to `frameworks/`)
+
+### Source-of-Truth Alignment
+
+The full repository now aligns with bazporter.com/manifesto and bazporter.com/baz-porter-txt (llms.txt v4.0). Every downstream skill, page builder, workflow, and content surface resolves against this canon.
+
+---
+
+## v2026.06.06.1 — RAMS Pillar Patch (SUPERSEDED)
+
+**Files patched:** IP-REGISTRY.md · CHANGELOG.md · README.md · RETIRED.md
+
+The v2026.06.06.1 patch placed Authenticity in position 2. This has been **superseded** by v2026.06.06.2, which corrects the order to manifesto canon (Attitude in position 2, Authenticity in position 3).
+
+The v2026.06.06.1 brief 5-pillar order is now logged as retired in RETIRED.md.
 
 ---
 
@@ -30,54 +119,25 @@ The 4-pillar version (Results · Attitude · Mastery · Systems) is retired and 
 
 1. **Reclaim Her Power (RHP)** — formally retired. Replaced by The Becoming™ at the Gold tier ($4,620). Logged in `RETIRED.md`. Permanent exclusion from all output.
 
-### RAMS™ Definition Update
-
-1. **RAMS™ now 5 pillars** (was 4): Results · **Authenticity** · Attitude · Mastery · Systems. Authenticity inserted between Results and Attitude. Confirmed June 6, 2026.
-
 ### Locks
 
 1. **12-tier ladder locked:** Value · Bronze · Silver · Pearl · Gold · Platinum · Awakening · Reckoning · Ascension · Obsidian · Meridian · Ruby
 2. **The Becoming™ confirmed at Gold** ($4,620 or 3×$1,620 payment plan)
-3. **Paradigmatic Healing documented** as Ruby tier external name (internal name: The Coming Home Project)
+3. **Paradigmatic Healing documented** as Ruby tier external name
 4. **Pearl → Gold bridge:** Payment plan functions as the bridge. No separate offer.
 5. **Platinum → Awakening gap:** Intentional structural mechanism. No bridge.
 
 ### New Architecture
 
-1. **Discovery Layer** formally separated from priced stack. Books, podcast, YouTube, meditation, newsletters documented in `DISCOVERY-LAYER.md`.
-2. **Affiliate program** documented as parallel revenue line in `AFFILIATE.md`. Delphi AI Clone positioned inside affiliate campaign.
-3. **Speaking** documented as parked future productization.
-
-### Naming Rules
-
-1. *Coming Home* — external/client-facing
-2. *Coming Home to Love* — internal only, never client-facing
-3. *Paradigmatic Healing* — external name for Ruby
-4. *The Coming Home Project* — internal name for Ruby, never client-facing
-
-### Version Stamping
-
-All canon files now carry a version stamp at top: `v2026.06.06`. Every future update bumps version + adds changelog entry here.
-
----
-
-## PRIOR STATE (Pre-v2026.06.06)
-
-| AREA | PRIOR STATE | RESOLVED |
-|:----|:----|:----|
-| Gold tier | Reclaim Her Power (RHP) — gender-locked | Replaced by The Becoming™ — gender-neutral |
-| Coming Home tiers | Tier 1 / Tier 2 / Tier 3 | Awakening · Reckoning · Ascension |
-| Tier label conventions | Diamond I/II/III, Free, Obsidian+ | Value · Awakening · Reckoning · Ascension · Meridian |
-| Discovery Layer | Embedded inside offer documentation | Separated into `DISCOVERY-LAYER.md` |
-| Affiliate program | Implicit | Formalized in `AFFILIATE.md` |
-| Delphi positioning | Credential | Productized through affiliate campaign |
-| RAMS definition | Reach · Acquire · Monetize · Scale (retired pre-2026) → 4-pillar (retired v2026.06.06) | Results · Authenticity · Attitude · Mastery · Systems (5 pillars, current) |
+1. **Discovery Layer** formally separated from priced stack
+2. **Affiliate program** documented as parallel revenue line
+3. **Speaking** documented as parked future productization
 
 ---
 
 ## VERSION POLICY
 
-1. Version format: `vYYYY.MM.DD`
+1. Version format: `vYYYY.MM.DD[.N]` where N is the patch number for the same date
 2. Every file carries the current version at top
 3. Every change logged here with date, files touched, and summary
 4. Retirements are permanent — once logged in `RETIRED.md`, the asset does not return under that name

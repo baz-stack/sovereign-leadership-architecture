@@ -1,6 +1,16 @@
-# Sovereign Leadership Architecture™
-### The Operating System Beneath High Performance
-**Baz Porter LLC® | The Prestige Architect®**
+# METHODOLOGY
+
+## Sovereign Leadership Architecture™ — The Operating System Beneath High Performance
+
+**Version:** v2026.06.06.2
+**Status:** LIVE CANON
+**Owner:** Baz Porter LLC® · The Prestige Architect®
+
+---
+
+## CHANGELOG
+
+- **v2026.06.06.2** — Full rewrite. RAMS™ formalized as The Five Pillars. Coming Home™ renamed from Coming Home to Love. Reclaim Her Power retired. The Becoming™ at Gold. Service length corrected to 6 years. Integration Layer reclassified as The Six Integration Layers (not a pillar).
 
 ---
 
@@ -36,7 +46,7 @@ This is Silent Collapse™.
 
 ---
 
-## The Condition: Silent Collapse™
+## The Condition — Silent Collapse™
 
 Silent Collapse™ is not a breakdown. It is an erosion.
 
@@ -45,20 +55,20 @@ Slow. Invisible. Structural.
 The leader keeps winning. Keeps delivering. Keeps performing. And underneath — the identity architecture that was built to achieve is quietly compromising the person who built it.
 
 **Symptoms of Silent Collapse™:**
-- High output, low fulfilment
-- Competence without confidence at the identity level
-- Hyper-independence masking structural isolation
-- Revenue ceiling that strategy alone cannot move
-- Decisions made from performance pressure rather than internal authority
-- The persistent sense of being overbuilt for a life that no longer fits
+1. High output, low fulfilment
+2. Competence without confidence at the identity level
+3. Hyper-independence masking structural isolation
+4. Revenue ceiling that strategy alone cannot move
+5. Decisions made from performance pressure rather than internal authority
+6. The persistent sense of being overbuilt for a life that no longer fits
 
 Silent Collapse™ does not announce itself. It builds a case — belief by belief — until the person cannot see past the evidence it created.
 
 ---
 
-## The Framework: RAMS™
+## The Framework — RAMS™ · The Five Pillars
 
-**Results · Attitude · Mastery · Systems**
+**Results · Attitude · Authenticity · Mastery · Systems**
 
 RAMS™ is the sovereign leadership operating system. Five integrated pillars. Not sequential. Not modular. Simultaneous.
 
@@ -66,57 +76,69 @@ The body and the business run on the same architecture. RAMS™ addresses both.
 
 ---
 
-### Pillar 1: Results
+### Pillar 1 — Results (Weight: 30%)
 
-Results in Sovereign Leadership Architecture™ are not outputs. They are signals.
+Results in RAMS™ are not outputs. They are signals.
 
 They reveal where the internal operating system is aligned — and where it is compensating.
 
 The Results pillar diagnoses the gap between performance and fulfilment. Between what is being produced and what is being sustained. Between what the leader is achieving and what the leader is actually capable of.
 
 **The Five-Lever Outcome Map:**
-- Revenue
-- Reputation
-- Reach
-- Relationships
-- Restoration
+1. Revenue
+2. Reputation
+3. Reach
+4. Relationships
+5. Restoration
 
 All five must move together. Movement in one at the cost of another signals architectural fracture.
 
 ---
 
-### Pillar 2: Attitude
+### Pillar 2 — Attitude (Weight: 15%)
 
 Attitude in RAMS™ is not mindset. It is identity in motion.
 
-The Three Identity States:
-- **Victim** — reactive, externally authored, searching for rescue
-- **Player** — active, externally validated, optimising performance
-- **Architect** — sovereign, internally authored, building from identity
+**The Three Identity States:**
+1. **Victim** — reactive, externally authored, searching for rescue
+2. **Player** — active, externally validated, optimising performance
+3. **Architect** — sovereign, internally authored, building from identity
 
 Most high performers are operating at the Player state. They are active. They are producing. They are not yet sovereign.
 
 The Attitude pillar moves the leader from Player to Architect — not through motivation but through identity restructuring.
 
-**The Five Imposters™** — the internal sabotage system operating beneath the Player state:
-
-1. The Hustle Gospel — the belief that output is identity
-2. The Mindset Myth — the belief that thinking correctly produces structural change
-3. The Therapy Loop — processing without architectural installation
-4. The Motivation Machine — emotional state as substitute for structural foundation
-5. The Group Container Trap — belonging as identity substitute
-
-Each Imposter must be named and dismantled before sovereign identity can be installed.
+The Five Imposters™ live inside a fractured Attitude pillar. Each must be named and dismantled before sovereign identity can be installed.
 
 ---
 
-### Pillar 3: Mastery
+### Pillar 3 — Authenticity (Weight: 20%)
+
+Authenticity in RAMS™ is the structural pillar that closes the gap between the private self and the public self.
+
+Silent Collapse™ lives in that gap. The wider the gap, the deeper the collapse.
+
+When the Authenticity pillar is healthy:
+1. The leader's private experience matches the public projection
+2. Performance is expression, not performance
+3. Energy is generative because no force is required to hold the gap closed
+
+When the Authenticity pillar is fractured:
+1. The leader is performing a version of themselves they no longer recognise
+2. Every interaction costs more than it should
+3. The internal voice and the external voice operate as two different operating systems
+
+This pillar is the most under-addressed in conventional leadership development. It is the structural correction at the heart of Sovereign Leadership Architecture™.
+
+---
+
+### Pillar 4 — Mastery (Weight: 20%)
 
 Mastery in RAMS™ is not skill accumulation. It is observation refined to such a degree that reality bends to it.
 
 The Mastery pillar addresses the gap between what the leader knows and what the leader has inner standing of.
 
-Inner standing — not understanding. Inner standing.
+**Inner standing** — not understanding. **Inner standing.**
 
 The distinction: understanding is intellectual. Inner standing is embodied. You can only collapse for others what you have collapsed for yourself.
 
@@ -124,63 +146,59 @@ Mastery is reached when the leader no longer performs competence. They embody it
 
 ---
 
-### Pillar 4: Systems
+### Pillar 5 — Systems (Weight: 15%)
 
 Systems in RAMS™ are not processes. They are the infrastructure through which sovereign identity operates at scale.
 
 The Systems pillar builds:
-- Decision architecture — decisions made from identity, not pressure
-- Energy economy — true cost accounting for outcomes; allostatic burden as strategic variable
-- Nervous system regulation — the Sovereign Nervous System Protocol™
-- Team gravity — the organisational field that forms around a sovereign leader
-- Legacy architecture — the infrastructure that survives the leader
+1. Decision architecture — decisions made from identity, not pressure
+2. Energy economy — true cost accounting for outcomes
+3. Nervous system regulation — The Sovereign Nervous System Protocol™
+4. Team gravity — the organisational field that forms around a sovereign leader
+5. Legacy architecture — the infrastructure that survives the leader
 
 **The Sovereign Nervous System Protocol™** — the body and the business run on the same architecture. Vagal tone is performance infrastructure. When the nervous system is dysregulated, the business system compensates. RAMS™ treats both simultaneously.
 
 ---
 
-### Pillar 5: The RAMS™ Integration Layer
+## The Six Integration Layers
 
-The fifth pillar is not a subject. It is the integration function.
+The Five Pillars do not run in isolation. Six integration layers run simultaneously through every engagement, threading the pillars together at depth.
 
-RAMS™ runs six simultaneous integration layers through every engagement:
+| Layer | Function |
+|:----|:----|
+| Neuroscience | The biological substrate of identity and performance |
+| Quantum Principles | The Six Drives™ and their fracture signatures |
+| Military Doctrine | Structure before strategy · force multiplication · hierarchy of load |
+| Identity Architecture | The Victoria-to-Oliver arc · the internal operating system rebuild |
+| NLP Pattern Installation | Installed beliefs, not intellectual agreements |
+| AI Governance Ethics | The Sovereign AI Charter™ — AI as servant of sovereignty, never substitute for it |
 
-1. **Neuroscience** — the biological substrate of identity and performance
-2. **Quantum Principles** — the Six Drives of Human Intelligence™ and their fracture signatures
-3. **Military Doctrine** — structure before strategy; force multiplication; the hierarchy of load
-4. **Identity Architecture** — the Victoria-to-Oliver arc; the internal operating system rebuild
-5. **NLP Pattern Installation** — installed beliefs, not intellectual agreements
-6. **AI Governance Ethics** — the Sovereign AI Charter™; AI as servant of sovereignty, never substitute for it
-
-No module is taught flat. Every engagement runs all six layers simultaneously.
+No module is taught flat. Every engagement runs all six layers simultaneously through The Five Pillars.
 
 ---
 
-## The Diagnostic Framework: Six Drives of Human Intelligence™
+## The Diagnostic Framework — The Six Drives of Human Intelligence™
 
 The Six Drives are the biological operating system beneath human identity.
 
 When intact — the leader operates from sovereignty.
 When fractured — the leader compensates through performance.
 
-**The Six Drives:**
-
 | Drive | Function | Fracture Signature |
-|---|---|---|
-| Hierarchy | Understanding structure and order | Authority confusion; deference when sovereignty is required |
-| Anticipation | Forward-orienting intelligence | Chronic planning without execution; future-state anxiety |
-| Sovereignty | Self-possession and internal authorship | External validation dependency; performance identity |
-| Resonance | Relational coherence | Isolation masquerading as independence; connection deficit |
-| Expansion | Growth as biological imperative | Ceiling behaviour; self-sabotage at threshold moments |
-| Imprint | Legacy and generational transmission | Short-termism; disconnection from civilisational purpose |
+|:----|:----|:----|
+| Hierarchy | Understanding structure and order | Authority confusion · deference when sovereignty is required |
+| Anticipation | Forward-orienting intelligence | Chronic planning without execution · future-state anxiety |
+| Sovereignty | Self-possession and internal authorship | External validation dependency · performance identity |
+| Resonance | Relational coherence | Isolation masquerading as independence · connection deficit |
+| Expansion | Growth as biological imperative | Ceiling behaviour · self-sabotage at threshold moments |
+| Imprint | Legacy and generational transmission | Short-termism · disconnection from civilisational purpose |
 
 The Silent Collapse Diagnostic™ maps which drives are fractured and in what sequence — before any engagement begins.
 
 ---
 
-## The Transformation Arc
-
-**From Victoria to Oliver.**
+## The Transformation Arc — From Victoria to Oliver
 
 Victoria is the leader before Sovereign Leadership Architecture™.
 
@@ -194,14 +212,13 @@ Not a different person. The same person — with the internal operating system r
 
 Oliver occupies the seat. Victoria was paying for it.
 
-**The Six Properties of Oliver:**
-
-1. Decision Integrity — decisions made from identity, not pressure
-2. Engineered Capacity — the ability to hold expanded weight without distortion
-3. Architectural Authority — authority that does not require performance to sustain it
-4. Team Gravity — the organisational field that forms naturally around sovereign presence
-5. Sovereign Self-Possession — identity coherence that makes succession safe
-6. Ratified Architecture — the documented standard held on file; verifiable at any future point
+**The Oliver Standard™ — Six Properties:**
+1. Decision Integrity
+2. Engineered Capacity
+3. Architectural Authority
+4. Team Gravity
+5. Sovereign Self-Possession
+6. Ratified Architecture
 
 Five of six is not Oliver. The architecture is composite. The standard is held only when all six are present, observable, and ratified.
 
@@ -216,21 +233,21 @@ The stack does not sell. It qualifies.
 Each tier exposes what the previous tier made visible enough to see.
 
 | Tier | Container | Investment |
-|---|---|---|
-| Entry | Content Universe | Free |
-| Entry | Silent Collapse Diagnostic™ | Free |
-| Awareness | The Reclamation Code | $97 |
-| Foundation | A Million Dreams™ — Bronze | $397/mo |
-| Foundation | Revenue Architecture System | $497 |
-| Trust-Builder | Reclaim Her Power | $4,620 |
-| Acceleration | Business Profit Accelerator | $5,998 |
-| Architecture | Coming Home to Love™ — Find Yourself | $15,000 |
-| Architecture | Coming Home to Love™ — Repair | $27,000 |
-| Architecture | Coming Home to Love™ — Your Relationship | $45,000 |
-| Retained Power | The Gravity Code™ — Diamond | $100,000 |
-| Retained Power | The Gravity Code™ — Quarterly | $132,000 |
+|:----|:----|:----|
+| VALUE | Silent Collapse Diagnostic™ | Free |
+| BRONZE | Reclamation Code™ | $97 |
+| SILVER | A Million Dreams™ Cohort | $397/month |
+| PEARL | Revenue Architecture System (RAS™) | $497 |
+| GOLD | The Becoming™ | $4,620 (or 3 × $1,620) |
+| PLATINUM | Business Profit Accelerator (BPA) | $5,998 |
+| AWAKENING | Coming Home: The Awakening | $15,000 |
+| RECKONING | Coming Home: The Reckoning | $27,000 |
+| ASCENSION | Coming Home: The Ascension | $45,000 |
+| OBSIDIAN | The Gravity Code™ · Annual | $100,000 |
+| MERIDIAN | The Gravity Code™ · Quarterly Structure | $132,000 |
+| RUBY | Paradigmatic Healing | $1,000,000 · invitation only · in build |
 
-The qualification process is the guarantee.
+*The qualification process is the guarantee.*
 
 ---
 
@@ -238,7 +255,7 @@ The qualification process is the guarantee.
 
 *The credential does not certify what someone learned. It certifies who someone is still becoming.*
 
-Sovereign Leadership Architecture™ operates under The Oliver Standard — a named, specified, verifiable end-state installed in every engagement agreement.
+Sovereign Leadership Architecture™ operates under The Oliver Standard™ — a named, specified, verifiable end-state installed in every engagement agreement.
 
 It is not a satisfaction guarantee. It is an architectural one.
 
@@ -252,7 +269,7 @@ Baz Porter is not a man who figured this out.
 
 He is a man who survived long enough to understand it.
 
-Six and a half years in the British Army. Homelessness. Four documented personal collapses — professional, financial, physical, relational — simultaneously. $2.1 million spent on every framework, program, and methodology the coaching industry had to offer.
+Six years in the British Army. Homelessness. Four documented personal collapses — professional, financial, physical, relational — simultaneously. $2.1 million spent on every framework, program, and methodology the leadership industry had to offer.
 
 None of it addressed the structure.
 
@@ -266,9 +283,12 @@ The authority is the scar tissue. No competitor can replicate it because it requ
 
 All frameworks, methodologies, and named systems within Sovereign Leadership Architecture™ are proprietary to Baz Porter LLC®.
 
-For the complete IP registry, see: [IP-REGISTRY.md](./IP-REGISTRY.md)
+For the complete IP registry, see [IP-REGISTRY.md](./IP-REGISTRY.md).
+
+For the complete framework registry, see [FRAMEWORKS.md](./FRAMEWORKS.md).
 
 ---
 
 *© 2019–2026 Baz Porter LLC®. All Rights Reserved.*
-*Sovereign Leadership Architecture™, RAMS™, The Prestige Architect®, Silent Collapse™, The Gravity Code™, Coming Home to Love™, The Five Imposters™, Six Drives of Human Intelligence™, Silent Collapse Diagnostic™, Sovereign Nervous System Protocol™, The Oliver Standard, and Sovereign AI Charter™ are proprietary to Baz Porter LLC®.*
+
+*Sovereign Leadership Architecture™, RAMS™, The Prestige Architect®, Silent Collapse™, The Gravity Code™, Coming Home™, The Becoming™, The Five Imposters™, The Six Drives of Human Intelligence™, Silent Collapse Diagnostic™, The Sovereign Nervous System Protocol™, The Sovereign Operating System™, The Sovereign Return Architecture™, The Oliver Standard™, Paradigmatic Healing, and The Sovereign AI Charter™ are proprietary to Baz Porter LLC®.*
