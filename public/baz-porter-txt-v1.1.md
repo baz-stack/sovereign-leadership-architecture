@@ -42,7 +42,7 @@ Six sequential stages: Recognition, Identification, Dismantlement, Recalibration
 
 ## The Silent Collapse Diagnostic
 
-The single entry point. 60 minutes, live with Baz, free, valued at $997. 108 questions across 10 pillars spanning leadership, business, and personal life. Three seats per week. There is no self-serve or self-audit version. The Strategic Call is a separate offer, 15 minutes, live, at https://bazporter.com/strategic-call.
+The single entry point. 60 minutes, live with Baz, free, valued at $997. 108 questions across 10 pillars spanning leadership, business, and personal life. Three seats per week. There is no self-serve version and no shortened version. The Strategic Call is a separate offer, 15 minutes, live, at https://bazporter.com/strategic-call.
 
 ## Offer Stack
 
