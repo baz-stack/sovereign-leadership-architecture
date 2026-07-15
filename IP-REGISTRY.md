@@ -1,19 +1,19 @@
-# IP REGISTRY — Sovereign Leadership Architecture
+# IP REGISTRY, Sovereign Leadership Architecture
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 **Status:** LIVE CANON · Source of Truth
 **Owner:** Baz Porter LLC® · The Prestige Architect®
-**Primary Trademark:** USPTO Serial No. 97468218 · Reg. No. 7125540
+**Primary Trademark:** USPTO Reg. No. 7,125,540 · Reg. No. 7125540
 
 ---
 
 ## CHANGELOG
 
-- **v2026.06.06.2** — Major expansion. 17+ newly documented proprietary assets added. RAMS™ order corrected to manifesto canon (Results · Attitude · Authenticity · Mastery · Systems). Coming Home™ replaces Coming Home to Love™. Brand taglines registered.
+- **v2026.06.06.2**, Major expansion. 17+ newly documented proprietary assets added. RAMS™ order corrected to manifesto canon (Results · Attitude · Authenticity · Mastery · Systems). Coming Home™ locked as the canonical methodology name. Brand taglines registered.
 
 ---
 
-## CLASS A — REGISTERED MARKS
+## CLASS A, REGISTERED MARKS
 
 | MARK | STATUS | USE |
 |:----|:----|:----|
@@ -22,7 +22,7 @@
 
 ---
 
-## CLASS B — TRADEMARK MARKS (™)
+## CLASS B, TRADEMARK MARKS (™)
 
 ### Framework Marks
 
@@ -41,7 +41,6 @@
 
 | MARK | DOMAIN | DEFINITION |
 |:----|:----|:----|
-| Silent Collapse Diagnostic™ | Entry diagnostic | 60-minute live OR 101-question self-audit |
 | The Five Imposters™ | Diagnostic | Motivation Machine · Therapy Loop · Hustle Gospel · Mindset Myth · Group Container |
 | The Six Drives of Human Intelligence™ | Diagnostic | Hierarchy · Anticipation · Sovereignty · Resonance · Expansion · Imprint |
 | The Oliver Standard™ | Methodology | Six-property verifiable end-state |
@@ -50,18 +49,17 @@
 
 | MARK | TIER | INVESTMENT |
 |:----|:----|:----|
-| Reclamation Code™ | Bronze | $97 |
+| The Reclamation Code | Bronze | $97 |
 | A Million Dreams™ | Silver | $397/month |
-| Revenue Architecture System (RAS™) | Pearl | $497 |
+| Revenue Architecture System Course | Revenue Architecture System Course | $497 |
 | The Becoming™ | Gold | $4,620 (or 3 × $1,620) |
-| The Gravity Code™ | Obsidian / Meridian | $100,000 / $132,000 |
+| The Gravity Code™ | Diamond / Quarterly | $100,000 / $132,000 |
 
 ### Container Marks
 
 | MARK | USE | NOTES |
 |:----|:----|:----|
-| Coming Home™ | Awakening · Reckoning · Ascension tiers | External/client-facing methodology name |
-| Paradigmatic Healing | Ruby tier | Sovereign endgame · in build · invitation only |
+| Coming Home™ | Find Yourself · Repair · Your Relationship tiers | External/client-facing methodology name |
 
 ### Brand Tagline Marks
 
@@ -72,19 +70,17 @@
 
 ---
 
-## CLASS C — PROPRIETARY (NOT YET TRADEMARKED)
+## CLASS C, PROPRIETARY (NOT YET TRADEMARKED)
 
 ### Diagnostic Instruments
 
 | ASSET | DOMAIN |
 |:----|:----|
-| 101-Question Leadership Self-Audit | Operational diagnostic instrument |
 | Money Mirrors | Financial worth diagnostic |
 | Old Money New Money | Financial identity diagnostic |
 | The Four Worth Distortion Patterns | Boundaries · Courage · Deservability · Love |
 | The Dual Audit Architecture | Leadership + Financial audit combination |
 | The Four-Question Diagnostic Protocol | Structured conversational diagnostic |
-| The Three-Stage Pre-Engagement Architecture | Self-audit → conversation → determination |
 
 ### Methodological Frameworks
 
@@ -112,22 +108,19 @@
 
 ---
 
-## CLASS D — INTERNAL-ONLY REFERENCES (NEVER CLIENT-FACING)
+## CLASS D, INTERNAL-ONLY REFERENCES (NEVER CLIENT-FACING)
 
-(Currently empty. Coming Home to Love™ as internal frame has been retired and absorbed into Coming Home™. Coming Home Project has been retired in favor of Paradigmatic Healing as the canonical name.)
 
 ---
 
-## CLASS E — RETIRED MARKS (DO NOT REFERENCE)
+## CLASS E, RETIRED MARKS (DO NOT REFERENCE)
 
 | MARK | RETIRED | REPLACED BY |
 |:----|:----|:----|
-| Reclaim Her Power (RHP) | June 2026 | The Becoming™ |
-| Coming Home to Love™ (as offer name) | June 2026 | Coming Home™ |
-| The Coming Home Project (as Ruby external name) | June 2026 | Paradigmatic Healing |
-| Identity Reset (Excavation $25K / Embodiment $42K) | June 2026 | The Becoming™ + Coming Home™ tiers |
-| RAMS — 4-Pillar Definition | June 2026 | RAMS — The Five Pillars |
-| RAMS — Reach · Acquire · Monetize · Scale | Pre-2026 | RAMS — The Five Pillars |
+| A prior identity offer | June 2026 | The Becoming™ |
+| A prior methodology offer name | June 2026 | Coming Home™ |
+| A prior RAMS definition | June 2026 | RAMS, The Five Pillars |
+| A prior RAMS acronym | Pre-2026 | RAMS, The Five Pillars |
 | Using Trauma to Thrive | June 2026 | Listed but never promoted |
 
 See [RETIRED.md](./RETIRED.md) for full retirement detail.
@@ -139,7 +132,7 @@ See [RETIRED.md](./RETIRED.md) for full retirement detail.
 1. Every public mention of a Class A mark carries the ® symbol
 2. Every public mention of a Class B mark carries the ™ symbol
 3. Class C names should carry ™ where appropriate; some may be promoted to Class B with formal trademark filing
-4. Class D is currently empty — all prior Class D names have been retired or absorbed
+4. Class D is currently empty, all prior Class D names have been retired or absorbed
 5. Class E marks are not referenced in any output, planning, or strategy
 
 ---

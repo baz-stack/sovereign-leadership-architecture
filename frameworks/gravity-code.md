@@ -1,15 +1,15 @@
-# The Gravity Code™ — Obsidian · Meridian
+# The Gravity Code™, Diamond · Quarterly
 
 ### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
 ### Sovereign Scale Tier | Invitation-Only | 8 Seats Annually
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 
 ---
 
 ## The Definition
 
-The Gravity Code™ is retained power architecture for leaders who have already won everything — and are still the single point of failure for everything they've built.
+The Gravity Code™ is retained power architecture for leaders who have already won everything, and are still the single point of failure for everything they've built.
 
 This is not a program. Programs have modules and recordings and group calls and implementation plans you never implement.
 
@@ -17,7 +17,7 @@ The Gravity Code™ is a 12-month private operating system installed at the high
 
 It does not teach you to lead differently.
 
-It rebuilds the architecture that determines how you lead — at the identity level, the nervous system level, and the operational level — simultaneously.
+It rebuilds the architecture that determines how you lead, at the identity level, the nervous system level, and the operational level, simultaneously.
 
 ---
 
@@ -25,13 +25,13 @@ It rebuilds the architecture that determines how you lead — at the identity le
 
 The Gravity Code™ runs in two cadences. The work is identical. The structure of investment is different.
 
-### Obsidian — Annual Commitment · $100,000
+### Diamond, Annual Commitment · $100,000
 
 Single-payment annual structure. Priority onboarding within 30 days. Includes the Legacy Blueprint Intensive ($14,000 value) and expanded Delphi™ Clone training.
 
-### Meridian — Quarterly Structure · $132,000
+### Quarterly, Quarterly Structure · $132,000
 
-Quarterly payment structure for institutional cadence and procurement-grade deployment. Same work as Obsidian. Built for leaders carrying the architecture into their organization.
+Quarterly payment structure for institutional cadence and procurement-grade deployment. Same work as Diamond. Built for leaders carrying the architecture into their organization.
 
 Both cadences receive the full 12-month engagement architecture. The pricing difference reflects the structural cost of quarterly commitment versus annual commitment.
 
@@ -41,7 +41,7 @@ Both cadences receive the full 12-month engagement architecture. The pricing dif
 
 You built the empire.
 
-And somewhere along the way — you became the infrastructure.
+And somewhere along the way, you became the infrastructure.
 
 Your team waits for you to think instead of thinking for themselves. Your calendar is full and your interior is not. You can't remember the last time you made a decision without three days of second-guessing it. You take a vacation and your phone still buzzes. You delegate and you're still mentally tracking.
 
@@ -66,21 +66,21 @@ You're at the age where every pattern you don't interrupt becomes permanent. The
 The Gravity Code™ is for leaders who can answer yes to at least eight of these ten questions:
 
 1. When you take a vacation, your phone still buzzes with things only you can decide.
-2. You have great people on your team — and they still wait for you to think.
+2. You have great people on your team, and they still wait for you to think.
 3. You've made a decision in the last 30 days that you spent more than 48 hours second-guessing.
 4. If you stepped back from your business for 30 days, you don't fully trust that it would hold.
-5. You've done significant inner work — therapy, NLP, somatic, identity — and you're still hitting an operational ceiling you can't name.
+5. You've done significant inner work, therapy, NLP, somatic, identity, and you're still hitting an operational ceiling you can't name.
 6. You can describe what your business looks like in 5 years. You cannot describe what you look like in 5 years.
 7. Someone close to you has commented in the last year that you seem harder than you used to be.
-8. You're not in crisis. You're not collapsing. You're carrying — and the carrying has become the new baseline.
+8. You're not in crisis. You're not collapsing. You're carrying, and the carrying has become the new baseline.
 9. You've invested $25,000 or more in counsel, programs, or masterminds in the last three years and you're still in this conversation.
-10. If nothing structural changes in the next 12 months, you already know what year three looks like — and you don't want it.
+10. If nothing structural changes in the next 12 months, you already know what year three looks like, and you don't want it.
 
 ---
 
 ## The Two Paths
 
-### Path 1 — Stay On The Current Trajectory
+### Path 1, Stay On The Current Trajectory
 
 The slow calcification of a leader who never learned how to lead without carrying.
 
@@ -88,13 +88,13 @@ The slow calcification of a leader who never learned how to lead without carryin
 |:----|:----|
 | Year 1 | Revenue grows. Complexity compounds. More money, more weight. |
 | Year 2 | A key leader burns out or quits. The pattern repeats. |
-| Year 3 | Your body signals. Not collapse — chronic carrying. |
+| Year 3 | Your body signals. Not collapse, chronic carrying. |
 | Year 5 | You've built everything. You're still the single point of failure. |
 | Year 10 | Eight figures. You've become hard. You've won and lost something you can't name. |
 | Year 20 | Admired publicly. Lonely privately. |
 | Year 30 | "I wish I had done this differently." |
 
-### Path 2 — Install The Gravity Code™
+### Path 2, Install The Gravity Code™
 
 | Timeline | What Happens |
 |:----|:----|
@@ -111,35 +111,35 @@ The slow calcification of a leader who never learned how to lead without carryin
 ## What You Receive
 
 **24 Private Power Architecture Sessions**
-Two 90-minute private sessions monthly. Every session is surgical — targeted at the specific dimension of the architecture that most needs attention that month.
+Two 90-minute private sessions monthly. Every session is surgical, targeted at the specific dimension of the architecture that most needs attention that month.
 
 **4 Quarterly Deep Recalibration Intensives**
 Three hours each. Every 90 days. A complete recalibration of the RAMS™ operating system against what's emerged in the quarter.
 
 **Annual Sovereign Immersion**
-Two-day private retreat. The architectural blueprint for the year ahead — built in real time, in person, with complete focus.
+Two-day private retreat. The architectural blueprint for the year ahead, built in real time, in person, with complete focus.
 
-**The Sovereign Operating System™ — Full Installation**
+**The Sovereign Operating System™, Full Installation**
 The 30-day identity recalibration protocol installed and maintained across the 12-month engagement.
 
-**The Sovereign Nervous System Protocol™ — Full Installation**
+**The Sovereign Nervous System Protocol™, Full Installation**
 Vagal tone trained as performance infrastructure. Sovereign Resilience as default.
 
 **Direct Access**
-Between sessions — direct access via voice message for decisions that cannot wait for the next scheduled session.
+Between sessions, direct access via voice message for decisions that cannot wait for the next scheduled session.
 
-**Delphi™ AI Clone — Extended Training**
-Obsidian and Meridian both include expanded Delphi™ Clone training — three times the standard data — so the AI counterpart is calibrated to the specific architecture and decision patterns.
+**Delphi™ AI Clone, Extended Training**
+Diamond and Quarterly both include expanded Delphi™ Clone training, three times the standard data, so the AI counterpart is calibrated to the specific architecture and decision patterns.
 
-**Legacy Blueprint Intensive** *(Obsidian Annual Only)*
-A 4-hour private session dedicated to the 25–100 year lineage architecture. The decisions made now that will still be bearing fruit three generations from today. Valued at $14,000. Exclusive to Obsidian annual commitment.
+**Legacy Blueprint Intensive** *(Diamond Annual Only)*
+A 4-hour private session dedicated to the 25–100 year lineage architecture. The decisions made now that will still be bearing fruit three generations from today. Valued at $14,000. Exclusive to Diamond annual commitment.
 
 ---
 
 ## Investment
 
-### Obsidian — Annual Commitment
-**$100,000 — paid in full**
+### Diamond, Annual Commitment
+**$100,000, paid in full**
 
 Includes:
 1. Priority onboarding within 30 days
@@ -147,14 +147,14 @@ Includes:
 3. Expanded Delphi™ Clone training
 4. Full 12-month container
 
-Leaders who commit in full move faster — because the decision itself is the recalibration.
+Leaders who commit in full move faster, because the decision itself is the recalibration.
 
-### Meridian — Quarterly Structure
-**$33,000 per quarter — total $132,000**
+### Quarterly, Quarterly Structure
+**$33,000 per quarter, total $132,000**
 
 Everything in the annual container. The additional $32,000 reflects the structural cost of quarterly commitment and the institutional cadence required for organizational propagation.
 
-The Legacy Blueprint Intensive is exclusive to Obsidian annual commitment.
+The Legacy Blueprint Intensive is exclusive to Diamond annual commitment.
 
 ---
 
@@ -190,7 +190,7 @@ The Gravity Code™ begins with a qualification call.
 
 Not a sales call. A calibration.
 
-Baz reads the pre-call answers before the conversation begins. The call starts at the level it needs to start at — not three layers above.
+Baz reads the pre-call answers before the conversation begins. The call starts at the level it needs to start at, not three layers above.
 
 [Apply for The Gravity Code™](https://bazporter.com/gravity-code-apply)
 

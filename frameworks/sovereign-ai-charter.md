@@ -2,7 +2,7 @@
 
 ### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 
 ---
 
@@ -24,13 +24,13 @@ The charter answers it precisely.
 
 AI is a tool. Sovereignty is the operator.
 
-When the relationship inverts — when the operator delegates sovereignty to the tool — the leader is no longer a leader. They are an outsource.
+When the relationship inverts, when the operator delegates sovereignty to the tool, the leader is no longer a leader. They are an outsource.
 
 This applies at three altitudes:
 
-1. **The Individual Leader** — using AI to think, decide, or feel on their behalf
-2. **The Organization** — embedding AI in decisions that require human judgment
-3. **The Field** — accepting AI-mediated reality as a substitute for direct perception
+1. **The Individual Leader**, using AI to think, decide, or feel on their behalf
+2. **The Organization**, embedding AI in decisions that require human judgment
+3. **The Field**, accepting AI-mediated reality as a substitute for direct perception
 
 The Sovereign AI Charter™ governs all three.
 
@@ -38,25 +38,25 @@ The Sovereign AI Charter™ governs all three.
 
 ## The Five Doctrinal Statements
 
-### Statement 1 — Tool Hierarchy
+### Statement 1, Tool Hierarchy
 
 AI is a tool. A tool exists to serve a sovereign operator. A sovereign operator never delegates the decision-making seat to a tool.
 
-Outsourcing the decision is not the same as outsourcing the task. Tasks can be automated. Decisions cannot — without abandoning sovereignty.
+Outsourcing the decision is not the same as outsourcing the task. Tasks can be automated. Decisions cannot, without abandoning sovereignty.
 
 ---
 
-### Statement 2 — Voice Sovereignty
+### Statement 2, Voice Sovereignty
 
 AI may amplify a sovereign voice. AI may not replace it.
 
-The leader's voice — written, spoken, decided — is the structural expression of their identity. When AI writes in the leader's voice without the leader having authored what was written, the voice fractures from the identity. Silent Collapse™ accelerates.
+The leader's voice, written, spoken, decided, is the structural expression of their identity. When AI writes in the leader's voice without the leader having authored what was written, the voice fractures from the identity. Silent Collapse™ accelerates.
 
 Every output that carries the leader's name must originate in their sovereign architecture, even if AI assists the production.
 
 ---
 
-### Statement 3 — Decision Sovereignty
+### Statement 3, Decision Sovereignty
 
 AI may model decisions. AI may not make them.
 
@@ -66,7 +66,7 @@ Modeling, analysis, and synthesis are tool functions. The final call belongs to 
 
 ---
 
-### Statement 4 — Field Integrity
+### Statement 4, Field Integrity
 
 AI-mediated reality is one signal. It is not the signal.
 
@@ -76,17 +76,17 @@ Sovereign leaders refuse to be the second-handers of their own reality.
 
 ---
 
-### Statement 5 — Permanent Subordination
+### Statement 5, Permanent Subordination
 
 AI's status as tool is permanent. There is no condition under which the tool earns the seat.
 
-Even as AI capability scales — even as it approaches or exceeds human cognition in specific domains — the charter holds. The relationship is structural, not capability-based. The operator is sovereign because they bear the cost of consequence. The tool does not.
+Even as AI capability scales, even as it approaches or exceeds human cognition in specific domains, the charter holds. The relationship is structural, not capability-based. The operator is sovereign because they bear the cost of consequence. The tool does not.
 
 ---
 
 ## The Operational Implementation
 
-The Sovereign AI Charter™ governs the use of every AI system inside Sovereign Leadership Architecture™ — including the Delphi™ AI Clone of Baz Porter.
+The Sovereign AI Charter™ governs the use of every AI system inside Sovereign Leadership Architecture™, including the Delphi™ AI Clone of Baz Porter.
 
 ### Delphi™ AI Clone Implementation
 
@@ -95,7 +95,7 @@ The Delphi™ clone of Baz Porter (delphi.ai/bazporter) operates under the chart
 1. The clone is positioned as an extension of the work, not a replacement for the architect
 2. Users are explicitly informed they are interacting with AI, not Baz
 3. The clone routes high-stakes conversations to human counsel
-4. The clone never makes engagement decisions — those route to the human qualification architecture
+4. The clone never makes engagement decisions, those route to the human qualification architecture
 5. 24,700+ minds trained · all under charter governance
 
 ### Curriculum Implementation
@@ -107,7 +107,7 @@ The Sovereign AI Charter™ is embedded as one of the Six Integration Layers run
 3. Military Doctrine
 4. Identity Architecture
 5. NLP Pattern Installation
-6. **AI Governance Ethics — The Sovereign AI Charter™**
+6. **AI Governance Ethics, The Sovereign AI Charter™**
 
 Every cohort, container, and curriculum carries this layer.
 
@@ -131,12 +131,12 @@ The charter functions as both an ethical doctrine and a competitive differentiat
 
 ## Where This Lives in the Stack
 
-The Sovereign AI Charter™ runs through every tier — but is explicitly invoked at:
+The Sovereign AI Charter™ runs through every tier, but is explicitly invoked at:
 
-1. **Corporate Deployment** — Pattern A, B, and C engagements
-2. **Horizon Leaders** — 36-module licensed curriculum
-3. **Obsidian / Meridian** — Gravity Code™ tiers where AI architecture is built into the leader's operating system
-4. **Baz Porter Institution** — institutional deployment
+1. **Corporate Deployment**, Pattern A, B, and C engagements
+2. **Horizon Leaders**, 36-module licensed curriculum
+3. **Diamond / Quarterly**, Gravity Code™ tiers where AI architecture is built into the leader's operating system
+4. **Baz Porter Institution**, institutional deployment
 
 ---
 

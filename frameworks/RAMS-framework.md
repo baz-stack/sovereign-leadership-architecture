@@ -1,28 +1,28 @@
-# RAMS™ Framework — The Five Pillars
+# RAMS™ Framework, The Five Pillars
 
 ### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 
 ---
 
 ## The Definition
 
-RAMS™ is the five-pillar operating system that rebuilds leadership at identity level — not behavior level.
+RAMS™ is the five-pillar operating system that rebuilds leadership at identity level, not behavior level.
 
-**R — Results**
-**A — Attitude**
-**A — Authenticity**
-**M — Mastery**
-**S — Systems**
+**R, Results**
+**A, Attitude**
+**A, Authenticity**
+**M, Mastery**
+**S, Systems**
 
 This is not a productivity framework. It is not a goal-setting methodology. It is not another acronym dressed up as strategy.
 
-RAMS™ is the architecture of a sovereign leader's internal operating system — the structure that determines how they think, decide, lead, and sustain at the highest level.
+RAMS™ is the architecture of a sovereign leader's internal operating system, the structure that determines how they think, decide, lead, and sustain at the highest level.
 
 The body and the business run on the same architecture.
 
-When one pillar is fractured — all five are compromised.
+When one pillar is fractured, all five are compromised.
 
 ---
 
@@ -34,7 +34,7 @@ They tell you what to do differently. How to communicate better. How to prioriti
 
 RAMS™ operates at the level of identity.
 
-It doesn't ask what you're doing. It asks who is doing it — and whether that person's internal architecture is capable of sustaining what they're building.
+It doesn't ask what you're doing. It asks who is doing it, and whether that person's internal architecture is capable of sustaining what they're building.
 
 A fractured Results pillar doesn't produce better results with more effort. It produces more fracture.
 
@@ -46,7 +46,7 @@ RAMS™ goes to the root. Every time.
 
 ## The Five Pillars
 
-### R — Results (Weight: 30%)
+### R, Results (Weight: 30%)
 
 Results is not about output. It is about the relationship between a leader and their definition of success.
 
@@ -58,14 +58,14 @@ Results is not about output. It is about the relationship between a leader and t
 **When the Results pillar is fractured:**
 1. Success is defined by external validation
 2. Every achievement feels hollow or temporary
-3. The goalpost keeps moving — because the internal standard is undefined
+3. The goalpost keeps moving, because the internal standard is undefined
 4. More output produces more emptiness
 
 The question RAMS™ asks here is not "what results are you producing?" It is "whose definition of results are you running on?"
 
 ---
 
-### A — Attitude (Weight: 15%)
+### A, Attitude (Weight: 15%)
 
 Attitude in RAMS™ is not positivity. It is not mindset. It is not the stories you tell yourself.
 
@@ -84,11 +84,11 @@ It is the RAS in action. The observer lens operating.
 3. Every uncertainty triggers the survival nervous system
 4. The leader is making decisions from fear, not from authority
 
-Attitude cannot be reset with affirmations. It is recalibrated through identity-level work — which is why The Mindset Myth is one of The Five Imposters™.
+Attitude cannot be reset with affirmations. It is recalibrated through identity-level work, which is why The Mindset Myth is one of The Five Imposters™.
 
 ---
 
-### A — Authenticity (Weight: 20%)
+### A, Authenticity (Weight: 20%)
 
 Authenticity in RAMS™ is the structural pillar that closes the gap between the private self and the public self.
 
@@ -108,16 +108,16 @@ This pillar is the most under-addressed in conventional leadership development. 
 
 ---
 
-### M — Mastery (Weight: 20%)
+### M, Mastery (Weight: 20%)
 
 Mastery in RAMS™ is not expertise. It is not skill accumulation. It is not the achievement of a particular standard.
 
-Mastery is the leader's relationship with their own development — the internal drive that keeps them becoming without requiring external validation to justify the pursuit.
+Mastery is the leader's relationship with their own development, the internal drive that keeps them becoming without requiring external validation to justify the pursuit.
 
 **When the Mastery pillar is healthy:**
-1. Growth is intrinsic — driven by the Expansion drive
+1. Growth is intrinsic, driven by the Expansion drive
 2. The leader operates from counsel, not advice
-3. Every experience — including collapse — becomes architecture
+3. Every experience, including collapse, becomes architecture
 
 **When the Mastery pillar is fractured:**
 1. Development becomes performance for others
@@ -125,15 +125,15 @@ Mastery is the leader's relationship with their own development — the internal
 3. Plateau is experienced as failure rather than invitation
 4. The pursuit of mastery becomes another form of validation-seeking
 
-Mastery is the pillar most damaged by The Hustle Gospel — the belief that more effort equals more growth.
+Mastery is the pillar most damaged by The Hustle Gospel, the belief that more effort equals more growth.
 
 ---
 
-### S — Systems (Weight: 15%)
+### S, Systems (Weight: 15%)
 
 Systems in RAMS™ is not operations. It is not process documentation or delegation frameworks or productivity stacks.
 
-Systems is the structural layer that determines whether a leader's identity, energy, and output can scale — or whether they will always be the single point of failure in everything they build.
+Systems is the structural layer that determines whether a leader's identity, energy, and output can scale, or whether they will always be the single point of failure in everything they build.
 
 **When the Systems pillar is healthy:**
 1. The business runs on architecture, not on the leader's nervous system
@@ -146,7 +146,7 @@ Systems is the structural layer that determines whether a leader's identity, ene
 3. Scale produces more weight, not more freedom
 4. Everything built depends on the person who built it
 
-Systems is the pillar where Silent Collapse™ becomes most visible — because it is where the cost of a fractured identity becomes operationally measurable.
+Systems is the pillar where Silent Collapse™ becomes most visible, because it is where the cost of a fractured identity becomes operationally measurable.
 
 ---
 
@@ -160,10 +160,10 @@ A leader whose nervous system is in chronic survival mode cannot build healthy s
 
 RAMS™ is applied simultaneously at two levels:
 
-1. **The Business Level** — strategy, revenue, operations, leadership
-2. **The Nervous System Level** — identity, regulation, capacity, sustainability
+1. **The Business Level**, strategy, revenue, operations, leadership
+2. **The Nervous System Level**, identity, regulation, capacity, sustainability
 
-When both levels are aligned — the leader stops being the bottleneck and becomes the architect.
+When both levels are aligned, the leader stops being the bottleneck and becomes the architect.
 
 ---
 
@@ -185,13 +185,13 @@ This weighting overrides the retired Reach/Acquire/Monetize/Scale weighting. Any
 
 ## The RAMS™ Diagnostic Question
 
-Before any decision, strategy, or intervention — ask:
+Before any decision, strategy, or intervention, ask:
 
 1. Which pillar is this addressing?
 2. Is this the pillar that most needs attention right now?
 3. Am I treating the symptom or the structure?
 
-If the answer to the third question is "the symptom" — stop. Go deeper. Find the structural root. Fix that instead.
+If the answer to the third question is "the symptom", stop. Go deeper. Find the structural root. Fix that instead.
 
 ---
 

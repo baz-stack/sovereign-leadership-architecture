@@ -1,15 +1,15 @@
-# Brand Narrative — Sovereign Leadership Architecture™
+# Brand Narrative, Sovereign Leadership Architecture™
 
 ### The Long-Form Brand Entry Narrative
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 **Owner:** Baz Porter LLC® · The Prestige Architect®
 
 ---
 
 ## CHANGELOG
 
-- **v2026.06.06.2** — File renamed from "The Six Drives of Human Intelligence.md" (which was mislabeled — that file contained the brand-entry narrative, not the framework definition). The framework definition lives at `six-drives.md`. This file is the long-form brand narrative for category positioning, applications, podcast intros, deep media interviews, and partnership documents.
+- **v2026.06.06.2**, File renamed from "The Six Drives of Human Intelligence.md" (which was mislabeled, that file contained the brand-entry narrative, not the framework definition). The framework definition lives at `six-drives.md`. This file is the long-form brand narrative for category positioning, applications, podcast intros, deep media interviews, and partnership documents.
 
 ---
 
@@ -23,7 +23,7 @@ And something beneath the surface is fracturing.
 
 Not loudly. Not dramatically. Not in a way you can point to and explain. Wins land flat. Decisions cost more than they should. You are performing a version of yourself you no longer fully recognise.
 
-The gap between who you are in public and who you are in private is widening — quietly, steadily, structurally.
+The gap between who you are in public and who you are in private is widening, quietly, steadily, structurally.
 
 The question underneath everything: *is this it?*
 
@@ -55,9 +55,9 @@ Insight without structural change is information.
 
 Information is not excavation.
 
-The Five Imposters™ — The Motivation Machine, The Therapy Loop, The Hustle Gospel, The Mindset Myth, The Group Container — all worked at the symptom layer. None of them reached the architecture.
+The Five Imposters™, The Motivation Machine, The Therapy Loop, The Hustle Gospel, The Mindset Myth, The Group Container, all worked at the symptom layer. None of them reached the architecture.
 
-Beneath them sit The Six Drives of Human Intelligence™ — six frequencies the nervous system is either transmitting or blocking.
+Beneath them sit The Six Drives of Human Intelligence™, six frequencies the nervous system is either transmitting or blocking.
 
 When a Drive fractures, the RAS miscalibrates. You begin building a reality that confirms the fracture. Every ceiling you cannot explain maps back to it.
 
@@ -69,9 +69,9 @@ All of it is structural. All of it is addressable.
 
 I have invested $2.1 million in frameworks that operated above the structural level before I built the one that does not.
 
-I have lived four documented personal collapses — including a moment with a rope and pills that I document not for effect, but for proof. The architecture was built from inside the problem.
+I have lived four documented personal collapses, including a moment with a rope and pills that I document not for effect, but for proof. The architecture was built from inside the problem.
 
-I have served in the British Army for six years. I have spoken at Princeton. I have stood in front of 35,000 people at Excel Arena London. I have written the bestselling book that carries this work to the leaders who need it before they ever speak to me.
+I have served in the British Army for six and a half years, 1997 to 2004,. I have spoken at Princeton. I have stood in front of 35,000 people at Excel Arena London. I have written the bestselling book that carries this work to the leaders who need it before they ever speak to me.
 
 I have also sat in every room the solution has not worked in.
 
@@ -83,15 +83,15 @@ That is the credential that matters.
 
 The RAMS™ Framework runs the architecture.
 
-**R — Results**
-**A — Attitude**
-**A — Authenticity**
-**M — Mastery**
-**S — Systems**
+**R, Results**
+**A, Attitude**
+**A, Authenticity**
+**M, Mastery**
+**S, Systems**
 
-Five pillars — not four.
+Five pillars, not four.
 
-Running in reverse of every conventional business framework. RAMS™ addresses the leader before the strategy — because the body and the business run on the same architecture.
+Running in reverse of every conventional business framework. RAMS™ addresses the leader before the strategy, because the body and the business run on the same architecture.
 
 | Pillar | Weight | Function |
 |:----|:----|:----|
@@ -107,12 +107,12 @@ Running in reverse of every conventional business framework. RAMS™ addresses t
 
 The pathway from collapse to sovereignty runs in six sequential stages.
 
-1. **Recognition** — Silent Collapse™ named with precision
-2. **Identification** — fractured Drive located
-3. **Dismantlement** — survival state architecture collapsed at the root
-4. **Recalibration** — new identity architecture installed
-5. **Embodiment** — public coherence at scale
-6. **Sovereignty** — permanent retained power architecture verified
+1. **Recognition**, Silent Collapse™ named with precision
+2. **Identification**, fractured Drive located
+3. **Dismantlement**, survival state architecture collapsed at the root
+4. **Recalibration**, new identity architecture installed
+5. **Embodiment**, public coherence at scale
+6. **Sovereignty**, permanent retained power architecture verified
 
 Sequential. Structural. Permanent. The path is named precisely because the work cannot be improvised.
 
@@ -122,12 +122,12 @@ Sequential. Structural. Permanent. The path is named precisely because the work 
 
 The work is finished when six properties are present:
 
-1. **Decision Integrity** — decisions made from identity, not pressure
-2. **Engineered Capacity** — ability to hold expanded weight without distortion
-3. **Architectural Authority** — authority that does not require performance to sustain it
-4. **Team Gravity** — the organizational field that forms around a sovereign leader
-5. **Sovereign Self-Possession** — identity coherence that makes succession safe
-6. **Ratified Architecture** — the documented standard, held on file, verifiable
+1. **Decision Integrity**, decisions made from identity, not pressure
+2. **Engineered Capacity**, ability to hold expanded weight without distortion
+3. **Architectural Authority**, authority that does not require performance to sustain it
+4. **Team Gravity**, the organizational field that forms around a sovereign leader
+5. **Sovereign Self-Possession**, identity coherence that makes succession safe
+6. **Ratified Architecture**, the documented standard, held on file, verifiable
 
 Five of six is not Oliver. The architecture is held only when all six verify.
 
@@ -137,15 +137,15 @@ This is not a satisfaction guarantee. It is an architectural one.
 
 ## Who This Is For
 
-The founder or executive who has built everything — and is quietly asking why it still feels like this.
+The founder or executive who has built everything, and is quietly asking why it still feels like this.
 
 1. Not the leader in acute crisis
 2. Not the leader looking for motivation
 3. Not the leader who believes the problem is strategic
 
-The leader who knows — beneath everything they have built — that the architecture is fracturing. And who is done pretending otherwise.
+The leader who knows, beneath everything they have built, that the architecture is fracturing. And who is done pretending otherwise.
 
-Entry is through the Silent Collapse Diagnostic™ — a 60-minute live diagnostic conducted personally by me. Every private container is invitation-only or diagnostic-qualified.
+Entry is through the Silent Collapse Diagnostic™, a 60-minute live diagnostic conducted personally by me. Every private container is invitation-only or diagnostic-qualified.
 
 ---
 
@@ -156,17 +156,16 @@ The full Sovereign Leadership Architecture™ runs across twelve tiers.
 | TIER | OFFER | INVESTMENT |
 |:----|:----|:----|
 | VALUE | Silent Collapse Diagnostic™ | Free |
-| BRONZE | The Reclamation Code™ | $97 |
-| SILVER | A Million Dreams™ Cohort | $397/month |
-| PEARL | Revenue Architecture System (RAS™) | $497 |
+| BRONZE | The Reclamation Code | $97 |
+| SILVER | A Million Dreams™ Circle | $397/month |
+| REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System Course | $497 |
 | GOLD | The Becoming™ | $4,620 |
 | PLATINUM | Business Profit Accelerator | $5,998 |
-| AWAKENING | Coming Home: The Awakening | $15,000 |
-| RECKONING | Coming Home: The Reckoning | $27,000 |
-| ASCENSION | Coming Home: The Ascension | $45,000 |
-| OBSIDIAN | The Gravity Code™ · Annual | $100,000 |
-| MERIDIAN | The Gravity Code™ · Quarterly Structure | $132,000 |
-| RUBY | Paradigmatic Healing | $1,000,000 (in build) |
+| FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 |
+| REPAIR | Coming Home™ - Repair | $27,000 |
+| YOUR RELATIONSHIP | Coming Home™ - Your Relationship | $45,000 |
+| DIAMOND | The Gravity Code™ - Diamond | $100,000 |
+| QUARTERLY | The Gravity Code™ - Quarterly | $132,000 |
 
 ---
 
@@ -174,9 +173,9 @@ The full Sovereign Leadership Architecture™ runs across twelve tiers.
 
 *Not transformation. Return.™*
 
-Baz Porter® is the founder of Sovereign Leadership Architecture™ — the structural rebuild of the identity infrastructure beneath high performance.
+Baz Porter® is the founder of Sovereign Leadership Architecture™, the structural rebuild of the identity infrastructure beneath high performance.
 
-He works with founders, executives, and leaders in Silent Collapse™ — individually and institutionally.
+He works with founders, executives, and leaders in Silent Collapse™, individually and institutionally.
 
 He does not coach. He architects.
 
@@ -184,7 +183,7 @@ He does not coach. He architects.
 
 ## Entry Point
 
-The Silent Collapse Diagnostic™ — a 60-minute live diagnostic, conducted personally.
+The Silent Collapse Diagnostic™, a 60-minute live diagnostic, conducted personally.
 
 It identifies exactly where the architecture is compromised and what it will take to rebuild it. Not a quiz. Not a self-assessment. The entry point to every private container.
 
@@ -195,8 +194,8 @@ It identifies exactly where the architecture is compromised and what it will tak
 
 ## The Brand Taglines
 
-1. **Power Without Performance. Peace Without Retreat.™** — primary brand tagline
-2. **Not transformation. Return.™** — category tagline
+1. **Power Without Performance. Peace Without Retreat.™**, primary brand tagline
+2. **Not transformation. Return.™**, category tagline
 
 ---
 
@@ -214,7 +213,7 @@ It identifies exactly where the architecture is compromised and what it will tak
 - [The Becoming™](./the-becoming.md)
 - [Coming Home™](./coming-home.md)
 - [The Gravity Code™](./gravity-code.md)
-- [The Reclamation Code™](./the-reclamation-code.md)
+- [The Reclamation Code](./the-reclamation-code.md)
 
 ---
 

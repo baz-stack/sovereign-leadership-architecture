@@ -2,7 +2,7 @@
 
 ### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 
 ---
 
@@ -14,7 +14,7 @@ It is not a journal. It is not a habit tracker. It is not a morning routine.
 
 It is neural rehearsal.
 
-The brain does not distinguish between a written declaration and a lived experience. Every entry is programming — not reflection. The decided state replacing the survival state. One day at a time. One column at a time. Until the new architecture becomes the default.
+The brain does not distinguish between a written declaration and a lived experience. Every entry is programming, not reflection. The decided state replacing the survival state. One day at a time. One column at a time. Until the new architecture becomes the default.
 
 ---
 
@@ -26,9 +26,9 @@ The Sovereign Operating System™ changes the identity that generates the action
 
 There are two states a leader operates from:
 
-**The Survival State** — the identity that was built to achieve, prove, perform, and protect. It built everything you have. It is now the ceiling on everything you want.
+**The Survival State**, the identity that was built to achieve, prove, perform, and protect. It built everything you have. It is now the ceiling on everything you want.
 
-**The Decided State** — the identity of the sovereign leader. Not aspirational. Not future-tense. Declared as current fact and rehearsed until the nervous system accepts it as the new baseline.
+**The Decided State**, the identity of the sovereign leader. Not aspirational. Not future-tense. Declared as current fact and rehearsed until the nervous system accepts it as the new baseline.
 
 The shift from survival to sovereign is not motivational.
 It is architectural.
@@ -49,26 +49,26 @@ It is architectural.
 
 ## The Daily Architecture
 
-The Sovereign Operating System™ runs on seven columns completed twice daily — morning and evening.
+The Sovereign Operating System™ runs on seven columns completed twice daily, morning and evening.
 
-**Morning Sequence — 6:30–7:15 AM**
+**Morning Sequence, 6:30–7:15 AM**
 Complete before any device contact. This is state-setting, not reactive output.
 
-**Evening Sequence — 9:30–10:30 PM**
+**Evening Sequence, 9:30–10:30 PM**
 The brain rehearses during REM sleep. What you close with tonight, you wake up having practised.
 
 ---
 
-### Column 1 — Old Belief
+### Column 1, Old Belief
 
 Write the exact thought. Not a cleaned-up version.
 The raw program. Unedited. Uncensored.
 
-This is the survival state speaking. Write it exactly as it arrives — because you cannot replace what you cannot name.
+This is the survival state speaking. Write it exactly as it arrives, because you cannot replace what you cannot name.
 
 ---
 
-### Column 2 — New Belief
+### Column 2, New Belief
 
 The decided state. Written as current fact.
 
@@ -80,7 +80,7 @@ The brain responds to declarative present-tense statements differently than to a
 
 ---
 
-### Column 3 — Evidence
+### Column 3, Evidence
 
 Three things that already prove the new belief is real.
 
@@ -92,19 +92,19 @@ Non-negotiable. Every day. No exceptions.
 
 ---
 
-### Column 4 — Today's Prompt
+### Column 4, Today's Prompt
 
 One anchor question answered in one sentence:
 
-**"What would the sovereign version of me do with this — right now?"**
+**"What would the sovereign version of me do with this, right now?"**
 
-Not what the survival state would do. Not what has been done before. What the decided state — the sovereign leader — would do.
+Not what the survival state would do. Not what has been done before. What the decided state, the sovereign leader, would do.
 
 One sentence. Specific. Actionable. Forward-facing.
 
 ---
 
-### Column 5 — Frequency Note
+### Column 5, Frequency Note
 
 How many times today did you catch the old program running?
 
@@ -114,24 +114,24 @@ Numbers only. The frequency decreases over 30 days as the new architecture insta
 
 ---
 
-### Column 6 — Feeling State (1–5)
+### Column 6, Feeling State (1–5)
 
 1 = Full survival mode
 5 = Full sovereign
 
 Rate honestly at the end of each day.
 
-Track the trend across 30 days. The line moves. Not linearly — but it moves.
+Track the trend across 30 days. The line moves. Not linearly, but it moves.
 
 ---
 
-### Column 7 — Quantum Reality Shift
+### Column 7, Quantum Reality Shift
 
 One moment today where you acted from the decided state instead of the old program.
 
 Specific. Concrete. Named.
 
-If none occurred — write what you would have done differently. The rehearsal still programs the nervous system.
+If none occurred, write what you would have done differently. The rehearsal still programs the nervous system.
 
 ---
 
@@ -145,7 +145,7 @@ Three questions:
 
 **2. Where did the decided state hold under pressure this week?**
 
-**3. What is the next identity upgrade required — and what would it cost me to install it?**
+**3. What is the next identity upgrade required, and what would it cost me to install it?**
 
 The checkpoint prevents the protocol from becoming mechanical. It keeps the work surgical.
 
@@ -169,7 +169,7 @@ This is not positive thinking.
 
 Positive thinking overlays new thoughts on top of old identity. The identity reasserts itself. The thoughts fade.
 
-This is identity replacement at the neurological level — using the same mechanism the brain uses to build any new pattern: repetition, specificity, emotional engagement, and evidence.
+This is identity replacement at the neurological level, using the same mechanism the brain uses to build any new pattern: repetition, specificity, emotional engagement, and evidence.
 
 The Sovereign Operating System™ uses all four. Every day. For 30 days.
 
@@ -179,15 +179,14 @@ The Sovereign Operating System™ uses all four. Every day. For 30 days.
 
 The Sovereign Operating System™ is the recalibration layer that runs beneath every offer in the Sovereign Leadership Architecture™ stack.
 
-It is introduced formally at The Becoming™ (Gold) — but its principles underpin every intervention from The Reclamation Code™ upward.
+It is introduced formally at The Becoming™ (Gold), but its principles underpin every intervention from The Reclamation Code upward.
 
 | Tier | Application |
 |:----|:----|
-| Bronze — Reclamation Code™ | Entry-level introduction (foundational practice) |
-| Gold — The Becoming™ | First formal 30-day installation |
-| Awakening / Reckoning / Ascension | Maintained · deepened · contextualized |
-| Obsidian / Meridian — Gravity Code™ | Maintained across the 12-month engagement |
-| Ruby — Paradigmatic Healing | Propagated to the field |
+| Bronze, The Reclamation Code | Entry-level introduction (foundational practice) |
+| Gold, The Becoming™ | First formal 30-day installation |
+| Find Yourself / Repair / Your Relationship | Maintained · deepened · contextualized |
+| Diamond / Quarterly, Gravity Code™ | Maintained across the 12-month engagement |
 
 The body and the business run on the same architecture.
 
@@ -197,7 +196,7 @@ The Sovereign Operating System™ is how the architecture changes.
 
 ## Entry Point
 
-1. [Silent Collapse Diagnostic™ — 60-minute live](https://bazporter.com/silent-collapse-diagnostic)
+1. [Silent Collapse Diagnostic™, 60-minute live](https://bazporter.com/silent-collapse-diagnostic)
 2. [Strategic Call](https://bazporter.com/strategic-call)
 
 ---

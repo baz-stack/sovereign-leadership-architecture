@@ -2,7 +2,7 @@
 
 ### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 
 ---
 
@@ -10,7 +10,7 @@
 
 The Oliver Standard™ is the named, specified, verifiable end-state of Sovereign Leadership Architecture™.
 
-It is the architectural guarantee — not a satisfaction guarantee.
+It is the architectural guarantee, not a satisfaction guarantee.
 
 Six properties. All six required. Five of six is not the standard.
 
@@ -22,11 +22,11 @@ Six properties. All six required. Five of six is not the standard.
 
 Most leadership development has no end-state. The work is "ongoing." The leader is "always evolving." The container has no completion.
 
-This is structurally incoherent. It frames leadership as a perpetual maintenance state — which is exactly the condition Silent Collapse™ produces.
+This is structurally incoherent. It frames leadership as a perpetual maintenance state, which is exactly the condition Silent Collapse™ produces.
 
 The Oliver Standard™ corrects this. It defines completion.
 
-When all six properties are present, observable, and ratified — the engagement is complete. The architecture is held. The leader has stopped paying for the seat.
+When all six properties are present, observable, and ratified, the engagement is complete. The architecture is held. The leader has stopped paying for the seat.
 
 The standard is held only when all six are present, observable, and ratified. **Five of six is not Oliver.**
 
@@ -34,7 +34,7 @@ The standard is held only when all six are present, observable, and ratified. **
 
 ## The Six Properties
 
-### Property 1 — Decision Integrity
+### Property 1, Decision Integrity
 
 Decisions made from identity, not pressure.
 
@@ -49,7 +49,7 @@ Decisions made to manage other people's emotions. Decisions made under deadline 
 
 ---
 
-### Property 2 — Engineered Capacity
+### Property 2, Engineered Capacity
 
 The ability to hold expanded weight without distortion.
 
@@ -60,11 +60,11 @@ The ability to hold expanded weight without distortion.
 4. The body holds what the role asks of it
 
 **How it fractures:**
-Capacity reads as endurance — the leader can carry more, but the cost compounds. Vacations are required to function. Sundays are recovery, not life.
+Capacity reads as endurance, the leader can carry more, but the cost compounds. Vacations are required to function. Sundays are recovery, not life.
 
 ---
 
-### Property 3 — Architectural Authority
+### Property 3, Architectural Authority
 
 Authority that does not require performance to sustain it.
 
@@ -79,7 +79,7 @@ Authority that has to be re-established every meeting. Authority dependent on th
 
 ---
 
-### Property 4 — Team Gravity
+### Property 4, Team Gravity
 
 The organizational field that forms around a sovereign leader.
 
@@ -94,7 +94,7 @@ Top talent leaves and is hard to replace. Team waits for the leader to think. Th
 
 ---
 
-### Property 5 — Sovereign Self-Possession
+### Property 5, Sovereign Self-Possession
 
 Identity coherence that makes succession safe.
 
@@ -109,14 +109,14 @@ The leader cannot conceive of stepping away. Succession is delayed indefinitely.
 
 ---
 
-### Property 6 — Ratified Architecture
+### Property 6, Ratified Architecture
 
 The documented standard held on file. Verifiable at any future point.
 
 **Observable signs:**
 1. The architecture is written down · signed · held
 2. The standard can be measured at any future date
-3. The work is not "complete because we say so" — it is complete because the document confirms it
+3. The work is not "complete because we say so", it is complete because the document confirms it
 4. The architecture is portable across contexts
 
 **How it fractures:**
@@ -145,12 +145,12 @@ Five of six is not Oliver. The architecture is not held until all six are presen
 
 The Oliver Standard™ is verified through:
 
-1. **Direct observation** — the architect (Baz) observes the six properties in motion across the engagement
-2. **Behavioral pattern analysis** — the team, partners, and relational field provide signal
-3. **The Ratified Architecture document** — the written standard, signed at engagement close
-4. **Post-engagement check** — verification at 6 months, 12 months, and 24 months
+1. **Direct observation**, the architect (Baz) observes the six properties in motion across the engagement
+2. **Behavioral pattern analysis**, the team, partners, and relational field provide signal
+3. **The Ratified Architecture document**, the written standard, signed at engagement close
+4. **Post-engagement check**, verification at 6 months, 12 months, and 24 months
 
-When verification holds across all four — the standard is met. The engagement is complete.
+When verification holds across all four, the standard is met. The engagement is complete.
 
 ---
 
@@ -158,13 +158,12 @@ When verification holds across all four — the standard is met. The engagement 
 
 The Oliver Standard™ is the end-state for every tier above Platinum:
 
-1. **Awakening** — partial standard (Properties 1, 2, 5)
-2. **Reckoning** — partial standard (Properties 1, 2, 4, 5)
-3. **Ascension** — full standard (all six)
-4. **Obsidian / Meridian** — standard held at sovereign scale
-5. **Ruby** — standard propagated to the field
+1. **Find Yourself**, partial standard (Properties 1, 2, 5)
+2. **Repair**, partial standard (Properties 1, 2, 4, 5)
+3. **Your Relationship**, full standard (all six)
+4. **Diamond / Quarterly**, standard held at sovereign scale
 
-The Becoming™ (Gold) prepares the leader for the standard. The standard is not held at Gold — it is foundationally architected there.
+The Becoming™ (Gold) prepares the leader for the standard. The standard is not held at Gold, it is foundationally architected there.
 
 ---
 
@@ -172,7 +171,7 @@ The Becoming™ (Gold) prepares the leader for the standard. The standard is not
 
 *This is not a satisfaction guarantee. It is an architectural one.*
 
-The engagement is complete when the standard is met. The leader has stopped paying for the seat — they occupy it.
+The engagement is complete when the standard is met. The leader has stopped paying for the seat, they occupy it.
 
 The architecture is held until the six properties verify. No engagement closes without verification.
 
@@ -182,7 +181,7 @@ The architecture is held until the six properties verify. No engagement closes w
 
 The Oliver Standard™ is reached through the Sovereign Return Architecture™ pathway.
 
-1. [Silent Collapse Diagnostic™ — 60-minute live](https://bazporter.com/silent-collapse-diagnostic)
+1. [Silent Collapse Diagnostic™, 60-minute live](https://bazporter.com/silent-collapse-diagnostic)
 2. [Strategic Call](https://bazporter.com/strategic-call)
 
 ---

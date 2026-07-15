@@ -1,6 +1,6 @@
 # Sovereign Leadership Architecture
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 **Owner:** Baz Porter LLC® · The Prestige Architect®
 **Founder:** Baz Porter
 **Mission:** Power Without Performance. Peace Without Retreat.™
@@ -9,7 +9,7 @@
 
 ## CHANGELOG
 
-- **v2026.06.06.2** — Full repository alignment with manifesto canon. RAMS™ order corrected (Attitude position 2, Authenticity position 3). Coming Home™ replaces Coming Home to Love™. SCD live = 60 minutes. 17+ proprietary frameworks added to IP-REGISTRY. Five new framework files documenting The Becoming™, The Sovereign Return Architecture™, The Sovereign Nervous System Protocol™, The Sovereign AI Charter™, and The Oliver Standard™.
+- **v2026.06.06.2**, Full repository alignment with manifesto canon. RAMS™ order corrected (Attitude position 2, Authenticity position 3). Coming Home™ locked as the canonical methodology name. SCD live = 60 minutes. 17+ proprietary frameworks added to IP-REGISTRY. Five new framework files documenting The Becoming™, The Sovereign Return Architecture™, The Sovereign Nervous System Protocol™, The Sovereign AI Charter™, and The Oliver Standard™.
 
 ---
 
@@ -28,7 +28,7 @@ The public manifesto at [bazporter.com/manifesto](https://bazporter.com/manifest
 | FILE | PURPOSE |
 |:----|:----|
 | `README.md` | This file. Top-level summary and navigation. |
-| `OFFERS.md` | The 12-tier offer stack. Pricing, structural roles, naming rules. |
+| `OFFERS.md` | The offer stack. Pricing, structural roles, naming rules. |
 | `IP-REGISTRY.md` | Trademark register. All ® and ™ marks. Usage rules. |
 | `FRAMEWORKS.md` | Proprietary framework registry. The Five Pillars and all methodologies. |
 | `METHODOLOGY.md` | How the work is delivered. The Five Pillars in depth. |
@@ -41,9 +41,11 @@ The public manifesto at [bazporter.com/manifesto](https://bazporter.com/manifest
 | `CHANGELOG.md` | Version log · audit trail. |
 | `CONTRIBUTING.md` | Read-only vault policy. IP protection notice. |
 | `VOICE.md` | Voice canon. Banned language. Preferred substitutes. |
-| `ICA.md` | Ideal Client Avatar. Victoria Reynolds → Victoria Hathaway arc. |
+| `ICA.md` | Ideal Client Architecture. Victoria Reynolds, the active working case. |
 | `MANIFESTO.md` | Public-facing manifesto. (Mirrors bazporter.com/manifesto.) |
 | `STORY.md` | Founder story. From homelessness to seven-figure architecture. |
+| `BOOKS.md` | Authority registry. Both books, ISBNs, foreword, endorsement, bestseller status. |
+| `TRADEMARKS.md` | Registered word mark and full mark registry with symbols. |
 
 ---
 
@@ -64,7 +66,7 @@ Inside `frameworks/`:
 | `oliver-standard.md` | The six-property end-state |
 | `the-becoming.md` | Gold-tier identity-side entry |
 | `coming-home.md` | Three-tier identity and relationship architecture |
-| `gravity-code.md` | Obsidian / Meridian retained power architecture |
+| `gravity-code.md` | Diamond / Quarterly retained power architecture |
 | `the-reclamation-code.md` | Bronze-tier digital course |
 | `brand-narrative.md` | Long-form brand entry narrative |
 
@@ -74,10 +76,8 @@ Inside `frameworks/`:
 
 The brand operates four layers:
 
-1. **Discovery Layer** — free brand authority that routes into the stack (books · podcast · YouTube · meditation · newsletters)
-2. **Value Tier** — free Silent Collapse Diagnostic™ (60-minute live OR DIY 101-question self-audit)
-3. **Priced Offer Stack** — 12 tiers from $97 (Bronze) to $1M/year (Ruby)
-4. **Parallel Revenue Lines** — affiliate program and speaking (parked)
+1. **Discovery Layer**, free brand authority that routes into the stack (books · podcast · YouTube · meditation · newsletters)
+4. **Parallel Revenue Lines**, affiliate program and speaking (parked)
 
 See `OFFERS.md` for full stack detail.
 
@@ -87,19 +87,19 @@ See `OFFERS.md` for full stack detail.
 
 **Baz Porter** is the founder of Baz Porter LLC® and The Prestige Architect®.
 
-1. British Army veteran — 6 years
+1. British Army veteran, 6.5 years, 1997 to 2004
 2. Two-time international bestselling author
 3. Host of *Rise From The Ashes* podcast on the C-Suite Network
 4. Best Transformational Leadership Coaching 2024
-5. Princeton University speaker
+5. Princeton speaker
 6. Excel Arena London speaker (35,000 attendees)
-7. Delphi AI Clone — 24,700+ minds trained
-8. BAZ PORTER® — registered trademark · Reg. No. 7,125,540
+7. Delphi AI Clone, 24,700+ minds trained
+8. BAZ PORTER®, registered trademark · Reg. No. 7,125,540
 
 Books:
 
-1. *Cracking the Rich Code Vol. 12* — foreword Brian Tracy, endorsed Tony Robbins
-2. *Die Empty Live Full* — Part 4 international bestseller, March 2025
+1. *Cracking the Rich Code Vol. 12*, foreword Brian Tracy, endorsed Tony Robbins
+2. *Die Empty Live Full*, Part 4 international bestseller, March 2025
 
 ---
 
@@ -107,7 +107,7 @@ Books:
 
 | MARK | DOMAIN |
 |:----|:----|
-| RAMS™ | Operating system (Results · Attitude · Authenticity · Mastery · Systems — The Five Pillars) |
+| RAMS™ | Operating system (Results · Attitude · Authenticity · Mastery · Systems, The Five Pillars) |
 | Silent Collapse™ | Diagnostic state |
 | Sovereign Leadership™ | Outcome state |
 | Sovereign Leadership Architecture™ | Full category |
@@ -118,25 +118,24 @@ Books:
 | The Sovereign Operating System™ | 30-day protocol |
 | The Sovereign AI Charter™ | AI governance |
 | The Oliver Standard™ | End-state benchmark |
-| The Gravity Code™ | Sovereign Scale (Obsidian / Meridian) |
+| The Gravity Code™ | Sovereign Scale (Diamond / Quarterly) |
 | The Becoming™ | Gold tier offer |
-| Coming Home™ | Awakening · Reckoning · Ascension tiers |
-| Paradigmatic Healing | Ruby tier · in build |
+| Coming Home™ | Find Yourself · Repair · Your Relationship tiers |
 
 Full IP register: `IP-REGISTRY.md`.
 
 ---
 
-## REVENUE FLOOR
+## RELATED REPOSITORIES
 
-**$83,400/month minimum.** Every offer, every funnel decision, every content piece serves this floor.
+- [rise-from-the-ashes-podcast](https://github.com/baz-stack/rise-from-the-ashes-podcast), the Rise From The Ashes podcast media asset. It references this repository as the source of truth and does not duplicate canon.
 
 ---
 
 ## TAGLINES
 
-1. **Power Without Performance. Peace Without Retreat.™** — primary brand tagline
-2. **Not transformation. Return.™** — category tagline
+1. **Power Without Performance. Peace Without Retreat.™**, primary brand tagline
+2. **Not transformation. Return.™**, category tagline
 
 ---
 

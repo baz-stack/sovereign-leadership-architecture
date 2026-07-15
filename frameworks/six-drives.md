@@ -2,7 +2,7 @@
 
 ### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 
 ---
 
@@ -24,22 +24,22 @@ Most identity frameworks operate at the level of values, beliefs, or behaviors.
 
 The Six Drives™ operate at the level of neurological frequency.
 
-A fractured Drive does not produce a values problem. It produces a structural problem. The leader can name the right values, hold the right beliefs, and run the right behaviors — and still produce collapse-pattern results — because the Drive beneath the value is fractured.
+A fractured Drive does not produce a values problem. It produces a structural problem. The leader can name the right values, hold the right beliefs, and run the right behaviors, and still produce collapse-pattern results, because the Drive beneath the value is fractured.
 
 When a Drive fractures, the RAS miscalibrates.
 You begin building a reality that confirms the fracture.
 Every ceiling you cannot explain maps back to it.
 
-The work is to identify which Drive is fractured — and rebuild the architecture beneath it.
+The work is to identify which Drive is fractured, and rebuild the architecture beneath it.
 
 ---
 
 ## The Six Drives
 
-### Drive 1 — Hierarchy
+### Drive 1, Hierarchy
 
 **The Frequency:**
-The ordered position of the leader in their own architecture. Not in the world's hierarchy — in their own.
+The ordered position of the leader in their own architecture. Not in the world's hierarchy, in their own.
 
 **When Hierarchy is healthy:**
 1. The leader knows their seat and occupies it
@@ -48,12 +48,12 @@ The ordered position of the leader in their own architecture. Not in the world's
 
 **When Hierarchy is fractured:**
 1. The leader oscillates between domination and abdication
-2. The team senses the instability — and either weaponizes it or withdraws from it
+2. The team senses the instability, and either weaponizes it or withdraws from it
 3. The leader is exhausted from holding a seat they never fully claimed
 
 ---
 
-### Drive 2 — Anticipation
+### Drive 2, Anticipation
 
 **The Frequency:**
 The capacity to operate from future-tense identity. Not planning. Not prediction. The neurological pattern of moving from a not-yet-existing reality back into the present.
@@ -66,11 +66,11 @@ The capacity to operate from future-tense identity. Not planning. Not prediction
 **When Anticipation is fractured:**
 1. The leader runs every decision through the past
 2. Uncertainty triggers survival-state activation
-3. The future feels like something happening to them — not something they are building
+3. The future feels like something happening to them, not something they are building
 
 ---
 
-### Drive 3 — Sovereignty
+### Drive 3, Sovereignty
 
 **The Frequency:**
 The leader's relationship with their own authority. The neurological capacity to be the final word on themselves.
@@ -83,13 +83,13 @@ The leader's relationship with their own authority. The neurological capacity to
 **When Sovereignty is fractured:**
 1. The leader needs validation to act
 2. Disagreement reads as threat
-3. The leader's authority is performative — it collapses in private
+3. The leader's authority is performative, it collapses in private
 
 This is the central Drive of the entire architecture. Most leaders in Silent Collapse™ have a fractured Sovereignty Drive.
 
 ---
 
-### Drive 4 — Resonance
+### Drive 4, Resonance
 
 **The Frequency:**
 The capacity to receive and reflect signal cleanly. The leader's relational and energetic field.
@@ -102,31 +102,31 @@ The capacity to receive and reflect signal cleanly. The leader's relational and 
 **When Resonance is fractured:**
 1. The leader misreads relational signal
 2. Energy depletes faster than it should
-3. The wrong people stay — and the right people don't arrive
+3. The wrong people stay, and the right people don't arrive
 
 ---
 
-### Drive 5 — Expansion
+### Drive 5, Expansion
 
 **The Frequency:**
 The intrinsic drive to develop. Growth as identity-level operation, not as performance.
 
 **When Expansion is healthy:**
-1. Development is generative — every challenge becomes architecture
+1. Development is generative, every challenge becomes architecture
 2. The leader moves through plateau into next-level capacity
 3. Growth happens without producing collapse
 
 **When Expansion is fractured:**
 1. Growth becomes performance for others
 2. Plateau is experienced as failure
-3. The leader either over-strives or stalls — both are the same fracture
+3. The leader either over-strives or stalls, both are the same fracture
 
 ---
 
-### Drive 6 — Imprint
+### Drive 6, Imprint
 
 **The Frequency:**
-The leader's legacy frequency. What they leave behind — in their team, their family, their lineage, their work.
+The leader's legacy frequency. What they leave behind, in their team, their family, their lineage, their work.
 
 **When Imprint is healthy:**
 1. The leader operates from 25-year and 100-year timelines simultaneously
@@ -144,9 +144,9 @@ The leader's legacy frequency. What they leave behind — in their team, their f
 
 Each Drive can fracture through one of three mechanisms:
 
-1. **Survival activation** — the Drive was suppressed to survive a specific period
-2. **Achievement substitution** — the Drive was traded for performance results
-3. **Identity overlay** — the Drive was masked by a borrowed identity
+1. **Survival activation**, the Drive was suppressed to survive a specific period
+2. **Achievement substitution**, the Drive was traded for performance results
+3. **Identity overlay**, the Drive was masked by a borrowed identity
 
 The diagnostic work is to identify which Drive is fractured, which mechanism caused the fracture, and which Worth Distortion Pattern (Boundaries, Courage, Deservability, Love) it produces in the reality.
 
@@ -154,7 +154,7 @@ The diagnostic work is to identify which Drive is fractured, which mechanism cau
 
 ## The Diagnostic Application
 
-The Six Drives™ are mapped at the Silent Collapse Diagnostic™ and through The Reclamation Code™. The mapping produces:
+The Six Drives™ are mapped at the Silent Collapse Diagnostic™ and through The Reclamation Code. The mapping produces:
 
 1. The fractured Drive
 2. The fracture mechanism
@@ -169,14 +169,14 @@ Every tier above Bronze runs the diagnostic at higher resolution.
 
 The Six Drives™ are not metaphorical. They are not framed as energy in the marketing sense.
 
-They are neurological frequencies that the nervous system transmits and the relational field receives. When a Drive is fractured, the transmission distorts. The field responds to the distortion — and the leader's reality confirms the fracture.
+They are neurological frequencies that the nervous system transmits and the relational field receives. When a Drive is fractured, the transmission distorts. The field responds to the distortion, and the leader's reality confirms the fracture.
 
 This is observable in:
 
-1. Team behavior — who shows up, who stays, who leaves
-2. Client gravity — who is drawn in, who is repelled, who lingers without converting
-3. Family dynamics — who softens, who hardens, who pulls away
-4. Body signals — where the nervous system holds the suppression
+1. Team behavior, who shows up, who stays, who leaves
+2. Client gravity, who is drawn in, who is repelled, who lingers without converting
+3. Family dynamics, who softens, who hardens, who pulls away
+4. Body signals, where the nervous system holds the suppression
 
 The work is not to "balance the Drives" abstractly. The work is to identify the specific fracture and rebuild the architecture beneath it.
 
@@ -186,19 +186,18 @@ The work is not to "balance the Drives" abstractly. The work is to identify the 
 
 | Tier | Application |
 |:----|:----|
-| Free — Silent Collapse Diagnostic™ | First diagnostic mapping |
-| Bronze — Reclamation Code™ | Drive identification at entry level |
-| Pearl — RAS™ | Drive mapping applied to business architecture |
-| Gold — The Becoming™ | Full Drive recalibration begins |
-| Awakening / Reckoning / Ascension | Drive recalibration across personal and relational domains |
-| Obsidian / Meridian — Gravity Code™ | Drives held at sovereign scale |
-| Ruby — Paradigmatic Healing | Drive architecture propagated to the field |
+| Free, Silent Collapse Diagnostic™ | First diagnostic mapping |
+| Bronze, The Reclamation Code | Drive identification at entry level |
+| Revenue Architecture System Course, RAS™ | Drive mapping applied to business architecture |
+| Gold, The Becoming™ | Full Drive recalibration begins |
+| Find Yourself / Repair / Your Relationship | Drive recalibration across personal and relational domains |
+| Diamond / Quarterly, Gravity Code™ | Drives held at sovereign scale |
 
 ---
 
 ## Entry Point
 
-1. [Silent Collapse Diagnostic™ — 60-minute live](https://bazporter.com/silent-collapse-diagnostic)
+1. [Silent Collapse Diagnostic™, 60-minute live](https://bazporter.com/silent-collapse-diagnostic)
 2. [Strategic Call](https://bazporter.com/strategic-call)
 
 ---

@@ -15,11 +15,11 @@ This document is the canonical voice reference for all content, copy, and commun
 
 ## Core Tone Principles
 
-**Precise over poetic — but poetic when precision demands it.**
+**Precise over poetic, but poetic when precision demands it.**
 The voice leads with structure. Ornament follows only when it carries weight.
 
-**Care-fronting — not confronting.**
-Compassionate but direct. Poetic but precise. The voice speaks with the reader, not at them. It reads like the reader's own internal dialogue — the thought they couldn't quite form until this moment.
+**Care-fronting, not confronting.**
+Compassionate but direct. Poetic but precise. The voice speaks with the reader, not at them. It reads like the reader's own internal dialogue, the thought they couldn't quite form until this moment.
 
 **Short sentences. Strong nouns. Active verbs.**
 No passive constructions. No hedging. No qualifiers that soften what needs to land hard.
@@ -44,11 +44,11 @@ Every concept has a shadow. The voice teaches in contrasts.
 Takes the reader's current interpretation and replaces it with a more precise one.
 - *You are not self-sabotaging. You are loyal.*
 - *Staying small isn't humility. Humility knows its worth and chooses service anyway.*
-- *What you have been calling lost — I want to offer you a different word. Ready.*
+- *What you have been calling lost, I want to offer you a different word. Ready.*
 
 **The Diagnostic Declaration**
 Names the pattern before the person can argue with it.
-- *Unworthiness doesn't announce itself. It builds a case — belief by belief — until the person can't see past the evidence it created.*
+- *Unworthiness doesn't announce itself. It builds a case, belief by belief, until the person can't see past the evidence it created.*
 - *Not a breakdown. An erosion. Slow, invisible, structural.*
 - *A defended childhood fracture, calcified by decades of external reinforcement, masquerading as success.*
 
@@ -60,7 +60,7 @@ Gives the reader structural authorization to acknowledge what they already know.
 
 ---
 
-## Signature Phrases — Verbatim
+## Signature Phrases, Verbatim
 
 These phrases are proprietary. They appear verbatim across all content.
 
@@ -82,7 +82,7 @@ These phrases are proprietary. They appear verbatim across all content.
 
 *Being necessary felt like being valuable. Being needed felt like being loved.*
 
-*Your hyper-competence — the thing that built the empire — is now the thing limiting it.*
+*Your hyper-competence, the thing that built the empire, is now the thing limiting it.*
 
 *The qualification process is the guarantee.*
 
@@ -140,7 +140,7 @@ These phrases are proprietary. They appear verbatim across all content.
 
 *Most people die with their best work still inside them.*
 
-*Prestige isn't built — it's revealed.*
+*Prestige isn't built, it's revealed.*
 
 *Unworthiness is not the wound. Unworthiness is the access point.*
 
@@ -153,10 +153,10 @@ These phrases are proprietary. They appear verbatim across all content.
 ## What This Voice Never Does
 
 - Never uses hype language or manufactured urgency
-- Never speaks at the reader — only with them
+- Never speaks at the reader, only with them
 - Never inflates value with bonus math or artificial scarcity
-- Never performs certainty — demonstrates it
-- Never coaches from above the experience — counsels from inside it
+- Never performs certainty, demonstrates it
+- Never coaches from above the experience, counsels from inside it
 - Never uses motivational language as a substitute for structural precision
 
 *No manufactured value stacks. No inflated bonus math. The price is the price.*
@@ -169,7 +169,7 @@ The signature language above is the surface. Beneath it is a single operating pr
 
 **The reader already knows. The voice removes what's been blocking the knowing.**
 
-Every phrase, every reframe, every diagnostic declaration is designed to create a somatic recognition moment — the moment the body shifts before the words catch up.
+Every phrase, every reframe, every diagnostic declaration is designed to create a somatic recognition moment, the moment the body shifts before the words catch up.
 
 *The moment isn't in the words. It's in what happens to the body when the words stop working as armor.*
 

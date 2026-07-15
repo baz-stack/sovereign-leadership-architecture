@@ -1,13 +1,13 @@
 # Contributing Policy
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 **Owner:** Baz Porter LLC® · The Prestige Architect®
 
 ---
 
 ## CHANGELOG
 
-- **v2026.06.06.2** — Coming Home to Love™ → Coming Home™. Reclamation Code™ corrected with ™ mark. Full IP protection list expanded.
+- **v2026.06.06.2**, Coming Home™ → Coming Home™. The Reclamation Code corrected with ™ mark. Full IP protection list expanded.
 
 ---
 
@@ -15,7 +15,7 @@
 
 This repository is not an open-source project.
 
-It is the Evidence Vault for Sovereign Leadership Architecture™ — a proprietary body of work owned exclusively by Baz Porter LLC®.
+It is the Evidence Vault for Sovereign Leadership Architecture™, a proprietary body of work owned exclusively by Baz Porter LLC®.
 
 **Pull requests will not be accepted.**
 
@@ -55,14 +55,13 @@ All content in this repository is proprietary and protected under trademark and 
 14. The Gravity Code™
 15. The Becoming™
 16. Coming Home™
-17. Paradigmatic Healing
 18. A Million Dreams™
-19. Reclamation Code™
-20. Revenue Architecture System (RAS™)
+19. The Reclamation Code
+20. Revenue Architecture System Course
 21. Power Without Performance. Peace Without Retreat.™
 22. Not transformation. Return.™
 
-Unauthorized use, reproduction, adaptation, or distribution of any content in this vault — in whole or in part — is prohibited and will be treated as trademark and copyright infringement.
+Unauthorized use, reproduction, adaptation, or distribution of any content in this vault, in whole or in part, is prohibited and will be treated as trademark and copyright infringement.
 
 ---
 

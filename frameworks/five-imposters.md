@@ -2,13 +2,13 @@
 
 ### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 
 ---
 
 ## The Definition
 
-The Five Imposters™ are the five categories of intervention that high-achieving leaders invest in — repeatedly — that treat the symptoms of Silent Collapse™ while leaving the underlying structure untouched.
+The Five Imposters™ are the five categories of intervention that high-achieving leaders invest in, repeatedly, that treat the symptoms of Silent Collapse™ while leaving the underlying structure untouched.
 
 Each Imposter is real. Each one helps. Each one has a place.
 
@@ -24,9 +24,9 @@ This is why the same leaders keep returning to the same problem with different l
 
 Five systems are sold as solutions. Five systems operate above the structural level.
 
-Beneath them sit the Six Drives of Human Intelligence™ — six frequencies the nervous system is either transmitting or blocking.
+Beneath them sit the Six Drives of Human Intelligence™, six frequencies the nervous system is either transmitting or blocking.
 
-The Imposters Are Architectural Mismatches — not failures of your effort. The problem they claim to solve exists at a level they cannot reach.
+The Imposters Are Architectural Mismatches, not failures of your effort. The problem they claim to solve exists at a level they cannot reach.
 
 When a Drive fractures, the RAS miscalibrates. You begin building a reality that confirms the fracture. Every ceiling you cannot explain maps back to it.
 
@@ -34,7 +34,7 @@ All of it is structural. All of it is addressable.
 
 ---
 
-## Imposter 1 — The Motivation Machine
+## Imposter 1, The Motivation Machine
 
 **What it sells:**
 Energy. State change. Drive. The belief that if you just want it more, you'll move further.
@@ -45,7 +45,7 @@ Tony Robbins events. Speakers, retreats, hype-driven group programs. Affirmation
 **Why it fails:**
 Motivation is not the problem. Identity misalignment is the problem.
 
-A leader running on motivation is running on borrowed fuel. When the event ends, the fuel ends. The decided state is not installed — it was simulated.
+A leader running on motivation is running on borrowed fuel. When the event ends, the fuel ends. The decided state is not installed, it was simulated.
 
 The Mindset Myth is a structural twin to this Imposter.
 
@@ -54,7 +54,7 @@ You don't need more motivation. You need an identity that doesn't require consta
 
 ---
 
-## Imposter 2 — The Therapy Loop
+## Imposter 2, The Therapy Loop
 
 **What it sells:**
 Insight. Understanding. Processing. The belief that if you understand why, the pattern will release.
@@ -72,7 +72,7 @@ Insight without structural change is information. Information is not the same as
 
 ---
 
-## Imposter 3 — The Hustle Gospel
+## Imposter 3, The Hustle Gospel
 
 **What it sells:**
 More effort. More output. More grind. The belief that the next level is on the other side of more work.
@@ -83,14 +83,14 @@ The "5 AM Club." Productivity systems. Hustle culture. Programs that frame achie
 **Why it fails:**
 More output from a fractured architecture produces more fracture.
 
-The leader who runs harder on a survival-state operating system reaches the next level — and the survival state runs the next level. The weight compounds. The ceiling rises. The collapse deepens.
+The leader who runs harder on a survival-state operating system reaches the next level, and the survival state runs the next level. The weight compounds. The ceiling rises. The collapse deepens.
 
 **The structural truth:**
 You are not under-performing. You are under-architected. The fix is not more effort. It is a different structure.
 
 ---
 
-## Imposter 4 — The Mindset Myth
+## Imposter 4, The Mindset Myth
 
 **What it sells:**
 Reframing. New beliefs. Different thinking. The belief that if you change your mind about it, the reality will change.
@@ -101,16 +101,16 @@ Mindset programs. Affirmation-based interventions. "Limiting belief" work withou
 **Why it fails:**
 You cannot think your way out of a structural problem.
 
-The mind responds to the identity beneath it. New thoughts on top of old identity — identity wins. Every time. The thoughts fade. The identity persists.
+The mind responds to the identity beneath it. New thoughts on top of old identity, identity wins. Every time. The thoughts fade. The identity persists.
 
-This is why The Mindset Myth and The Motivation Machine are paired Imposters — they both treat the cognitive layer while leaving the identity untouched.
+This is why The Mindset Myth and The Motivation Machine are paired Imposters, they both treat the cognitive layer while leaving the identity untouched.
 
 **The structural truth:**
-The mind follows the identity. Change the identity — the mind recalibrates automatically.
+The mind follows the identity. Change the identity, the mind recalibrates automatically.
 
 ---
 
-## Imposter 5 — The Group Container
+## Imposter 5, The Group Container
 
 **What it sells:**
 Community. Peer architecture. Proximity. The belief that being around other high-achievers will produce the next level.
@@ -121,11 +121,11 @@ Masterminds. Group coaching containers. High-ticket peer programs. "We rise toge
 **Why it fails:**
 Proximity to other high-achievers is not the same as precision intervention.
 
-Community is real. The right peer architecture matters. But when used as the primary intervention for Silent Collapse™ — it surrounds the leader with people running the same fractured architecture. Validation without rebuild.
+Community is real. The right peer architecture matters. But when used as the primary intervention for Silent Collapse™, it surrounds the leader with people running the same fractured architecture. Validation without rebuild.
 
 The leader leaves feeling seen. They return to the same operating system. The collapse continues.
 
-A Million Dreams™ (Silver tier · $397/month) is a sovereign-grade cohort container — designed to operate alongside, not in place of, structural identity rebuild. It is not an Imposter because it knows what it is and is not.
+A Million Dreams™ (Silver tier · $397/month) is a sovereign-grade cohort container, designed to operate alongside, not in place of, structural identity rebuild. It is not an Imposter because it knows what it is and is not.
 
 **The structural truth:**
 Community is supplemental. It is not the architecture. Precision identity work is the architecture.
@@ -150,7 +150,7 @@ Each one is partially right. Each one is structurally insufficient.
 
 ## The Cumulative Cost
 
-The leader who invests in all five — sequentially, over years — develops a specific pattern:
+The leader who invests in all five, sequentially, over years, develops a specific pattern:
 
 1. The same problem returning in new language
 2. Increasing frustration with their own "lack of follow-through"
@@ -169,7 +169,7 @@ It was never going to.
 
 Sovereign Leadership Architecture™ is not an addition to The Five Imposters™. It is the structural intervention that operates beneath them.
 
-The leader who has cycled through three or more Imposters and is still in this conversation — is ready.
+The leader who has cycled through three or more Imposters and is still in this conversation, is ready.
 
 The diagnosis is precise. The architecture exists. The work is structural, not symptomatic.
 

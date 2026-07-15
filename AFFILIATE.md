@@ -1,6 +1,6 @@
-# AFFILIATE — Sovereign Leadership Architecture
+# AFFILIATE, Sovereign Leadership Architecture
 
-**Version:** v2026.06.06
+**Version:** v2026.07.15.1
 **Status:** LIVE CANON · Source of Truth
 **Owner:** Baz Porter LLC® · The Prestige Architect®
 
@@ -8,7 +8,7 @@
 
 ## CHANGELOG
 
-- **v2026.06.06** — File created. Affiliate program documented as a parallel revenue line outside the priced offer stack. Delphi AI Clone positioned inside the affiliate campaign.
+- **v2026.06.06**, File created. Affiliate program documented as a parallel revenue line outside the priced offer stack. Delphi AI Clone positioned inside the affiliate campaign.
 
 ---
 
@@ -24,7 +24,6 @@ The Affiliate / Ambassador Program is a **parallel revenue line**. It sits outsi
 |:----|:----|
 | Discovery Layer | Books · podcast · YouTube · meditation · newsletters |
 | Value Tier | Silent Collapse Diagnostic |
-| Offer Stack | Bronze → Ruby (12 tiers) |
 | **Parallel Revenue Lines** | **Affiliate Program · Speaking (parked)** |
 
 The Affiliate Program does not route into the offer stack. It runs in parallel.
@@ -43,7 +42,7 @@ Higher-tier partners who carry the architecture publicly. Stronger commission, d
 
 ---
 
-## DELPHI AI CLONE — PRODUCTIZATION
+## DELPHI AI CLONE, PRODUCTIZATION
 
 The Delphi AI Clone is **productized through the affiliate campaign**.
 
@@ -59,7 +58,7 @@ The Delphi Clone is not a priced tier. It is positioned as a benefit/access asse
 
 ---
 
-## SPEAKING — PARKED
+## SPEAKING, PARKED
 
 Speaking and keynotes are **parked**, not productized.
 
@@ -69,7 +68,7 @@ Speaking and keynotes are **parked**, not productized.
 | Credentials | Excel Arena London (35,000 attendees) · C-Suite Network partnership |
 | Trigger to activate | Manual decision by founder |
 
-When activated, speaking will productize as its own parallel revenue line — not absorbed into the offer stack.
+When activated, speaking will productize as its own parallel revenue line, not absorbed into the offer stack.
 
 ---
 

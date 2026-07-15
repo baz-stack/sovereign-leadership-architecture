@@ -1,6 +1,6 @@
-# DISCOVERY LAYER — Sovereign Leadership Architecture
+# DISCOVERY LAYER, Sovereign Leadership Architecture
 
-**Version:** v2026.06.06
+**Version:** v2026.07.15.1
 **Status:** LIVE CANON · Source of Truth
 **Owner:** Baz Porter LLC® · The Prestige Architect®
 
@@ -8,7 +8,7 @@
 
 ## CHANGELOG
 
-- **v2026.06.06** — File created. Discovery Layer formally separated from the priced offer stack. Books, podcast, YouTube, meditation, and newsletters documented as authority + routing assets.
+- **v2026.06.06**, File created. Discovery Layer formally separated from the priced offer stack. Books, podcast, YouTube, meditation, and newsletters documented as authority + routing assets.
 
 ---
 
@@ -43,7 +43,7 @@ When both answers are yes, the lead enters the Diagnostic. The Diagnostic routes
 
 Books are not priced inside the stack. Amazon revenue is incidental.
 
-### Podcast — Rise From The Ashes
+### Podcast, Rise From The Ashes
 
 | ATTRIBUTE | DETAIL |
 |:----|:----|
@@ -91,7 +91,7 @@ Books are not priced inside the stack. Amazon revenue is incidental.
 3. Day 5 email routes to Silent Collapse Diagnostic
 4. Routes to book chapter download as secondary CTA
 
-This is the **nervous-system entry point** — the lowest-friction door for the somatic-aware buyer who is not yet ready to take an audit.
+This is the **nervous-system entry point**, the lowest-friction door for the somatic-aware buyer who is not yet ready to take an audit.
 
 ### Newsletters
 
@@ -117,10 +117,9 @@ DISCOVERY LAYER (free authority)
         ↓
 SILENT COLLAPSE DIAGNOSTIC (free entry)
         ↓
-PRICED STACK (Bronze → Ruby)
 ```
 
-Discovery assets do not route to each other. They all converge on the Diagnostic. This is intentional — the Diagnostic is the single mechanism that produces tier-correct routing.
+Discovery assets do not route to each other. They all converge on the Diagnostic. This is intentional, the Diagnostic is the single mechanism that produces tier-correct routing.
 
 ---
 
@@ -128,7 +127,7 @@ Discovery assets do not route to each other. They all converge on the Diagnostic
 
 The Sovereign Brief Substack is **free**. It stays in the Discovery Layer. No paid tier.
 
-LinkedIn newsletters mirror Substack content with platform-specific framing. The same insight gets three native expressions — never copy-paste.
+LinkedIn newsletters mirror Substack content with platform-specific framing. The same insight gets three native expressions, never copy-paste.
 
 ---
 

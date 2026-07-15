@@ -2,7 +2,7 @@
 
 ## Proprietary Framework Registry
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 **Status:** LIVE CANON
 **Owner:** Baz Porter LLC® · The Prestige Architect®
 
@@ -10,7 +10,6 @@
 
 ## CHANGELOG
 
-- **v2026.06.06.2** — Full rewrite. The Five Pillars of RAMS™ formalized (Results · Attitude · Authenticity · Mastery · Systems). Reclaim Her Power retired. The Becoming™ established at Gold tier. Coming Home™ (renamed from Coming Home to Love™) Awakening · Reckoning · Ascension. Paradigmatic Healing documented at Ruby tier. 17+ proprietary frameworks added to registry. Pricing corrected canon-wide.
 
 ---
 
@@ -26,11 +25,11 @@ Every framework here emerged from lived experience. Every framework was stress-t
 
 ## CORE OPERATING SYSTEMS
 
-### The RAMS™ Framework — The Five Pillars
+### The RAMS™ Framework, The Five Pillars
 
 **Full Name:** Results · Attitude · Authenticity · Mastery · Systems
 
-**Function:** Sovereign leadership operating system — the integrating architecture beneath every client engagement. The body and the business run on the same architecture. When one is dysregulated, both are compromised.
+**Function:** Sovereign leadership operating system, the integrating architecture beneath every client engagement. The body and the business run on the same architecture. When one is dysregulated, both are compromised.
 
 **Pillar Weighting (Current):**
 
@@ -52,7 +51,7 @@ Every framework here emerged from lived experience. Every framework was stress-t
 
 **Full Name:** Hierarchy · Anticipation · Sovereignty · Resonance · Expansion · Imprint
 
-**Function:** The neurological and quantum architecture beneath sovereign identity. Six frequencies the nervous system is either transmitting or blocking. When a Drive fractures, the RAS miscalibrates — and the leader begins building a reality that confirms the fracture.
+**Function:** The neurological and quantum architecture beneath sovereign identity. Six frequencies the nervous system is either transmitting or blocking. When a Drive fractures, the RAS miscalibrates, and the leader begins building a reality that confirms the fracture.
 
 **Application:** Diagnostic entry point · identity architecture work · pre-engagement qualification
 
@@ -64,12 +63,11 @@ Every framework here emerged from lived experience. Every framework was stress-t
 
 ### The Silent Collapse Diagnostic™
 
-**Function:** Free entry diagnostic — names the structural condition affecting high-performing leaders whose identity infrastructure is eroding beneath intact performance.
+**Function:** Free entry diagnostic, names the structural condition affecting high-performing leaders whose identity infrastructure is eroding beneath intact performance.
 
 **Modes:**
 
-1. **Sovereign Collapse Self Audit** — 101-question DIY assessment · self-serve via GHL funnel
-2. **Live Silent Collapse Diagnostic** — 60-minute live diagnostic conducted personally by Baz · 3 seats per week
+2. **Live Silent Collapse Diagnostic**, 60-minute live diagnostic conducted personally by Baz · 3 seats per week
 
 Both modes route into the 12-tier offer stack based on outcome.
 
@@ -81,7 +79,7 @@ Both modes route into the 12-tier offer stack based on outcome.
 
 **Patterns:** Boundaries · Courage · Deservability · Love
 
-**Function:** Financial and identity diagnostic — maps the specific pattern suppressing worth expression.
+**Function:** Financial and identity diagnostic, maps the specific pattern suppressing worth expression.
 
 **Application:** Pre-engagement qualification · content qualification architecture
 
@@ -92,8 +90,6 @@ Both modes route into the 12-tier offer stack based on outcome.
 ### The Dual Audit Architecture
 
 **Components:**
-1. 101-Question Leadership Self-Audit
-2. Financial Self-Audit (Money Mirrors / Old Money New Money)
 
 **Function:** Complete pre-engagement diagnostic picture before first conversation.
 
@@ -111,7 +107,7 @@ Both modes route into the 12-tier offer stack based on outcome.
 3. How does that affect you?
 4. How can I help you with this particular challenge?
 
-**Function:** Structured conversational diagnostic — creates somatic recognition moment.
+**Function:** Structured conversational diagnostic, creates somatic recognition moment.
 
 **Application:** Stage Two of the Three-Stage Pre-Engagement Architecture
 
@@ -121,9 +117,8 @@ Both modes route into the 12-tier offer stack based on outcome.
 
 ### The Three-Stage Pre-Engagement Architecture
 
-**Stage One:** Self-Audit — intellectual location without confrontation
-**Stage Two:** Four-Question Diagnostic Conversation — somatic recognition
-**Stage Three:** Go/No-Go Determination — written recommendation, fit assessed
+**Stage Two:** Four-Question Diagnostic Conversation, somatic recognition
+**Stage Three:** Go/No-Go Determination, written recommendation, fit assessed
 
 **Function:** Converts sales conversation into qualification architecture.
 
@@ -138,11 +133,11 @@ Both modes route into the 12-tier offer stack based on outcome.
 ### The Five Imposters™
 
 **Components:**
-1. The Motivation Machine — fractured Drive: Hierarchy
-2. The Therapy Loop — fractured Drive: Resonance
-3. The Hustle Gospel — fractured Drive: Expansion
-4. The Mindset Myth — fractured Drive: Sovereignty
-5. The Group Container — fractured Drive: Imprint
+1. The Motivation Machine, fractured Drive: Hierarchy
+2. The Therapy Loop, fractured Drive: Resonance
+3. The Hustle Gospel, fractured Drive: Expansion
+4. The Mindset Myth, fractured Drive: Sovereignty
+5. The Group Container, fractured Drive: Imprint
 
 **Function:** Names the five systems sold as solutions that function as maintenance systems for Silent Collapse™. Market positioning architecture.
 
@@ -160,7 +155,7 @@ Both modes route into the 12-tier offer stack based on outcome.
 5. Sovereign Self-Possession
 6. Ratified Architecture
 
-**Function:** The named, specified, verifiable end-state of every engagement. Five of six is not the standard — the architecture is composite.
+**Function:** The named, specified, verifiable end-state of every engagement. Five of six is not the standard, the architecture is composite.
 
 **Principle:** *Victoria is paying for the seat. Oliver is occupying it. The work is finished when the leader stops paying for the seat.*
 
@@ -170,8 +165,8 @@ Both modes route into the 12-tier offer stack based on outcome.
 
 ### The Victoria-to-Oliver Bridge
 
-**Victoria:** The leader before — Silent Collapse™ operating · paying for the seat
-**Oliver:** The leader after — seat occupied not endured · power without performance
+**Victoria:** The leader before, Silent Collapse™ operating · paying for the seat
+**Oliver:** The leader after, seat occupied not endured · power without performance
 
 **Function:** Methodology named in two archetypes. Positions the entire offer stack as a methodology spectrum.
 
@@ -182,12 +177,12 @@ Both modes route into the 12-tier offer stack based on outcome.
 ### The Sovereign Return Architecture™
 
 **Six Stages:**
-1. Recognition — Silent Collapse™ named with precision
-2. Identification — fractured Drive located
-3. Dismantlement — survival state architecture collapsed at the root
-4. Recalibration — new identity architecture installed
-5. Embodiment — public coherence at scale
-6. Sovereignty — permanent retained power architecture verified
+1. Recognition, Silent Collapse™ named with precision
+2. Identification, fractured Drive located
+3. Dismantlement, survival state architecture collapsed at the root
+4. Recalibration, new identity architecture installed
+5. Embodiment, public coherence at scale
+6. Sovereignty, permanent retained power architecture verified
 
 **Function:** The complete sequential pathway from Silent Collapse™ to sovereign leadership.
 
@@ -218,12 +213,12 @@ Both modes route into the 12-tier offer stack based on outcome.
 ### The Six Integration Layers
 
 **Layers:**
-1. Neuroscience — biological substrate of identity and performance
-2. Quantum Principles — the Six Drives™ and their fracture signatures
-3. Military Doctrine — structure before strategy · force multiplication · hierarchy of load
-4. Identity Architecture — the Victoria-to-Oliver arc
-5. NLP Pattern Installation — installed beliefs, not intellectual agreements
-6. AI Governance Ethics — the Sovereign AI Charter™
+1. Neuroscience, biological substrate of identity and performance
+2. Quantum Principles, the Six Drives™ and their fracture signatures
+3. Military Doctrine, structure before strategy · force multiplication · hierarchy of load
+4. Identity Architecture, the Victoria-to-Oliver arc
+5. NLP Pattern Installation, installed beliefs, not intellectual agreements
+6. AI Governance Ethics, the Sovereign AI Charter™
 
 **Function:** Pedagogical operating system that runs simultaneously through every module of every engagement. No module is taught flat.
 
@@ -263,21 +258,19 @@ Both modes route into the 12-tier offer stack based on outcome.
 
 ## SUPPLEMENTAL DIAGNOSTICS
 
-### 101-Question Leadership Self-Audit
 
-**Function:** Operational diagnostic instrument — the Sovereign Collapse Self Audit instrument used at the Value tier.
 
 **Status:** Proprietary
 
 ### Money Mirrors / Old Money New Money
 
-**Function:** Financial worth diagnostic instruments — surface the financial expression of identity fractures.
+**Function:** Financial worth diagnostic instruments, surface the financial expression of identity fractures.
 
 **Status:** Proprietary
 
 ### The 74 Cosmic Laws
 
-**Function:** Proprietary cosmological framework — received and documented during the 17-day spiritual awakening that produced the quantum substrate of the methodology.
+**Function:** Proprietary cosmological framework, received and documented during the 17-day spiritual awakening that produced the quantum substrate of the methodology.
 
 **Status:** Proprietary
 
@@ -292,17 +285,16 @@ Both modes route into the 12-tier offer stack based on outcome.
 | TIER | OFFER | INVESTMENT |
 |:----|:----|:----|
 | VALUE | Silent Collapse Diagnostic™ | Free |
-| BRONZE | Reclamation Code™ | $97 |
-| SILVER | A Million Dreams™ Cohort | $397/month |
-| PEARL | Revenue Architecture System (RAS™) | $497 |
+| BRONZE | The Reclamation Code | $97 |
+| SILVER | A Million Dreams™ Circle | $397/month |
+| REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System Course | $497 |
 | GOLD | The Becoming™ | $4,620 (or 3 × $1,620) |
 | PLATINUM | Business Profit Accelerator (BPA) | $5,998 |
-| AWAKENING | Coming Home: The Awakening | $15,000 · 3 months |
-| RECKONING | Coming Home: The Reckoning | $27,000 · 90 days |
-| ASCENSION | Coming Home: The Ascension | $45,000 · 6 months |
-| OBSIDIAN | The Gravity Code™ | $100,000/year · 8 seats |
-| MERIDIAN | The Gravity Code™ + Horizon Leaders | $132,000/year |
-| RUBY | Paradigmatic Healing | $1,000,000/year · invitation only · in build |
+| FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 · 3 months |
+| REPAIR | Coming Home™ - Repair | $27,000 · 90 days |
+| YOUR RELATIONSHIP | Coming Home™ - Your Relationship | $45,000 · 6 months |
+| DIAMOND | The Gravity Code™ | $100,000/year · 8 seats |
+| QUARTERLY | The Gravity Code™ + Horizon Leaders | $132,000/year |
 
 ---
 
@@ -314,41 +306,40 @@ Both modes route into the 12-tier offer stack based on outcome.
 
 **Investment:** $4,620 (or 3 × $1,620)
 
-**Status:** Replaced Reclaim Her Power at the Gold tier in June 2026. Gender-neutral, repurposable across all leaders.
+**Status:** Replaced The Becoming™ at the Gold tier in June 2026. Gender-neutral, repurposable across all leaders.
 
 ---
 
-### Coming Home™ — Three-Tier Suite
+### Coming Home™, Three-Tier Suite
 
-**Tier 1 — The Awakening:** Identity literacy · Six Drives™ diagnostic · 3 months · 6 sessions · $15,000
+**Tier 1, The Find Yourself:** Identity literacy · Six Drives™ diagnostic · 3 months · 6 sessions · $15,000
 
-**Tier 2 — The Reckoning:** Relational field renegotiation · 90 days · 8 sessions + Day 45 full-day intensive · $27,000 · parallel to The Awakening (selected by urgency state at diagnostic)
+**Tier 2, The Repair:** Relational field renegotiation · 90 days · 8 sessions + Day 45 full-day intensive · $27,000 · parallel to The Find Yourself (selected by urgency state at diagnostic)
 
-**Tier 3 — The Ascension:** Public coherence at scale · 6 months · 12 sessions + 2-day weekend intensive · 13 precision assets · $45,000 · graduation-only · fed by Awakening or Reckoning
+**Tier 3, The Your Relationship:** Public coherence at scale · 6 months · 12 sessions + 2-day weekend intensive · 13 precision assets · $45,000 · graduation-only · fed by Find Yourself or Repair
 
 **Status:** Trademarked
 
 ---
 
-### The Gravity Code™ — Obsidian · Meridian
+### The Gravity Code™, Diamond · Quarterly
 
 **Function:** Retained power architecture for leaders operating at the highest altitude.
 
-**Obsidian — Annual Commitment:** $100,000 · 8 seats annually · 24 private sessions + 4 quarterly intensives + annual immersion + Legacy Blueprint Intensive + expanded Delphi™ Clone training
+**Diamond, Annual Commitment:** $100,000 · 8 seats annually · 24 private sessions + 4 quarterly intensives + annual immersion + Legacy Blueprint Intensive + expanded Delphi™ Clone training
 
-**Meridian — Quarterly Structure:** $132,000 · institutional cadence · propagation rhythm · same work, structured for organizational deployment
+**Quarterly, Quarterly Structure:** $132,000 · institutional cadence · propagation rhythm · same work, structured for organizational deployment
 
 **Status:** Trademarked
 
 ---
 
-### Paradigmatic Healing — Ruby Tier
 
 **Function:** Sovereign endgame. The work no longer serves the individual leader. It serves the field behind them.
 
 **Investment:** $1,000,000/year
 
-**Access:** Invitation only · selected from the existing Obsidian + Meridian roster
+**Access:** Invitation only · selected from the existing Diamond + Quarterly roster
 
 **Status:** In build. Trademarked.
 
@@ -408,11 +399,10 @@ Every institutional engagement includes:
 See [RETIRED.md](./RETIRED.md) for the full retirement log.
 
 Currently retired:
-1. Reclaim Her Power (RHP) — replaced by The Becoming™
-2. Coming Home to Love (offer name) — replaced by Coming Home™
-3. RAMS™ 4-Pillar Definition — replaced by The Five Pillars (5 pillars with Authenticity added)
-4. RAMS™ Previous Acronym (Reach · Acquire · Monetize · Scale) — replaced by Results · Attitude · Authenticity · Mastery · Systems
-5. Identity Reset (Excavation $25K / Embodiment $42K) — superseded by The Becoming™ + Coming Home™ tiers
+1. A prior identity offer, replaced by The Becoming™
+2. A prior methodology offer name, consolidated into Coming Home™
+3. A prior RAMS™ definition, replaced by the five pillars
+4. A prior RAMS™ acronym, replaced by the five pillars: Results, Attitude, Authenticity, Mastery, Systems
 
 ---
 

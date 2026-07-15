@@ -2,7 +2,7 @@
 
 ### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 
 ---
 
@@ -24,13 +24,13 @@ Every high-performing leader has been trained to treat the nervous system as a w
 
 Get more sleep. Meditate. Cold plunge. Breathwork. Manage stress.
 
-This frames the nervous system as something to be **maintained** — a personal-care variable separate from the business.
+This frames the nervous system as something to be **maintained**, a personal-care variable separate from the business.
 
 The Sovereign Nervous System Protocol™ frames it as **infrastructure**.
 
 Vagal tone is performance infrastructure.
 
-When vagal tone collapses, decision integrity collapses with it. The leader does not lose capacity in a different domain — they lose capacity inside the same domain that determines whether the business holds.
+When vagal tone collapses, decision integrity collapses with it. The leader does not lose capacity in a different domain, they lose capacity inside the same domain that determines whether the business holds.
 
 You cannot run sovereign architecture on a survival-state nervous system. The hardware will not support the software.
 
@@ -40,7 +40,7 @@ You cannot run sovereign architecture on a survival-state nervous system. The ha
 
 The protocol maps four nervous system states. Each produces a distinct leadership pattern.
 
-### State 1 — Mobilized Sympathetic (Survival Acute)
+### State 1, Mobilized Sympathetic (Survival Acute)
 
 **What it looks like internally:**
 1. Decisions made under pressure read as strategic but originate in alarm
@@ -54,7 +54,7 @@ The protocol maps four nervous system states. Each produces a distinct leadershi
 
 ---
 
-### State 2 — Dorsal Vagal Shutdown (Survival Collapsed)
+### State 2, Dorsal Vagal Shutdown (Survival Collapsed)
 
 **What it looks like internally:**
 1. The body has stopped fighting · entered conservation
@@ -68,7 +68,7 @@ The protocol maps four nervous system states. Each produces a distinct leadershi
 
 ---
 
-### State 3 — Ventral Vagal Engagement (Sovereign Default)
+### State 3, Ventral Vagal Engagement (Sovereign Default)
 
 **What it looks like internally:**
 1. The body is regulated · the nervous system is settled
@@ -82,7 +82,7 @@ The protocol maps four nervous system states. Each produces a distinct leadershi
 
 ---
 
-### State 4 — Sovereign Resilience (Trained Capacity)
+### State 4, Sovereign Resilience (Trained Capacity)
 
 **What it looks like internally:**
 1. The leader can move between states with awareness
@@ -131,7 +131,7 @@ This is not nervous system co-regulation work.
 
 Those modalities have value. None of them frame the nervous system as performance infrastructure for leadership at altitude.
 
-The Sovereign Nervous System Protocol™ is the architectural application — the bridge between the body and the business.
+The Sovereign Nervous System Protocol™ is the architectural application, the bridge between the body and the business.
 
 ---
 
@@ -139,19 +139,18 @@ The Sovereign Nervous System Protocol™ is the architectural application — th
 
 | Tier | Application |
 |:----|:----|
-| Gold — The Becoming™ | First structural installation |
-| Awakening | Vagal training in identity literacy |
-| Reckoning | Nervous system rebuild under urgency |
-| Ascension | Sovereign Resilience trained as default |
-| Obsidian — Gravity Code | Sovereign Resilience held at scale |
-| Meridian — Gravity Code Quarterly | Institutional propagation |
-| Ruby — Paradigmatic Healing | Field-level nervous system architecture |
+| Gold, The Becoming™ | First structural installation |
+| Find Yourself | Vagal training in identity literacy |
+| Repair | Nervous system rebuild under urgency |
+| Your Relationship | Sovereign Resilience trained as default |
+| Diamond, Gravity Code | Sovereign Resilience held at scale |
+| Quarterly, Gravity Code Quarterly | Institutional propagation |
 
 ---
 
 ## Entry Point
 
-1. [Silent Collapse Diagnostic™ — 60-minute live](https://bazporter.com/silent-collapse-diagnostic)
+1. [Silent Collapse Diagnostic™, 60-minute live](https://bazporter.com/silent-collapse-diagnostic)
 2. [Strategic Call](https://bazporter.com/strategic-call)
 
 ---

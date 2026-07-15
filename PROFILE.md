@@ -1,23 +1,22 @@
 # PROFILE
 
-## Baz Porter® — Sovereign Leadership Architecture™
+## Baz Porter®, Sovereign Leadership Architecture™
 
 > *Not transformation. Return.*
 
-**Version:** v2026.06.06.2
+**Version:** v2026.07.15.1
 **Owner:** Baz Porter LLC® · The Prestige Architect®
 
 ---
 
 ## CHANGELOG
 
-- **v2026.06.06.2** — Full rewrite. The Five Pillars enumerated. 12-tier ladder updated. Coming Home™ replaces Coming Home to Love. The Becoming™ replaces Reclaim Her Power. Paradigmatic Healing documented at Ruby. Substack URL corrected to @bazporter.
 
 ---
 
 ## What This Repository Is
 
-This is the canonical reference repository for Baz Porter LLC® — the complete, structured record of the IP, frameworks, methodology, and doctrine that constitutes Sovereign Leadership Architecture™.
+This is the canonical reference repository for Baz Porter LLC®, the complete, structured record of the IP, frameworks, methodology, and doctrine that constitutes Sovereign Leadership Architecture™.
 
 It exists for three purposes:
 
@@ -29,7 +28,7 @@ It exists for three purposes:
 
 ## The Founder
 
-Baz Porter is the creator of Sovereign Leadership Architecture™ — the only system that rebuilds the identity infrastructure beneath high performance, not the strategy on top of it.
+Baz Porter is the creator of Sovereign Leadership Architecture™, the only system that rebuilds the identity infrastructure beneath high performance, not the strategy on top of it.
 
 He works with founders, executives, and leaders who are producing at the highest level of their careers while privately experiencing structural collapse beneath the surface.
 
@@ -42,7 +41,7 @@ He does not coach. He architects.
 | Framework | Description |
 |:----|:----|
 | Silent Collapse™ | Structural identity failure disguised as high performance |
-| RAMS™ — The Five Pillars | Results · Attitude · Authenticity · Mastery · Systems |
+| RAMS™, The Five Pillars | Results · Attitude · Authenticity · Mastery · Systems |
 | The Five Imposters™ | Five systems sold as solutions that maintain Silent Collapse™ |
 | The Six Drives of Human Intelligence™ | Neurological architecture beneath sovereign identity |
 | The Oliver Standard™ | Six-property verified benchmark of sovereign leadership |
@@ -56,7 +55,7 @@ He does not coach. He architects.
 
 ---
 
-## RAMS™ — The Five Pillars
+## RAMS™, The Five Pillars
 
 | Pillar | Weight | Function |
 |:----|:----|:----|
@@ -73,17 +72,16 @@ He does not coach. He architects.
 | Tier | Offer | Investment |
 |:----|:----|:----|
 | VALUE | Silent Collapse Diagnostic™ | Free |
-| BRONZE | Reclamation Code™ | $97 |
-| SILVER | A Million Dreams™ Cohort | $397/month |
-| PEARL | Revenue Architecture System (RAS™) | $497 |
+| BRONZE | The Reclamation Code | $97 |
+| SILVER | A Million Dreams™ Circle | $397/month |
+| REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System Course | $497 |
 | GOLD | The Becoming™ | $4,620 (or 3 × $1,620) |
 | PLATINUM | Business Profit Accelerator | $5,998 |
-| AWAKENING | Coming Home: The Awakening | $15,000 |
-| RECKONING | Coming Home: The Reckoning | $27,000 |
-| ASCENSION | Coming Home: The Ascension | $45,000 |
-| OBSIDIAN | The Gravity Code™ · Annual | $100,000 |
-| MERIDIAN | The Gravity Code™ · Quarterly Structure | $132,000 |
-| RUBY | Paradigmatic Healing | $1,000,000 · invitation only · in build |
+| FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 |
+| REPAIR | Coming Home™ - Repair | $27,000 |
+| YOUR RELATIONSHIP | Coming Home™ - Your Relationship | $45,000 |
+| DIAMOND | The Gravity Code™ - Diamond | $100,000 |
+| QUARTERLY | The Gravity Code™ - Quarterly | $132,000 |
 
 ---
 
@@ -91,28 +89,28 @@ He does not coach. He architects.
 
 Free brand-authority assets that route into the Silent Collapse Diagnostic™:
 
-1. *Die Empty Live Full* — International Bestseller (Part 4, March 2025)
-2. *Cracking the Rich Code Vol. 12* — Foreword Brian Tracy, endorsed Tony Robbins
-3. Rise From The Ashes Podcast — C-Suite Network partnership
-4. YouTube — @risefromtheashespodcast
-5. 5-Day Somatic Meditation Sequence — free email opt-in
-6. LinkedIn newsletters — Business Evolution · Silent Collapse Letters · Rise & Ashes
-7. Substack — Sovereign Brief (Tuesdays · free)
+1. *Die Empty Live Full*, International Bestseller (Part 4, March 2025)
+2. *Cracking the Rich Code Vol. 12*, contributing author to an international bestseller, Foreword Brian Tracy, endorsed Tony Robbins
+3. Rise From The Ashes Podcast, C-Suite Network partnership, 100+ episodes
+4. YouTube, @risefromtheashespodcast
+5. 5-Day Somatic Meditation Sequence, free email opt-in
+6. LinkedIn newsletters, Business Evolution · Silent Collapse Letters · Rise & Ashes
+7. Substack, Sovereign Brief (Tuesdays · free)
 
 ---
 
 ## Credentials
 
-1. British Army veteran — 6 years
+1. British Army veteran, 6.5 years, 1997 to 2004
 2. Two-time international bestselling author
 3. Tony Robbins Platinum Partnership
-4. Princeton University speaker
-5. Excel Arena London — 35,000 attendees
+4. Princeton speaker
+5. Excel Arena London, 35,000 attendees
 6. Best Transformational Leadership Coaching 2024
 7. Featured: Yahoo Finance · CEO Weekly · Thrive Global
 8. C-Suite Network podcast host
-9. Delphi AI Clone — 24,700+ minds trained
-10. BAZ PORTER® — registered trademark · Reg. No. 7,125,540
+9. Delphi AI Clone, 24,700+ minds trained
+10. BAZ PORTER®, registered trademark · Reg. No. 7,125,540
 
 ---
 
@@ -135,7 +133,6 @@ Free brand-authority assets that route into the Silent Collapse Diagnostic™:
 
 © 2019–2026 Baz Porter LLC®. All Rights Reserved.
 
-All IP — including Silent Collapse™, RAMS™, The Five Imposters™, The Six Drives of Human Intelligence™, Sovereign Leadership Architecture™, The Gravity Code™, The Oliver Standard™, The Sovereign Return Architecture™, The Sovereign Nervous System Protocol™, The Sovereign Operating System™, The Sovereign AI Charter™, The Becoming™, Coming Home™, A Million Dreams™, Reclamation Code™, Revenue Architecture System (RAS™), and Paradigmatic Healing — are protected under trademark and copyright.
 
 **Baz Porter LLC® · The Prestige Architect®**
 [bazporter.com](https://bazporter.com)
