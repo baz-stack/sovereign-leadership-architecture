@@ -203,10 +203,10 @@ If the answer to the third question is "the symptom", stop. Go deeper. Find the 
 - [The Sovereign Operating System™](./sovereign-operating-system.md)
 - [The Sovereign Return Architecture™](./sovereign-return-architecture.md)
 - [The Sovereign Nervous System Protocol™](./sovereign-nervous-system-protocol.md)
-- [The Oliver Standard™](./oliver-standard.md)
+- [The Oliver Standard™](./the-oliver-standard.md)
 - [The Becoming™](./the-becoming.md)
 - [Coming Home™](./coming-home.md)
-- [The Gravity Code™](./gravity-code.md)
+- [The Gravity Code™](./the-gravity-code.md)
 
 ---
 

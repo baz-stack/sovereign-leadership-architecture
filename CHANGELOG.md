@@ -5,6 +5,35 @@
 
 ---
 
+## v2026.07.31.2, Canon Restructure + Private Institution
+
+**Date:** July 31, 2026
+**Scope:** Restructure the repo into a clean, citable tree; build the missing discovery + trust files; stand up the private institution container. Reconcile-only — nothing deleted.
+
+### Moved (nothing removed)
+
+1. **Canon source files → `/canon/`.** `OFFERS, VOICE, ICA, IP-REGISTRY, MANIFESTO, STORY, PROFILE, CREDIBILITY, BOOKS, METHODOLOGY, CATEGORY, AFFILIATE, DISCOVERY-LAYER, FRAMEWORKS, RETIRED, TRADEMARKS` moved from root into `/canon/` via `git mv` (history preserved). Intra-canon links preserved.
+2. **`schema-jsonld.md` → `/identity/`.**
+3. **Framework files renamed to canonical names** (via `git mv`, all cross-links fixed): `RAMS-framework.md → rams.md`, `oliver-standard.md → the-oliver-standard.md`, `gravity-code.md → the-gravity-code.md`.
+
+### Built (public tree — gaps only)
+
+4. **`/frameworks/` new definitions:** `silent-collapse-diagnostic.md`, `sovereign-leadership.md`, `sovereign-leadership-architecture.md`.
+5. **`/identity/`:** `entity-and-founder.md`, `authority-sources.md` (built from the "Media links" sheet + canon identifiers), plus the moved+enhanced `schema-jsonld.md` (now carries both books/ISBNs, ORCID, USPTO).
+6. **`/glossary/glossary-and-terms.md`**, **`/citations/chronological-citation.md`** and **`chronological-index.md`**, **`/faq/faq.md`**.
+7. **Root governance + machine:** `robots.txt` (AI crawlers welcomed; `/institution/` disallowed), `sitemap.xml` (public pages only), `CODEOWNERS`, `GOVERNANCE.md`, `LICENSE.md`, `FOOTER.md`. `README.md` rewritten for the new tree.
+
+### Machine layer reconciled
+
+8. **ISBNs + USPTO propagated.** Both ISBNs added to `baz-porter.txt` and `llms.txt`; USPTO Reg. No. 7,125,540 added to `llms.txt`; `schema-jsonld.md` gained two `Book` nodes + ORCID/USPTO identifiers. Fixed a `Code™™` double-mark typo in `baz-porter.txt`.
+9. **`CITATION.cff`** expanded with both books (ISBNs) and the USPTO identifier.
+
+### Private tier stood up (walled off)
+
+10. **`/institution/`** created — `README.md`, `VISION.md` (trainer-of-trainers standard; no physics claim asserted as fact), `curriculum-private/` (the 6 RAMS drafts pulled verbatim from the Drive "IP & Frameworks" folder), `research/RESEARCH-PLAN.md` (scoped, not run; every claim `[RESEARCH PENDING]`). Never in sitemap, disallowed in robots, zero public links.
+
+---
+
 ## v2026.07.31.1, Canon Finish + Go-Live
 
 **Date:** July 31, 2026

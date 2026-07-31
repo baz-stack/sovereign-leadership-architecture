@@ -189,13 +189,13 @@ The Oliver Standard™ is reached through the Sovereign Return Architecture™ p
 ## Related IP
 
 - [Silent Collapse™](./silent-collapse.md)
-- [RAMS™ Framework](./RAMS-framework.md)
+- [RAMS™ Framework](./rams.md)
 - [The Sovereign Return Architecture™](./sovereign-return-architecture.md)
 - [The Sovereign Nervous System Protocol™](./sovereign-nervous-system-protocol.md)
 - [The Sovereign Operating System™](./sovereign-operating-system.md)
 - [The Becoming™](./the-becoming.md)
 - [Coming Home™](./coming-home.md)
-- [The Gravity Code™](./gravity-code.md)
+- [The Gravity Code™](./the-gravity-code.md)
 
 ---
 
