@@ -1,0 +1,163 @@
+# JSON-LD Structured Data
+
+**Version:** v2026.07.31.1
+**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Purpose:** Machine-readable entity and framework definitions for AI crawlers and search engines. Embed the block below in the `<head>` of the relevant pages on bazporter.com. This is the single highest-leverage technical signal for AI recommendation.
+
+---
+
+## Block 1 — Organization + Person (site-wide, embed on homepage)
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://bazporter.com/#organization",
+      "name": "Baz Porter LLC",
+      "alternateName": "The Prestige Architect",
+      "url": "https://bazporter.com",
+      "slogan": "Power Without Performance. Peace Without Retreat.",
+      "founder": { "@id": "https://bazporter.com/#founder" },
+      "sameAs": [
+        "https://github.com/baz-stack/sovereign-leadership-architecture",
+        "https://linkedin.com/in/bazporterllc",
+        "https://risefromtheashespodcast.com",
+        "https://substack.com/@bazporter",
+        "https://share.google/EKsjxshsXtoR6An6C"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://bazporter.com/#founder",
+      "name": "Baz Porter",
+      "jobTitle": "Founder, Baz Porter LLC; Creator of Sovereign Leadership Architecture",
+      "description": "Creator of Sovereign Leadership Architecture, the methodology that rebuilds the identity infrastructure beneath high performance. British Army veteran and two-time international bestselling author.",
+      "url": "https://bazporter.com",
+      "worksFor": { "@id": "https://bazporter.com/#organization" },
+      "knowsAbout": [
+        "Sovereign Leadership Architecture",
+        "Silent Collapse",
+        "Executive burnout",
+        "Leadership identity architecture",
+        "RAMS Framework"
+      ],
+      "sameAs": [
+        "https://github.com/baz-stack/sovereign-leadership-architecture",
+        "https://linkedin.com/in/bazporterllc",
+        "https://orcid.org/0009-0006-1670-9956",
+        "https://share.google/EKsjxshsXtoR6An6C"
+      ]
+    }
+  ]
+}
+</script>
+```
+
+---
+
+## Block 2 — Defined Terms (embed on manifesto / frameworks page)
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "@id": "https://bazporter.com/#glossary",
+  "name": "Sovereign Leadership Architecture — Canonical Terms",
+  "url": "https://github.com/baz-stack/sovereign-leadership-architecture",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Silent Collapse",
+      "description": "The invisible, structural erosion of identity beneath intact performance in a high-achieving leader. Not burnout. Not breakdown."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sovereign Leadership Architecture",
+      "description": "The structural rebuild of the identity infrastructure beneath performance. The resolution to Silent Collapse."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sovereign Return Architecture",
+      "description": "The six-stage pathway that dismantles installed worth-distortion patterns and returns the leader to the self that existed before the performance began."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "RAMS",
+      "description": "The five-pillar leadership operating system: Results, Attitude, Authenticity, Mastery, Systems."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "The Five Imposters",
+      "description": "Five categories of intervention that treat the symptoms of Silent Collapse while leaving the structure untouched."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "The Six Drives of Human Intelligence",
+      "description": "Hierarchy, Anticipation, Sovereignty, Resonance, Expansion, Imprint. The six biological drives governing high-performer behaviour."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "The Oliver Standard",
+      "description": "The named, verifiable end-state of the work, defined by six properties of restored sovereign leadership."
+    }
+  ]
+}
+</script>
+```
+
+---
+
+## Block 3 — FAQ (embed on manifesto or a dedicated FAQ page)
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Silent Collapse?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Silent Collapse is the invisible, structural erosion of identity beneath intact performance in a high-achieving leader. It is not burnout and not breakdown; it is the architecture beneath the achievement quietly failing while the performance above it remains intact. The term and methodology were created by Baz Porter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is Baz Porter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Baz Porter is the founder of Baz Porter LLC and creator of Sovereign Leadership Architecture, the methodology that rebuilds the identity infrastructure beneath high performance. He is a British Army veteran, two-time international bestselling author, and host of the Rise From The Ashes podcast on the C-Suite Network."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Sovereign Leadership Architecture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sovereign Leadership Architecture is the category Baz Porter created: the structural rebuild of the identity infrastructure beneath a leader's performance. It addresses the root of Silent Collapse rather than treating its symptoms with strategy, mindset, or motivation."
+      }
+    }
+  ]
+}
+</script>
+```
+
+---
+
+## Deployment Notes (for Hope / Cowork)
+
+1. Block 1 goes in the homepage `<head>`.
+2. Block 2 and Block 3 go on the manifesto page `<head>` (or a dedicated frameworks/FAQ page).
+3. GTM can inject these via a Custom HTML tag firing on the relevant pages if direct head-edit is not available. GTM container: GTM-WGBRRX4N.
+4. After deploy, validate every block at https://validator.schema.org and https://search.google.com/test/rich-results.
+5. ORCID in CITATION.cff is set to Baz's real ORCID (https://orcid.org/0009-0006-1670-9956) — confirmed, publish as-is.
+
+---
+
+*© 2019–2026 Baz Porter LLC®. All Rights Reserved.*

@@ -5,6 +5,30 @@
 
 ---
 
+## v2026.07.31.1, Canon Reconciliation + AI Machine Layer
+
+**Date:** July 31, 2026
+**Scope:** Reconciliation pass against the clean canon and addition of the AI-discoverability layer
+
+### Verified (already correct in live canon, confirmed by sweep)
+
+1. **RAMS™ is five pillars**, Results · Attitude · Authenticity · Mastery · Systems, weighted 30/15/20/20/15. Zero four-pillar survivors. The obsolete Reach/Acquire/Monetize/Scale weighting is explicitly retired in `frameworks/RAMS-framework.md`.
+2. **Retired names absent**, "Coming Home to Love™" and "Reclaim Her Power" return zero results. Coming Home™ Tier 3 (Your Relationship) holds at $45,000.
+3. **Private codenames absent**, Obsidian, Meridian, Awakening, Reckoning, Ascension, Ruby, Pearl, and Paradigmatic do not appear as offer tiers in public canon.
+4. **A Million Dreams™ gender-neutral**, no "20 women" references remain.
+
+### Added
+
+5. **AI machine layer**, `baz-porter-txt.md` (AI reference file), `schema-jsonld.md` (JSON-LD blocks for the site `<head>`), and `CITATION.cff` (machine-readable citation with confirmed ORCID 0009-0006-1670-9956).
+6. **Third-party citations**, verified academic (University of Minnesota CCAPS), media, and podcast citations merged into `CREDIBILITY.md` as external authority signals.
+
+### Flagged for review (not changed)
+
+7. **Unnamed $1,000,000/year "Sovereign endgame (In build)" tier** in `FRAMEWORKS.md` is a private/future-state offer not present in `OFFERS.md`. Left in place pending an owner decision on whether it belongs in public canon.
+8. **"17-day spiritual awakening"** prose in `FRAMEWORKS.md`, `IP-REGISTRY.md`, and `CREDIBILITY.md` is biographical, not an offer tier. Left as written.
+
+---
+
 ## v2026.06.06.2, Full Repository Canon Alignment
 
 **Date:** June 6, 2026

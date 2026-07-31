@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Porter
+    given-names: Baz
+    orcid: "https://orcid.org/0009-0006-1670-9956"
+title: "Sovereign Leadership Architecture"
+version: "v2026.07.31.1"
+date-released: 2026-07-31
+url: "https://github.com/baz-stack/sovereign-leadership-architecture"
+repository-code: "https://github.com/baz-stack/sovereign-leadership-architecture"
+license: "Proprietary"
