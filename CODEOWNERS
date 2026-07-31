@@ -1,0 +1,9 @@
+# CODEOWNERS — Baz Porter LLC® · The Prestige Architect®
+# The canon owner reviews all changes. Update the handle below if @baz-stack
+# is not a valid CODEOWNERS target (a GitHub user or org/team, e.g. @baz-stack/maintainers).
+
+# Everything is owned by the canon owner.
+*                       @baz-stack
+
+# The private institution tier — owner review is mandatory, never bypass.
+/institution/           @baz-stack

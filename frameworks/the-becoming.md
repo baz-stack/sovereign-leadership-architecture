@@ -144,14 +144,14 @@ The Becoming™ is diagnostic-qualified.
 ## Related IP
 
 - [Silent Collapse™](./silent-collapse.md)
-- [RAMS™ Framework](./RAMS-framework.md)
+- [RAMS™ Framework](./rams.md)
 - [The Five Imposters™](./five-imposters.md)
 - [The Six Drives of Human Intelligence™](./six-drives.md)
 - [The Sovereign Operating System™](./sovereign-operating-system.md)
 - [The Sovereign Return Architecture™](./sovereign-return-architecture.md)
-- [The Oliver Standard™](./oliver-standard.md)
+- [The Oliver Standard™](./the-oliver-standard.md)
 - [Coming Home™](./coming-home.md)
-- [The Gravity Code™](./gravity-code.md)
+- [The Gravity Code™](./the-gravity-code.md)
 
 ---
 

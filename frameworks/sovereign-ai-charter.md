@@ -151,12 +151,12 @@ For institutional or corporate deployment inquiries:
 
 ## Related IP
 
-- [RAMS™ Framework](./RAMS-framework.md)
+- [RAMS™ Framework](./rams.md)
 - [The Sovereign Operating System™](./sovereign-operating-system.md)
 - [The Sovereign Return Architecture™](./sovereign-return-architecture.md)
 - [The Sovereign Nervous System Protocol™](./sovereign-nervous-system-protocol.md)
-- [The Oliver Standard™](./oliver-standard.md)
-- [The Gravity Code™](./gravity-code.md)
+- [The Oliver Standard™](./the-oliver-standard.md)
+- [The Gravity Code™](./the-gravity-code.md)
 
 ---
 

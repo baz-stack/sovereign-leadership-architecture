@@ -46,12 +46,49 @@
         "Leadership identity architecture",
         "RAMS Framework"
       ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0009-0006-1670-9956",
+          "url": "https://orcid.org/0009-0006-1670-9956"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "USPTO Trademark Registration (BAZ PORTER®)",
+          "value": "7125540"
+        }
+      ],
       "sameAs": [
         "https://github.com/baz-stack/sovereign-leadership-architecture",
         "https://linkedin.com/in/bazporterllc",
         "https://orcid.org/0009-0006-1670-9956",
+        "https://www.amazon.com/author/bazporter",
         "https://share.google/EKsjxshsXtoR6An6C"
+      ],
+      "author": [
+        { "@id": "https://bazporter.com/#book-crackingrichcode" },
+        { "@id": "https://bazporter.com/#book-dieemptylivefull" }
       ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://bazporter.com/#book-crackingrichcode",
+      "name": "Cracking the Rich Code, Vol. 12",
+      "isbn": "979-8-8691-1418-1",
+      "bookFormat": "https://schema.org/Paperback",
+      "datePublished": "2024-03",
+      "author": { "@id": "https://bazporter.com/#founder" },
+      "contributor": "Baz Porter",
+      "publisher": { "@type": "Organization", "name": "Cracking the Rich Code, LLC" }
+    },
+    {
+      "@type": "Book",
+      "@id": "https://bazporter.com/#book-dieemptylivefull",
+      "name": "Die Empty Live Full",
+      "isbn": "979-8-3143-9231-7",
+      "datePublished": "2025-03",
+      "author": { "@id": "https://bazporter.com/#founder" }
     }
   ]
 }

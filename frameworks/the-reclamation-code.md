@@ -113,13 +113,13 @@ Start with the diagnostic if you haven't already:
 ## Related IP
 
 - [Silent Collapse™](./silent-collapse.md)
-- [RAMS™ Framework](./RAMS-framework.md)
+- [RAMS™ Framework](./rams.md)
 - [The Five Imposters™](./five-imposters.md)
 - [The Six Drives of Human Intelligence™](./six-drives.md)
 - [The Sovereign Operating System™](./sovereign-operating-system.md)
 - [The Becoming™](./the-becoming.md)
 - [Coming Home™](./coming-home.md)
-- [The Gravity Code™](./gravity-code.md)
+- [The Gravity Code™](./the-gravity-code.md)
 
 ---
 
