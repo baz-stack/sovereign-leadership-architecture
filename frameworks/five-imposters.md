@@ -28,7 +28,7 @@ Beneath them sit the Six Drives of Human Intelligence™, six frequencies the ne
 
 The Imposters Are Architectural Mismatches, not failures of your effort. The problem they claim to solve exists at a level they cannot reach.
 
-When a Drive fractures, the RAS miscalibrates. You begin building a reality that confirms the fracture. Every ceiling you cannot explain maps back to it.
+When a Drive fractures, the RAS miscalibrates. You start building a reality that confirms the fracture. Every ceiling you cannot explain maps back to it.
 
 All of it is structural. All of it is addressable.
 

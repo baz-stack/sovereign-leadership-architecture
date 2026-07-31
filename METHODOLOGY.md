@@ -235,9 +235,9 @@ Each tier exposes what the previous tier made visible enough to see.
 | Tier | Container | Investment |
 |:----|:----|:----|
 | VALUE | Silent Collapse Diagnostic™ | Free |
-| BRONZE | The Reclamation Code | $97 |
+| BRONZE | The Reclamation Code™ | $97 |
 | SILVER | A Million Dreams™ Circle | $397/month |
-| REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System Course | $497 |
+| REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System (RAS™) | $497 |
 | GOLD | The Becoming™ | $4,620 (or 3 × $1,620) |
 | PLATINUM | Business Profit Accelerator (BPA) | $5,998 |
 | FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 |

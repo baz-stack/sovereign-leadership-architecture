@@ -270,7 +270,7 @@ Both modes route into the 12-tier offer stack based on outcome.
 
 ### The 74 Cosmic Laws
 
-**Function:** Proprietary cosmological framework, received and documented during the 17-day spiritual awakening that produced the quantum substrate of the methodology.
+**Function:** Proprietary cosmological framework, received and documented during the 17-day spiritual emergence that produced the quantum substrate of the methodology.
 
 **Status:** Proprietary
 
@@ -285,9 +285,9 @@ Both modes route into the 12-tier offer stack based on outcome.
 | TIER | OFFER | INVESTMENT |
 |:----|:----|:----|
 | VALUE | Silent Collapse Diagnostic™ | Free |
-| BRONZE | The Reclamation Code | $97 |
+| BRONZE | The Reclamation Code™ | $97 |
 | SILVER | A Million Dreams™ Circle | $397/month |
-| REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System Course | $497 |
+| REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System (RAS™) | $497 |
 | GOLD | The Becoming™ | $4,620 (or 3 × $1,620) |
 | PLATINUM | Business Profit Accelerator (BPA) | $5,998 |
 | FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 · 3 months |
@@ -331,17 +331,6 @@ Both modes route into the 12-tier offer stack based on outcome.
 **Quarterly, Quarterly Structure:** $132,000 · institutional cadence · propagation rhythm · same work, structured for organizational deployment
 
 **Status:** Trademarked
-
----
-
-
-**Function:** Sovereign endgame. The work no longer serves the individual leader. It serves the field behind them.
-
-**Investment:** $1,000,000/year
-
-**Access:** Invitation only · selected from the existing Diamond + Quarterly roster
-
-**Status:** In build. Trademarked.
 
 ---
 

@@ -49,9 +49,9 @@
 
 | MARK | TIER | INVESTMENT |
 |:----|:----|:----|
-| The Reclamation Code | Bronze | $97 |
+| The Reclamation Code™ | Bronze | $97 |
 | A Million Dreams™ | Silver | $397/month |
-| Revenue Architecture System Course | Revenue Architecture System Course | $497 |
+| Revenue Architecture System (RAS™) | Course · self-study | $497 |
 | The Becoming™ | Gold | $4,620 (or 3 × $1,620) |
 | The Gravity Code™ | Diamond / Quarterly | $100,000 / $132,000 |
 
@@ -89,7 +89,7 @@
 | The Victoria-to-Oliver Bridge | Methodology arc · before/after archetypes |
 | The Twelve Core Patterns Architecture | Six modules × two patterns |
 | The Six Integration Layers | Neuroscience · Quantum · Military Doctrine · Identity · NLP · AI Ethics |
-| The 74 Cosmic Laws | Cosmological framework · received 17-day awakening |
+| The 74 Cosmic Laws | Cosmological framework · received during a 17-day spiritual emergence |
 
 ### Credentialing Architecture
 

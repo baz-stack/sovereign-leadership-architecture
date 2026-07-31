@@ -5,27 +5,30 @@
 
 ---
 
-## v2026.07.31.1, Canon Reconciliation + AI Machine Layer
+## v2026.07.31.1, Canon Finish + Go-Live
 
 **Date:** July 31, 2026
-**Scope:** Reconciliation pass against the clean canon and addition of the AI-discoverability layer
+**Scope:** Public-safe cleanup, machine-layer consolidation, and go-live of the AI-discoverability layer
 
-### Verified (already correct in live canon, confirmed by sweep)
+### Removed
 
-1. **RAMS™ is five pillars**, Results · Attitude · Authenticity · Mastery · Systems, weighted 30/15/20/20/15. Zero four-pillar survivors. The obsolete Reach/Acquire/Monetize/Scale weighting is explicitly retired in `frameworks/RAMS-framework.md`.
-2. **Retired names absent**, "Coming Home to Love™" and "Reclaim Her Power" return zero results. Coming Home™ Tier 3 (Your Relationship) holds at $45,000.
-3. **Private codenames absent**, Obsidian, Meridian, Awakening, Reckoning, Ascension, Ruby, Pearl, and Paradigmatic do not appear as offer tiers in public canon.
-4. **A Million Dreams™ gender-neutral**, no "20 women" references remain.
+1. **Private/future-state tier purged.** The unnamed seven-figure "endgame" tier that had leaked into public `FRAMEWORKS.md` is removed. Public canon now shows the eleven-tier live stack only.
 
-### Added
+### Machine layer
 
-5. **AI machine layer**, `baz-porter-txt.md` (AI reference file), `schema-jsonld.md` (JSON-LD blocks for the site `<head>`), and `CITATION.cff` (machine-readable citation with confirmed ORCID 0009-0006-1670-9956).
-6. **Third-party citations**, verified academic (University of Minnesota CCAPS), media, and podcast citations merged into `CREDIBILITY.md` as external authority signals.
+2. **Consolidated to one source of truth.** Canonical machine anchor is `llms.txt` (publishes at bazporter.com/llms.txt); canonical AI reference is `baz-porter.txt` (publishes at bazporter.com/baz-porter-txt). Every self-canonical pointer resolves to bazporter.com/llms.txt. Superseded duplicates (`public/llms-txt-v3.1.md`, `public/baz-porter-txt-v1.1.md`, and the interim `baz-porter-txt.md`) archived to `_holding/`.
+3. **Manifesto wired as the human anchor.** `llms.txt`, `baz-porter.txt`, and `schema-jsonld.md` name bazporter.com/manifesto as the human/category anchor and bazporter.com/llms.txt as the machine anchor. AI is pointed at the live site, not the repo.
+4. **ORCID + schema live.** `schema-jsonld.md` and `CITATION.cff` carry ORCID 0009-0006-1670-9956.
 
-### Flagged for review (not changed)
+### Marks + citations
 
-7. **Unnamed $1,000,000/year "Sovereign endgame (In build)" tier** in `FRAMEWORKS.md` is a private/future-state offer not present in `OFFERS.md`. Left in place pending an owner decision on whether it belongs in public canon.
-8. **"17-day spiritual awakening"** prose in `FRAMEWORKS.md`, `IP-REGISTRY.md`, and `CREDIBILITY.md` is biographical, not an offer tier. Left as written.
+5. **Marks completed.** The ™ applied to The Reclamation Code™ and Revenue Architecture System (RAS™) across the repo.
+6. **Third-party authority.** University of Minnesota CCAPS citation added to `CREDIBILITY.md` and the machine layer; media and podcast citations recorded in `CREDIBILITY.md`.
+7. **Books tied to ORCID.** `BOOKS.md` links both titles (with ISBNs) to ORCID 0009-0006-1670-9956.
+
+### Housekeeping
+
+8. **README repaired.** Architecture-overview list corrected; machine-layer files indexed.
 
 ---
 
@@ -142,7 +145,7 @@ The v2026.06.06.1 brief 5-pillar order is now logged as retired in RETIRED.md.
 ### Locks
 
 2. **The Becoming™ confirmed at Gold** ($4,620 or 3×$1,620 payment plan)
-4. **Revenue Architecture System Course → Gold bridge:** Payment plan functions as the bridge. No separate offer.
+4. **Revenue Architecture System (RAS™) → Gold bridge:** Payment plan functions as the bridge. No separate offer.
 5. **Platinum → Find Yourself gap:** Intentional structural mechanism. No bridge.
 
 ### New Architecture

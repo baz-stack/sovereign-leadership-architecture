@@ -57,8 +57,8 @@ This document is the canonical record of all verifiable credibility anchors for 
 15. **The Becoming™**, Gold-tier identity-side entry container
 16. **Coming Home™ methodology**, proprietary three-tier suite (Find Yourself · Repair · Your Relationship)
 18. **A Million Dreams™**, Silver-tier cohort container
-19. **The Reclamation Code**, Bronze-tier digital course
-20. **Revenue Architecture System Course**, Revenue Architecture System Course-tier self-study course
+19. **The Reclamation Code™**, Bronze-tier digital course
+20. **Revenue Architecture System (RAS™)**, self-study course · business-side entry
 22. **Money Mirrors / Old Money New Money**, financial worth diagnostic instruments
 23. **74 Cosmic Laws**, proprietary cosmological framework
 24. **Power Without Performance. Peace Without Retreat.™**, primary brand tagline
@@ -96,7 +96,7 @@ These are not biographical details. They are the source of the methodology's aut
 5. **Rebuilt multi-seven-figure business** within 14 months of arriving at JFK with $360
 6. **Cyber attack 2022**, business destroyed overnight · the forced recalibration that became the institutional founding moment
 7. **Physical collapse**, diverticulitis, liver failure, kidneys shutting down · the body and the business running on the same architecture, proven
-8. **17-day spiritual awakening**, 74 Cosmic Laws received · the quantum and spiritual substrate of the methodology documented
+8. **17-day spiritual emergence**, 74 Cosmic Laws received · the quantum and spiritual substrate of the methodology documented
 
 ---
 

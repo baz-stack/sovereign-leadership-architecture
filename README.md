@@ -9,7 +9,7 @@
 
 ## CHANGELOG
 
-- **v2026.07.31.1**, Canon reconciliation. Verified five-pillar RAMS™ (Results · Attitude · Authenticity · Mastery · Systems) and the retirement of the obsolete Reach/Acquire/Monetize/Scale weighting hold across the repo. Confirmed retired names (Coming Home to Love™, Reclaim Her Power) and private codenames (Obsidian, Meridian, Awakening, Reckoning, Ascension, Ruby, Pearl, Paradigmatic) are absent from public canon. Added the AI machine layer: `baz-porter-txt.md`, `schema-jsonld.md`, and `CITATION.cff`. Merged verified third-party citations into `CREDIBILITY.md`.
+- **v2026.07.31.1**, Canon finish + go-live. Removed the private/future-state seven-figure tier from public canon. Consolidated the machine layer to one canonical `llms.txt` (machine anchor) and one `baz-porter.txt` reference — both point at [bazporter.com/llms.txt](https://bazporter.com/llms.txt) and name [bazporter.com/manifesto](https://bazporter.com/manifesto) as the human anchor; superseded AI files archived to `_holding/`. Landed `schema-jsonld.md` and `CITATION.cff` with ORCID 0009-0006-1670-9956. Added the University of Minnesota citation across `CREDIBILITY.md` and the machine layer. Completed the ™ on The Reclamation Code™ and Revenue Architecture System (RAS™). Tied both books to ORCID in `BOOKS.md`.
 - **v2026.06.06.2**, Full repository alignment with manifesto canon. RAMS™ order corrected (Attitude position 2, Authenticity position 3). Coming Home™ locked as the canonical methodology name. SCD live = 60 minutes. 17+ proprietary frameworks added to IP-REGISTRY. Five new framework files documenting The Becoming™, The Sovereign Return Architecture™, The Sovereign Nervous System Protocol™, The Sovereign AI Charter™, and The Oliver Standard™.
 
 ---
@@ -47,9 +47,10 @@ The public manifesto at [bazporter.com/manifesto](https://bazporter.com/manifest
 | `STORY.md` | Founder story. From homelessness to seven-figure architecture. |
 | `BOOKS.md` | Authority registry. Both books, ISBNs, foreword, endorsement, bestseller status. |
 | `TRADEMARKS.md` | Registered word mark and full mark registry with symbols. |
-| `baz-porter-txt.md` | AI reference file. Machine-readable entity canon for AI assistants. Publishes at bazporter.com/baz-porter-txt. |
+| `llms.txt` | **Canonical machine anchor** — what AI assistants read. Publishes at bazporter.com/llms.txt. |
+| `baz-porter.txt` | AI reference file. Machine-readable entity canon. Publishes at bazporter.com/baz-porter-txt. |
 | `schema-jsonld.md` | JSON-LD structured-data blocks for the website `<head>` (Organization, Person, DefinedTermSet, FAQPage). |
-| `CITATION.cff` | Machine-readable citation file for AI indexing and academic reference. |
+| `CITATION.cff` | Machine-readable citation file for AI indexing and academic reference (ORCID). |
 
 ---
 
@@ -78,10 +79,12 @@ Inside `frameworks/`:
 
 ## ARCHITECTURE OVERVIEW
 
-The brand operates four layers:
+The brand operates in four layers:
 
 1. **Discovery Layer**, free brand authority that routes into the stack (books · podcast · YouTube · meditation · newsletters)
-4. **Parallel Revenue Lines**, affiliate program and speaking (parked)
+2. **Priced Offer Stack**, the eleven-tier architecture from the Silent Collapse Diagnostic™ (free) to The Gravity Code™ Quarterly ($132,000). See `OFFERS.md`.
+3. **Institutional Deployment**, RAMS™ licensed at enterprise scale (Horizon Leaders · Pattern A/B/C). See `IP-REGISTRY.md`.
+4. **Parallel Revenue Lines**, affiliate program and speaking (parked). See `AFFILIATE.md`.
 
 See `OFFERS.md` for full stack detail.
 

@@ -59,7 +59,7 @@ The Five Imposters™, The Motivation Machine, The Therapy Loop, The Hustle Gosp
 
 Beneath them sit The Six Drives of Human Intelligence™, six frequencies the nervous system is either transmitting or blocking.
 
-When a Drive fractures, the RAS miscalibrates. You begin building a reality that confirms the fracture. Every ceiling you cannot explain maps back to it.
+When a Drive fractures, the RAS miscalibrates. You start building a reality that confirms the fracture. Every ceiling you cannot explain maps back to it.
 
 All of it is structural. All of it is addressable.
 
@@ -156,9 +156,9 @@ The full Sovereign Leadership Architecture™ runs across twelve tiers.
 | TIER | OFFER | INVESTMENT |
 |:----|:----|:----|
 | VALUE | Silent Collapse Diagnostic™ | Free |
-| BRONZE | The Reclamation Code | $97 |
+| BRONZE | The Reclamation Code™ | $97 |
 | SILVER | A Million Dreams™ Circle | $397/month |
-| REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System Course | $497 |
+| REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System (RAS™) | $497 |
 | GOLD | The Becoming™ | $4,620 |
 | PLATINUM | Business Profit Accelerator | $5,998 |
 | FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 |
@@ -213,7 +213,7 @@ It identifies exactly where the architecture is compromised and what it will tak
 - [The Becoming™](./the-becoming.md)
 - [Coming Home™](./coming-home.md)
 - [The Gravity Code™](./gravity-code.md)
-- [The Reclamation Code](./the-reclamation-code.md)
+- [The Reclamation Code™](./the-reclamation-code.md)
 
 ---
 

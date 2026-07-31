@@ -1,4 +1,4 @@
-# The Reclamation Code
+# The Reclamation Code™
 
 ### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
 ### Bronze Tier | $97 | Self-Directed Digital Course
@@ -9,7 +9,7 @@
 
 ## The Definition
 
-The Reclamation Code is the first structural intervention in the Sovereign Leadership Architecture™ stack.
+The Reclamation Code™ is the first structural intervention in the Sovereign Leadership Architecture™ stack.
 
 It is not a course. It is not a collection of videos and worksheets. It is not another framework to learn and forget.
 
@@ -21,7 +21,7 @@ At $97, it is the most accessible entry point into the Sovereign Leadership Arch
 
 ## Who This Is For
 
-The Reclamation Code is for the leader who:
+The Reclamation Code™ is for the leader who:
 
 1. Knows something is off but cannot name it
 2. Has tried multiple programs, counsel, or approaches and is still carrying the same weight
@@ -33,9 +33,9 @@ This is the entry point. Not the destination.
 
 ---
 
-## What The Reclamation Code Does
+## What The Reclamation Code™ Does
 
-The Reclamation Code does three things that no other entry-level program in the leadership space does simultaneously:
+The Reclamation Code™ does three things that no other entry-level program in the leadership space does simultaneously:
 
 **1. Names the diagnosis**
 Silent Collapse™ is introduced in full. Not as a concept, as a mirror. The leader sees their specific pattern of collapse mapped against the framework and understands for the first time why the standard interventions have not worked.
@@ -72,13 +72,13 @@ Where you go from here. The full offer architecture mapped. The diagnostic for w
 
 ## What This Is Not
 
-The Reclamation Code is not the fix.
+The Reclamation Code™ is not the fix.
 
 It is the diagnosis, the language, and the first intervention.
 
 The leaders who get the most from it use it as the foundation for deeper private work, not as a standalone solution.
 
-If you complete The Reclamation Code and feel the shift, the next level of the architecture is waiting.
+If you complete The Reclamation Code™ and feel the shift, the next level of the architecture is waiting.
 
 ---
 
@@ -87,9 +87,9 @@ If you complete The Reclamation Code and feel the shift, the next level of the a
 | Investment | Container | What It Does |
 |:----|:----|:----|
 | Free | Silent Collapse Diagnostic™ | Names what you're carrying |
-| **$97** | **The Reclamation Code** | **Names the structure beneath it** |
+| **$97** | **The Reclamation Code™** | **Names the structure beneath it** |
 | $397/mo | A Million Dreams™ Circle | Sovereign peer architecture |
-| $497 | Revenue Architecture System Course | Business-side entry |
+| $497 | Revenue Architecture System (RAS™) | Business-side entry |
 | $4,620 | The Becoming™ | 12-week private counsel · identity-side entry |
 | $5,998 | Business Profit Accelerator | 3-day virtual immersion |
 | $15,000 | Coming Home™ - Find Yourself | Identity literacy |
@@ -102,7 +102,7 @@ If you complete The Reclamation Code and feel the shift, the next level of the a
 
 ## Access
 
-**[$97, Enroll in The Reclamation Code](https://bazporter.com/reclamation-code)**
+**[$97, Enroll in The Reclamation Code™](https://bazporter.com/reclamation-code)**
 
 Start with the diagnostic if you haven't already:
 
@@ -123,7 +123,7 @@ Start with the diagnostic if you haven't already:
 
 ---
 
-*© 2019–2026 Baz Porter LLC®. All Rights Reserved. The Reclamation Code is proprietary IP protected under trademark. Unauthorized use or reproduction is prohibited.*
+*© 2019–2026 Baz Porter LLC®. All Rights Reserved. The Reclamation Code™ is proprietary IP protected under trademark. Unauthorized use or reproduction is prohibited.*
 
 **Baz Porter LLC® · The Prestige Architect®**
 [bazporter.com](https://bazporter.com)

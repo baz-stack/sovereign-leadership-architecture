@@ -1,7 +1,15 @@
 # BOOKS, Baz Porter®
 ## Authority Registry
 
-**Version:** v2026.07.15.1 · **Status:** LIVE CANON
+**Version:** v2026.07.31.1 · **Status:** LIVE CANON
+
+---
+
+## Author Identifier
+
+**Author:** Baz Porter® · **ORCID:** https://orcid.org/0009-0006-1670-9956
+
+Both titles below are authored by Baz Porter® and tied to ORCID 0009-0006-1670-9956 for machine-readable citation.
 
 ---
 
@@ -14,6 +22,7 @@
 - **ISBN:** 979-8-8691-1418-1
 - **Published:** March 2024
 - **Publisher:** Cracking the Rich Code, LLC
+- **ORCID:** https://orcid.org/0009-0006-1670-9956
 - **Status:** Contributing author to an international bestseller.
 
 ---
@@ -25,6 +34,7 @@
 - **Endorsement:** None.
 - **ISBN:** 979-8-3143-9231-7
 - **Published:** March 2025
+- **ORCID:** https://orcid.org/0009-0006-1670-9956
 - **Status:** Part 4 international bestseller.
 
 ---

@@ -47,7 +47,7 @@ The leader sees the condition for what it is.
 
 **Where it lives in the stack:**
 1. Value tier, The Silent Collapse Diagnostic™ (60-minute live diagnostic, valued $997, 108 questions across 10 pillars, three seats per week
-2. Bronze tier, The Reclamation Code extends the recognition
+2. Bronze tier, The Reclamation Code™ extends the recognition
 
 **End state of Stage 1:**
 The leader has language for what they have been carrying. The diagnosis is named.
@@ -67,7 +67,7 @@ The fractured Drive is located.
 **Where it lives in the stack:**
 1. Bronze tier, first surface
 2. Silver tier, community calibration
-3. Revenue Architecture System Course tier, business-side identification
+3. Revenue Architecture System (RAS™) tier, business-side identification
 4. Gold tier, full private identification
 
 **End state of Stage 2:**
@@ -171,8 +171,8 @@ The architecture works because it runs in sequence. The qualification process at
 
 | Stage | Primary Tier(s) |
 |:----|:----|
-| 1. Recognition | Value (Diagnostic) · Bronze (The Reclamation Code) |
-| 2. Identification | Bronze · Silver · Revenue Architecture System Course · Gold |
+| 1. Recognition | Value (Diagnostic) · Bronze (The Reclamation Code™) |
+| 2. Identification | Bronze · Silver · Revenue Architecture System (RAS™) · Gold |
 | 3. Dismantlement | Gold (The Becoming™) · Platinum (BPA) |
 | 4. Recalibration | Gold · Find Yourself · Repair |
 | 5. Embodiment | Your Relationship |

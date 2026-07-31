@@ -25,7 +25,7 @@ Replaces the retired The Becoming™ offer at the same price point and structura
 
 Most leaders enter the architecture believing the problem is the business.
 
-Revenue Architecture System Course (Revenue Architecture System) handles the business side, strategy, structure, systems.
+Revenue Architecture System (RAS™) handles the business side, strategy, structure, systems.
 
 The Becoming™ handles the identity side, the leader beneath the business.
 
@@ -43,10 +43,10 @@ The leader who:
 
 1. Has named Silent Collapse™ in themselves through the Diagnostic
 2. Is operating at the Player state but not yet at Architect
-3. Knows the The Reclamation Code language but needs the embodiment
+3. Knows the The Reclamation Code™ language but needs the embodiment
 4. Is ready for private work but not yet ready for the $15K+ tiers
 5. Wants identity literacy before relational rebuild
-6. Has done Revenue Architecture System Course (RAS™) on the business side and now needs the identity-side complement
+6. Has done Revenue Architecture System (RAS™) on the business side and now needs the identity-side complement
 
 ---
 
@@ -105,11 +105,11 @@ No refunds. The work is architectural, not satisfaction-guaranteed.
 
 ---
 
-## The Revenue Architecture System Course-to-Gold Bridge
+## The Revenue Architecture System (RAS™)-to-Gold Bridge
 
-The payment plan ($1,620 × 3) functions as the structural bridge from Revenue Architecture System Course ($497) to Gold.
+The payment plan ($1,620 × 3) functions as the structural bridge from Revenue Architecture System (RAS™) ($497) to Gold.
 
-1. Revenue Architecture System Course at $497, business-side entry
+1. Revenue Architecture System (RAS™) at $497, business-side entry
 2. The Becoming™ first payment at $1,620, identity-side entry begins
 3. Cumulative ascent across 3 months, $497 → $1,620 → $1,620 → $1,620
 
@@ -121,14 +121,14 @@ No separate bridge offer required. The payment plan IS the bridge.
 
 | Tier | Container | Investment |
 |:----|:----|:----|
-| BRONZE | The Reclamation Code | $97 |
+| BRONZE | The Reclamation Code™ | $97 |
 | SILVER | A Million Dreams™ Circle | $397/month |
-| REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System Course | $497 |
+| REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System (RAS™) | $497 |
 | **GOLD** | **The Becoming™** | **$4,620** |
 | PLATINUM | Business Profit Accelerator | $5,998 |
 | FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 |
 
-The Becoming™ feeds Platinum. Revenue Architecture System Course + Gold together produce the buyer ready for the BPA revelation.
+The Becoming™ feeds Platinum. Revenue Architecture System (RAS™) + Gold together produce the buyer ready for the BPA revelation.
 
 ---
 

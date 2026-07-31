@@ -27,7 +27,7 @@ The Six Drives™ operate at the level of neurological frequency.
 A fractured Drive does not produce a values problem. It produces a structural problem. The leader can name the right values, hold the right beliefs, and run the right behaviors, and still produce collapse-pattern results, because the Drive beneath the value is fractured.
 
 When a Drive fractures, the RAS miscalibrates.
-You begin building a reality that confirms the fracture.
+You start building a reality that confirms the fracture.
 Every ceiling you cannot explain maps back to it.
 
 The work is to identify which Drive is fractured, and rebuild the architecture beneath it.
@@ -154,7 +154,7 @@ The diagnostic work is to identify which Drive is fractured, which mechanism cau
 
 ## The Diagnostic Application
 
-The Six Drives™ are mapped at the Silent Collapse Diagnostic™ and through The Reclamation Code. The mapping produces:
+The Six Drives™ are mapped at the Silent Collapse Diagnostic™ and through The Reclamation Code™. The mapping produces:
 
 1. The fractured Drive
 2. The fracture mechanism
@@ -187,8 +187,8 @@ The work is not to "balance the Drives" abstractly. The work is to identify the 
 | Tier | Application |
 |:----|:----|
 | Free, Silent Collapse Diagnostic™ | First diagnostic mapping |
-| Bronze, The Reclamation Code | Drive identification at entry level |
-| Revenue Architecture System Course, RAS™ | Drive mapping applied to business architecture |
+| Bronze, The Reclamation Code™ | Drive identification at entry level |
+| Revenue Architecture System (RAS™) | Drive mapping applied to business architecture |
 | Gold, The Becoming™ | Full Drive recalibration begins |
 | Find Yourself / Repair / Your Relationship | Drive recalibration across personal and relational domains |
 | Diamond / Quarterly, Gravity Code™ | Drives held at sovereign scale |

@@ -9,7 +9,7 @@
 
 Her name in the work is Victoria Reynolds. She is the active working case: the leader in Silent Collapse™ in real time, the living proof the architecture moves in the real world.
 
-She is a high-achieving woman, 40 to 55. A C-Suite executive or a founder operating a company at $1M to $50M or more. Household income $250,000 or more. Buying capacity $25,000 to $100,000 or more.
+She is a high-achieving woman, 40 to 55. A C-Suite executive or a founder operating a company at $1 million to $50 million or more. Household income $250,000 or more. Buying capacity $25,000 to $100,000 or more.
 
 She projects total control. Privately she is on the edge of burnout. She has built an external life that works and an internal one that is quietly failing. She does not present as broken. She presents as misaligned. And she is.
 

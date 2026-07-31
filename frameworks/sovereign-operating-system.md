@@ -179,11 +179,11 @@ The Sovereign Operating System™ uses all four. Every day. For 30 days.
 
 The Sovereign Operating System™ is the recalibration layer that runs beneath every offer in the Sovereign Leadership Architecture™ stack.
 
-It is introduced formally at The Becoming™ (Gold), but its principles underpin every intervention from The Reclamation Code upward.
+It is introduced formally at The Becoming™ (Gold), but its principles underpin every intervention from The Reclamation Code™ upward.
 
 | Tier | Application |
 |:----|:----|
-| Bronze, The Reclamation Code | Entry-level introduction (foundational practice) |
+| Bronze, The Reclamation Code™ | Entry-level introduction (foundational practice) |
 | Gold, The Becoming™ | First formal 30-day installation |
 | Find Yourself / Repair / Your Relationship | Maintained · deepened · contextualized |
 | Diamond / Quarterly, Gravity Code™ | Maintained across the 12-month engagement |

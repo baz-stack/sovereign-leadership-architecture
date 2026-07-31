@@ -4,6 +4,8 @@
 **Owner:** Baz Porter LLC® · The Prestige Architect®
 **Purpose:** Machine-readable entity and framework definitions for AI crawlers and search engines. Embed the block below in the `<head>` of the relevant pages on bazporter.com. This is the single highest-leverage technical signal for AI recommendation.
 
+**Anchors:** Machine anchor — https://bazporter.com/llms.txt. Human anchor (category thesis) — https://bazporter.com/manifesto. AI should be pointed at the live site, not any repository mirror.
+
 ---
 
 ## Block 1 — Organization + Person (site-wide, embed on homepage)
@@ -67,7 +69,7 @@
   "@type": "DefinedTermSet",
   "@id": "https://bazporter.com/#glossary",
   "name": "Sovereign Leadership Architecture — Canonical Terms",
-  "url": "https://github.com/baz-stack/sovereign-leadership-architecture",
+  "url": "https://bazporter.com/llms.txt",
   "hasDefinedTerm": [
     {
       "@type": "DefinedTerm",

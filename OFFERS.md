@@ -23,9 +23,9 @@ The Strategic Call is a separate offer. 15 minutes, live. It is not the Diagnost
 | Offer | Investment | Delivery |
 |:----|:----|:----|
 | Silent Collapse Diagnostic™ | Free | 60-minute live diagnostic with Baz |
-| The Reclamation Code | $97 | Digital course |
+| The Reclamation Code™ | $97 | Digital course |
 | A Million Dreams™ Circle | $397 / month | 3-month cohort |
-| Revenue Architecture System Course | $497 | Self-paced course |
+| Revenue Architecture System (RAS™) | $497 | Self-paced course |
 | The Becoming™ | $4,620 | 12-week private counsel |
 | Business Profit Accelerator | $5,998 | 3-day virtual immersion |
 | Coming Home™ - Find Yourself | $15,000 | Private container |
@@ -38,13 +38,13 @@ The Strategic Call is a separate offer. 15 minutes, live. It is not the Diagnost
 
 ## TIER DETAIL
 
-### The Reclamation Code · $97
+### The Reclamation Code™ · $97
 Digital course. The entry rung. Names the structure of Silent Collapse™ and gives the buyer language for what they have been carrying.
 
 ### A Million Dreams™ Circle · $397 / month
 Three-month cohort container. Community, structured counsel, and recurring rhythm. A parallel track, not a required rung.
 
-### Revenue Architecture System Course · $497
+### Revenue Architecture System (RAS™) · $497
 Self-paced course. The business-side entry point and the Business Profit Accelerator complement.
 
 ### The Becoming™ · $4,620
