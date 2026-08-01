@@ -15,7 +15,7 @@
 3. **CODEOWNERS** — verified `@baz-stack` is a valid GitHub user (id 270181308) with admin access; a valid CODEOWNERS target. Comment updated to confirm.
 4. **Sealed-canon "transformation"** — the two non-tagline descriptor uses aligned to "return": `METHODOLOGY.md` heading "The Transformation Arc" → "The Return Arc"; `FRAMEWORKS.md` "internal transformation evidence" → "internal return evidence". The registered tagline "Not transformation. Return.™" left untouched everywhere.
 5. **Live link spot-check** — could not run: the environment's outbound egress policy returns 403 CONNECT for all external hosts (verified in the proxy failure log, incl. the known-live umn.edu). Reported as inconclusive/blocked, not dead. No external links edited.
-6. **Research pull (private tier)** — pulled verbatim into `/institution/`: `research/physics-anchor-library.md`, `curriculum-private/paradynamic-healing.md` (Ruby tier), `curriculum-private/RAMS-framework.md`. Physics/quantum claims lacking a real citation tagged `[RESEARCH PENDING]`; no sources invented. All three under `/institution/` only — not in sitemap, covered by robots Disallow.
+6. **Research pull (private tier)** — pulled verbatim into `/institution/`: `research/physics-anchor-library.md`, `curriculum-private/paradynamic-healing.md`, `curriculum-private/RAMS-framework.md`. Physics/quantum claims lacking a real citation tagged `[RESEARCH PENDING]`; no sources invented. All three under `/institution/` only — not in sitemap, covered by robots Disallow.
 
 ---
 
