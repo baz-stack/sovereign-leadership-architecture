@@ -160,7 +160,7 @@ The full Sovereign Leadership Architecture™ runs across twelve tiers.
 | SILVER | A Million Dreams™ Circle | $397/month |
 | REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System (RAS™) | $497 |
 | GOLD | The Becoming™ | $4,620 |
-| PLATINUM | Business Profit Accelerator | $5,998 |
+| PLATINUM | RAMS Business Profit Accelerator™ | $5,998 |
 | FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 |
 | REPAIR | Coming Home™ - Repair | $27,000 |
 | YOUR RELATIONSHIP | Coming Home™ - Your Relationship | $45,000 |

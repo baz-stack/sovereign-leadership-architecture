@@ -1,6 +1,7 @@
 # CODEOWNERS — Baz Porter LLC® · The Prestige Architect®
-# The canon owner reviews all changes. Update the handle below if @baz-stack
-# is not a valid CODEOWNERS target (a GitHub user or org/team, e.g. @baz-stack/maintainers).
+# The canon owner reviews all changes.
+# Verified 2026-08-01: @baz-stack is a valid GitHub user account (id 270181308)
+# with admin access to this repository — a valid CODEOWNERS target.
 
 # Everything is owned by the canon owner.
 *                       @baz-stack

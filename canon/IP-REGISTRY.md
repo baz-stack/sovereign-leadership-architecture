@@ -53,6 +53,7 @@
 | A Million Dreams™ | Silver | $397/month |
 | Revenue Architecture System (RAS™) | Course · self-study | $497 |
 | The Becoming™ | Gold | $4,620 (or 3 × $1,620) |
+| RAMS Business Profit Accelerator™ | Platinum · 3-day virtual immersion | $5,998 |
 | The Gravity Code™ | Diamond / Quarterly | $100,000 / $132,000 |
 
 ### Container Marks

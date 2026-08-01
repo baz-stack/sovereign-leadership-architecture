@@ -91,7 +91,7 @@ If you complete The Reclamation Code™ and feel the shift, the next level of th
 | $397/mo | A Million Dreams™ Circle | Sovereign peer architecture |
 | $497 | Revenue Architecture System (RAS™) | Business-side entry |
 | $4,620 | The Becoming™ | 12-week private counsel · identity-side entry |
-| $5,998 | Business Profit Accelerator | 3-day virtual immersion |
+| $5,998 | RAMS Business Profit Accelerator™ | 3-day virtual immersion |
 | $15,000 | Coming Home™ - Find Yourself | Identity literacy |
 | $27,000 | Coming Home™ - Repair | Bleeding stops · parallel to Find Yourself |
 | $45,000 | Coming Home™ - Your Relationship | Graduation only |

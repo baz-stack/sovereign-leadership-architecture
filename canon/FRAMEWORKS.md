@@ -289,7 +289,7 @@ Both modes route into the 12-tier offer stack based on outcome.
 | SILVER | A Million Dreams™ Circle | $397/month |
 | REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System (RAS™) | $497 |
 | GOLD | The Becoming™ | $4,620 (or 3 × $1,620) |
-| PLATINUM | Business Profit Accelerator (BPA) | $5,998 |
+| PLATINUM | RAMS Business Profit Accelerator™ (BPA) | $5,998 |
 | FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 · 3 months |
 | REPAIR | Coming Home™ - Repair | $27,000 · 90 days |
 | YOUR RELATIONSHIP | Coming Home™ - Your Relationship | $45,000 · 6 months |
@@ -367,7 +367,7 @@ Every institutional engagement includes:
 
 ### The Congruence Gate
 
-**Function:** Single certification question requiring simultaneous demonstration of lived client experience, somatic precision, and internal transformation evidence.
+**Function:** Single certification question requiring simultaneous demonstration of lived client experience, somatic precision, and internal return evidence.
 
 **Principle:** *The credential does not certify what someone learned. It certifies who someone is still becoming.*
 

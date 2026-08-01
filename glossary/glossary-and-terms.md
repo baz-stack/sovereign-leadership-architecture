@@ -57,6 +57,7 @@ The named, verifiable end-state of the work, defined by six observable propertie
 **A Million Dreams™ Circle** — three-month cohort container ($397/month).
 **Revenue Architecture System (RAS™)** — self-study, business-side entry ($497).
 **The Becoming™** — Gold-tier identity-side entry ($4,620).
+**RAMS Business Profit Accelerator™** — Platinum-tier 3-day virtual immersion ($5,998). *Your Clients On Your Terms. Fast!*
 **Coming Home™** — the client-facing three-tier private methodology: Find Yourself, Repair, Your Relationship.
 **The Gravity Code™** — the retained power architecture: Diamond and Quarterly tiers.
 
