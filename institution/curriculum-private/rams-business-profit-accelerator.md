@@ -1,8 +1,12 @@
 <!-- PRIVATE DRAFT — INSTITUTION TIER — DO NOT PUBLISH -->
-<!-- Source: Google Drive — "Course Thesis — RAMS Business Accelerator" — file ID 1cUcVzQ7hiChMzaibQQYVYWc48IGJ09UCmqMgPZzH77k -->
-<!-- Pulled verbatim 2026-07-31 as a working draft. Do not finish, rewrite, or publish. Maps to brief item: "RAMS Accelerator" (best-match; no doc literally titled "RAMS Accelerator" exists in the folder — flagged for Baz to confirm). -->
+<!-- Canonical product name: "RAMS Business Profit Accelerator™" (maps to the live-stack offer, $5,998, 3-day virtual immersion). -->
+<!-- Source: Google Drive — original doc title "Course Thesis — RAMS Business Accelerator" — file ID 1cUcVzQ7hiChMzaibQQYVYWc48IGJ09UCmqMgPZzH77k -->
+<!-- Pulled verbatim 2026-07-31 as a working draft. Body preserved verbatim EXCEPT the product name, updated to "RAMS Business Profit Accelerator™" per the rename order (task 0). Do not finish, rewrite, or publish. -->
+<!-- Tagline: "Your Clients On Your Terms. Fast!" -->
 
-# Course Thesis — RAMS Business Accelerator
+# Course Thesis — RAMS Business Profit Accelerator™
+
+*Your Clients On Your Terms. Fast!*
 
 Most entrepreneurs and coaches do not have a lead problem.
 
@@ -13,7 +17,7 @@ When your message is diluted, your marketing feels forced.
 When marketing feels forced, sales become inconsistent.
 And when sales are inconsistent, confidence collapses.
 
-The RAMS Business Accelerator is built on a simple premise:
+The RAMS Business Profit Accelerator™ is built on a simple premise:
 
 **Revenue is a byproduct of alignment and structure.**
 

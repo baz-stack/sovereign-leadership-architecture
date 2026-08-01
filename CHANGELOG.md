@@ -5,6 +5,20 @@
 
 ---
 
+## v2026.08.01.1, Close Loops + Rename + Research Pull
+
+**Date:** August 1, 2026
+**Scope:** Reconcile-only follow-up before the next build. Nothing deleted.
+
+1. **Rename** — "RAMS Business Accelerator" / "RAMS Accelerator" → **RAMS Business Profit Accelerator™** across public + private files (the old strings existed only in the private draft; the public live-stack "Business Profit Accelerator" is aligned to the same canonical name, carrying ™). Tagline set where the container is described: *"Your Clients On Your Terms. Fast!"* Added the mark to `canon/IP-REGISTRY.md`, `canon/OFFERS.md`, `glossary/`, and the `baz-porter.txt` trademark list. Private draft file renamed `rams-accelerator.md → rams-business-profit-accelerator.md` (git mv). `_holding/` archive left frozen.
+2. **Source mapping** — private index (`institution/README.md`) now names each curriculum draft; the course source resolves under its new name "Course Thesis — RAMS Business Profit Accelerator™" (original Drive title preserved for traceability).
+3. **CODEOWNERS** — verified `@baz-stack` is a valid GitHub user (id 270181308) with admin access; a valid CODEOWNERS target. Comment updated to confirm.
+4. **Sealed-canon "transformation"** — the two non-tagline descriptor uses aligned to "return": `METHODOLOGY.md` heading "The Transformation Arc" → "The Return Arc"; `FRAMEWORKS.md` "internal transformation evidence" → "internal return evidence". The registered tagline "Not transformation. Return.™" left untouched everywhere.
+5. **Live link spot-check** — could not run: the environment's outbound egress policy returns 403 CONNECT for all external hosts (verified in the proxy failure log, incl. the known-live umn.edu). Reported as inconclusive/blocked, not dead. No external links edited.
+6. **Research pull (private tier)** — pulled verbatim into `/institution/`: `research/physics-anchor-library.md`, `curriculum-private/paradynamic-healing.md` (Ruby tier), `curriculum-private/RAMS-framework.md`. Physics/quantum claims lacking a real citation tagged `[RESEARCH PENDING]`; no sources invented. All three under `/institution/` only — not in sitemap, covered by robots Disallow.
+
+---
+
 ## v2026.07.31.2, Canon Restructure + Private Institution
 
 **Date:** July 31, 2026

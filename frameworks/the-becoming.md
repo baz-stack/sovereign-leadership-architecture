@@ -29,7 +29,7 @@ Revenue Architecture System (RAS™) handles the business side, strategy, struct
 
 The Becoming™ handles the identity side, the leader beneath the business.
 
-The two sides feed Platinum (Business Profit Accelerator), where the buyer enters believing the business is broken and exits knowing they are the bottleneck.
+The two sides feed Platinum (RAMS Business Profit Accelerator™), where the buyer enters believing the business is broken and exits knowing they are the bottleneck.
 
 The Becoming™ is the work that happens before that revelation lands cleanly. Without identity preparation at this tier, Platinum becomes a shock without architecture to absorb it.
 
@@ -125,7 +125,7 @@ No separate bridge offer required. The payment plan IS the bridge.
 | SILVER | A Million Dreams™ Circle | $397/month |
 | REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System (RAS™) | $497 |
 | **GOLD** | **The Becoming™** | **$4,620** |
-| PLATINUM | Business Profit Accelerator | $5,998 |
+| PLATINUM | RAMS Business Profit Accelerator™ | $5,998 |
 | FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 |
 
 The Becoming™ feeds Platinum. Revenue Architecture System (RAS™) + Gold together produce the buyer ready for the BPA revelation.

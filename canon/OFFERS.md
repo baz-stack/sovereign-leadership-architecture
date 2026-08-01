@@ -27,7 +27,7 @@ The Strategic Call is a separate offer. 15 minutes, live. It is not the Diagnost
 | A Million Dreams™ Circle | $397 / month | 3-month cohort |
 | Revenue Architecture System (RAS™) | $497 | Self-paced course |
 | The Becoming™ | $4,620 | 12-week private counsel |
-| Business Profit Accelerator | $5,998 | 3-day virtual immersion |
+| RAMS Business Profit Accelerator™ | $5,998 | 3-day virtual immersion |
 | Coming Home™ - Find Yourself | $15,000 | Private container |
 | Coming Home™ - Repair | $27,000 | Private container |
 | Coming Home™ - Your Relationship | $45,000 | Private container |
@@ -45,12 +45,14 @@ Digital course. The entry rung. Names the structure of Silent Collapse™ and gi
 Three-month cohort container. Community, structured counsel, and recurring rhythm. A parallel track, not a required rung.
 
 ### Revenue Architecture System (RAS™) · $497
-Self-paced course. The business-side entry point and the Business Profit Accelerator complement.
+Self-paced course. The business-side entry point and the RAMS Business Profit Accelerator™ complement.
 
 ### The Becoming™ · $4,620
 Twelve-week private counsel container. The identity-side entry to the premium architecture. Bi-weekly one-hour sessions, vision work, boundary and pricing alignment, between-session access. Payment plan available: 3 x $1,620.
 
-### Business Profit Accelerator · $5,998
+### RAMS Business Profit Accelerator™ · $5,998
+*Your Clients On Your Terms. Fast!*
+
 Three-day virtual immersion. The revelation tier. The buyer enters believing the business is the problem and exits knowing they are the bottleneck.
 
 ### Coming Home™ - Find Yourself · $15,000
@@ -86,7 +88,7 @@ Contact: https://bazporter.com/corporate
 
 ## PAYMENT TERMS
 
-1. Stripe accepted for all tiers up to and including the Business Profit Accelerator ($5,998).
+1. Stripe accepted for all tiers up to and including the RAMS Business Profit Accelerator™ ($5,998).
 2. Wire transfer only for every tier $15,000 and above. Never a card charge.
 3. No refunds. Any tier. Any reason.
 4. Payment plan available on The Becoming™ only (3 x $1,620).

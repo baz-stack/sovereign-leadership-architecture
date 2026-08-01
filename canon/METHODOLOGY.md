@@ -198,7 +198,7 @@ The Silent Collapse Diagnostic™ maps which drives are fractured and in what se
 
 ---
 
-## The Transformation Arc, From Victoria to Oliver
+## The Return Arc, From Victoria to Oliver
 
 Victoria is the leader before Sovereign Leadership Architecture™.
 
@@ -239,7 +239,7 @@ Each tier exposes what the previous tier made visible enough to see.
 | SILVER | A Million Dreams™ Circle | $397/month |
 | REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System (RAS™) | $497 |
 | GOLD | The Becoming™ | $4,620 (or 3 × $1,620) |
-| PLATINUM | Business Profit Accelerator (BPA) | $5,998 |
+| PLATINUM | RAMS Business Profit Accelerator™ (BPA) | $5,998 |
 | FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 |
 | REPAIR | Coming Home™ - Repair | $27,000 |
 | YOUR RELATIONSHIP | Coming Home™ - Your Relationship | $45,000 |

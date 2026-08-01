@@ -130,14 +130,14 @@ The Your Relationship is graduation-only and cannot be skipped into.
 
 ## Where This Lives in the Stack
 
-Coming Home™ sits above the Business Profit Accelerator (Platinum) and below The Gravity Code™ (Diamond / Quarterly) in the Sovereign Leadership Architecture™ offer stack.
+Coming Home™ sits above the RAMS Business Profit Accelerator™ (Platinum) and below The Gravity Code™ (Diamond / Quarterly) in the Sovereign Leadership Architecture™ offer stack.
 
 It is entered by leaders who have done the professional identity work and are ready to bring that sovereignty across every domain of their life.
 
 | Tier | Container | Investment |
 |:----|:----|:----|
 | GOLD | The Becoming™ | $4,620 |
-| PLATINUM | Business Profit Accelerator | $5,998 |
+| PLATINUM | RAMS Business Profit Accelerator™ | $5,998 |
 | FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 |
 | REPAIR | Coming Home™ - Repair | $27,000 |
 | YOUR RELATIONSHIP | Coming Home™ - Your Relationship | $45,000 |
