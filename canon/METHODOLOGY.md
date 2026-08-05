@@ -4,7 +4,7 @@
 
 **Version:** v2026.07.15.1
 **Status:** LIVE CANON
-**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Owner:** Baz Porter LLC® · The Prestige Architect™
 
 ---
 

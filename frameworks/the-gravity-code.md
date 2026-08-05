@@ -1,6 +1,6 @@
 # The Gravity Code™, Diamond · Quarterly
 
-### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
+### Proprietary IP | Baz Porter LLC® | The Prestige Architect™
 ### Sovereign Scale Tier | Invitation-Only | 8 Seats Annually
 
 **Version:** v2026.07.15.1
@@ -213,5 +213,5 @@ Baz reads the pre-call answers before the conversation begins. The call starts a
 
 *© 2019–2026 Baz Porter LLC®. All Rights Reserved. The Gravity Code™ is proprietary IP protected under trademark. Unauthorized use or reproduction is prohibited.*
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

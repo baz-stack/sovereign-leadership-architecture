@@ -1,6 +1,6 @@
 # Silent Collapse Diagnostic™
 
-### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
+### Proprietary IP | Baz Porter LLC® | The Prestige Architect™
 
 **Version:** v2026.07.31.1
 
@@ -78,5 +78,5 @@ The diagnostic resolves into the rest of the architecture only if the work is a 
 
 *© 2019–2026 Baz Porter LLC®. All Rights Reserved. The Silent Collapse Diagnostic™ is proprietary IP protected under trademark. Unauthorized use or reproduction is prohibited.*
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

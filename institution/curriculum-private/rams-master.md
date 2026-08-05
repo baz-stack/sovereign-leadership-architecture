@@ -8,7 +8,7 @@
 
 Results  ·  Attitude  ·  Authenticity  ·  Mastery  ·  Systems
 
-The Prestige Architect®  |  Baz Porter LLC®
+The Prestige Architect™  |  Baz Porter LLC®
 
 *Master Reference — Video Series Architecture*
 

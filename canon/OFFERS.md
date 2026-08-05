@@ -2,7 +2,7 @@
 
 **Version:** v2026.07.15.1
 **Status:** LIVE CANON · Source of Truth
-**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Owner:** Baz Porter LLC® · The Prestige Architect™
 
 ---
 
@@ -101,5 +101,5 @@ This file is canon. All downstream skills, page builders, workflows, emails, and
 
 *© 2019-2026 Baz Porter LLC®. All Rights Reserved.*
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

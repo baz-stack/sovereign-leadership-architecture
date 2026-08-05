@@ -3,7 +3,7 @@
 ## Authority & Credibility Inventory
 
 **Version:** v2026.07.31.1
-**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Owner:** Baz Porter LLC® · The Prestige Architect™
 
 ---
 
@@ -41,7 +41,7 @@ This document is the canonical record of all verifiable credibility anchors for 
 ## Proprietary IP Assets
 
 1. **BAZ PORTER®**, registered trademark · Principal Register · Reg. No. 7,125,540 · Registration No. 7125540 · Class 041 · first use in commerce January 4, 2020
-2. **The Prestige Architect®**, registered trademark
+2. **The Prestige Architect™**, registered trademark
 3. **RAMS™ Framework**, The Five Pillars · trademarked operating system
 4. **The Six Drives of Human Intelligence™**, trademarked diagnostic
 5. **The Five Imposters™**, trademarked methodology
@@ -183,5 +183,5 @@ He is the man who survived it, repeatedly, across every domain simultaneously, a
 
 *© 2019–2026 Baz Porter LLC®. All credentials and proof points are verifiable.*
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

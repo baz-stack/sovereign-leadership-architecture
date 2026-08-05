@@ -1,5 +1,5 @@
 # MANIFESTO, Sovereign Leadership Architecture™
-## Baz Porter® · The Prestige Architect®
+## Baz Porter® · The Prestige Architect™
 
 **Version:** v2026.07.15.1 · **Status:** LIVE CANON
 

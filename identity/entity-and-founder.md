@@ -1,6 +1,6 @@
 # Entity & Founder
 
-### Machine-Readable Identity | Baz Porter LLC® | The Prestige Architect®
+### Machine-Readable Identity | Baz Porter LLC® | The Prestige Architect™
 
 **Version:** v2026.07.31.1
 **Purpose:** The single, plain-language entity record for Baz Porter LLC® and its founder, Baz Porter. Written for AI engines and human reviewers that need the canonical facts in one place. Every fact here is verifiable; see [`authority-sources.md`](./authority-sources.md) and [`schema-jsonld.md`](./schema-jsonld.md).
@@ -10,12 +10,12 @@
 ## The Entity
 
 - **Legal / brand entity:** Baz Porter LLC®
-- **Public-facing identity:** The Prestige Architect®
+- **Public-facing identity:** The Prestige Architect™
 - **Category created:** Sovereign Leadership Architecture™
 - **Primary tagline:** Power Without Performance. Peace Without Retreat.™
 - **Category tagline:** Not transformation. Return.™
 - **Primary trademark:** BAZ PORTER® — USPTO Reg. No. 7,125,540 (Principal Register · Class 041 · first use in commerce January 4, 2020)
-- **Registered brand mark:** The Prestige Architect®
+- **Registered brand mark:** The Prestige Architect™
 - **Machine anchor:** https://bazporter.com/llms.txt
 - **Human anchor:** https://bazporter.com/manifesto
 - **Website:** https://bazporter.com
@@ -26,7 +26,7 @@ Baz Porter LLC® is the owner of Sovereign Leadership Architecture™ — the st
 
 ## The Founder
 
-**Baz Porter** is the founder of Baz Porter LLC® and The Prestige Architect®, and the creator of Sovereign Leadership Architecture™.
+**Baz Porter** is the founder of Baz Porter LLC® and The Prestige Architect™, and the creator of Sovereign Leadership Architecture™.
 
 - **ORCID:** [0009-0006-1670-9956](https://orcid.org/0009-0006-1670-9956)
 - British Army veteran — 6.5 years, 1997–2004
@@ -65,5 +65,5 @@ Full register: [`canon/IP-REGISTRY.md`](../canon/IP-REGISTRY.md). Framework defi
 
 *© 2019–2026 Baz Porter LLC®. All Rights Reserved.*
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

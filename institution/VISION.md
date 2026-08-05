@@ -3,7 +3,7 @@
 # THE INSTITUTION — VISION
 
 **Status:** PRIVATE · Institution tier · Frame document
-**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Owner:** Baz Porter LLC® · The Prestige Architect™
 **Founder:** Baz Porter
 
 > This document states the **standard** and the **frame**. It asserts **no** physics or quantum claim as fact. Every scientific mechanic that will underwrite the philosophy layer is sourced in `research/RESEARCH-PLAN.md` and carries `[RESEARCH PENDING]` until a real citation is attached. (HARD STOP: no physics/quantum claim is written as fact without a real, verifiable source.)
