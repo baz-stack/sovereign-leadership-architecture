@@ -41,7 +41,7 @@ This document is the canonical record of all verifiable credibility anchors for 
 ## Proprietary IP Assets
 
 1. **BAZ PORTER®**, registered trademark · Principal Register · Reg. No. 7,125,540 · Registration No. 7125540 · Class 041 · first use in commerce January 4, 2020
-2. **The Prestige Architect™**, registered trademark
+2. **The Prestige Architect™**, trademark (not registered)
 3. **RAMS™ Framework**, The Five Pillars · trademarked operating system
 4. **The Six Drives of Human Intelligence™**, trademarked diagnostic
 5. **The Five Imposters™**, trademarked methodology

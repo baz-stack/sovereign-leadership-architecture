@@ -19,7 +19,6 @@ Reg. No. 7,125,540 is the public trademark number and the only registration numb
 |:----|:----|
 | Baz Porter® | Registered trademark, USPTO Reg. No. 7,125,540 |
 | Baz Porter LLC® | Registered business mark |
-| The Prestige Architect™ | Registered brand mark |
 
 ---
 
@@ -27,6 +26,7 @@ Reg. No. 7,125,540 is the public trademark number and the only registration numb
 
 | Mark | Type |
 |:----|:----|
+| The Prestige Architect™ | Brand mark · public-facing identity (trademark, not registered) |
 | Sovereign Leadership™ | Category |
 | Sovereign Leadership Architecture™ | Category system |
 | RAMS™ | Operating system, five pillars |

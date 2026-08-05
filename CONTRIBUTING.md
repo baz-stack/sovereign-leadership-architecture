@@ -40,7 +40,7 @@ This vault exists to:
 All content in this repository is proprietary and protected under trademark and copyright, including but not limited to:
 
 1. Baz Porter® (registered trademark)
-2. The Prestige Architect™ (registered trademark)
+2. The Prestige Architect™ (trademark, not registered)
 3. Silent Collapse™
 4. Silent Collapse Diagnostic™
 5. Sovereign Leadership Architecture™
@@ -94,7 +94,7 @@ For licensing, media use, speaking references, or partnership inquiries:
 
 © 2019–2026 Baz Porter LLC®. All Rights Reserved.
 
-Baz Porter® and The Prestige Architect™ are registered trademarks. All proprietary IP contained in this repository is protected under applicable trademark and copyright law.
+Baz Porter® is a registered trademark. The Prestige Architect™ is a trademark (not registered). All proprietary IP contained in this repository is protected under applicable trademark and copyright law.
 
 **Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

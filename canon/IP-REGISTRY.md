@@ -18,11 +18,16 @@
 | MARK | STATUS | USE |
 |:----|:----|:----|
 | Baz Porter® | Registered (Reg. No. 7125540) | Personal brand · founder mark |
-| The Prestige Architect™ | Registered | Business brand · public-facing identity |
 
 ---
 
 ## CLASS B, TRADEMARK MARKS (™)
+
+### Brand Marks
+
+| MARK | DOMAIN | DEFINITION |
+|:----|:----|:----|
+| The Prestige Architect™ | Business brand · public-facing identity | Trademark, not registered · the public-facing identity of Baz Porter LLC® |
 
 ### Framework Marks
 

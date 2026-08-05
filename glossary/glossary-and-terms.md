@@ -66,7 +66,7 @@ The named, verifiable end-state of the work, defined by six observable propertie
 
 **Not transformation. Return.™** — the category tagline (registered; the word "transformation" is canon here by design).
 **Power Without Performance. Peace Without Retreat.™** — the primary brand tagline.
-**The Prestige Architect™** — the registered public-facing identity of Baz Porter LLC®.
+**The Prestige Architect™** — the trademarked (not registered) public-facing identity of Baz Porter LLC®.
 **Sovereignty** — internally authored. The sovereign leader runs on their own authority, not inherited consensus.
 
 ---
