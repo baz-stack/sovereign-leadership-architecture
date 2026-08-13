@@ -19,7 +19,7 @@ Reg. No. 7,125,540 is the public trademark number and the only registration numb
 |:----|:----|
 | Baz Porter® | Registered trademark, USPTO Reg. No. 7,125,540 |
 | Baz Porter LLC® | Registered business mark |
-| The Prestige Architect® | Registered brand mark |
+| The Prestige Architect™ | Registered brand mark |
 
 ---
 

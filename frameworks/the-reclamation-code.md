@@ -1,6 +1,6 @@
 # The Reclamation Code™
 
-### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
+### Proprietary IP | Baz Porter LLC® | The Prestige Architect™
 ### Bronze Tier | $97 | Self-Directed Digital Course
 
 **Version:** v2026.07.15.1
@@ -125,5 +125,5 @@ Start with the diagnostic if you haven't already:
 
 *© 2019–2026 Baz Porter LLC®. All Rights Reserved. The Reclamation Code™ is proprietary IP protected under trademark. Unauthorized use or reproduction is prohibited.*
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

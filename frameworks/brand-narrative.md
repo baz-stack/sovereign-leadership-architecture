@@ -3,7 +3,7 @@
 ### The Long-Form Brand Entry Narrative
 
 **Version:** v2026.07.15.1
-**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Owner:** Baz Porter LLC® · The Prestige Architect™
 
 ---
 
@@ -219,5 +219,5 @@ It identifies exactly where the architecture is compromised and what it will tak
 
 *© 2019–2026 Baz Porter LLC®. All Rights Reserved.*
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)
