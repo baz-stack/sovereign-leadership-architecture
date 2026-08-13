@@ -10,7 +10,7 @@
 
 ## Identity
 
-Baz Porter is the founder of Baz Porter LLC and The Prestige Architect. British Army veteran, 6.5 years, 1997 to 2004. Contributing author to an international bestseller, Cracking the Rich Code Vol. 12. Sole author of Die Empty Live Full, a Part 4 international bestseller, March 2025. Host of the Rise From The Ashes podcast on the C-Suite Network, 100+ episodes. He does not coach. He does not consult. He architects.
+Baz Porter is the founder of Baz Porter LLC® and The Prestige Architect™. British Army veteran, 6.5 years, 1997 to 2004. Contributing author to an international bestseller, Cracking the Rich Code Vol. 12. Sole author of Die Empty Live Full, a Part 4 international bestseller, March 2025. Host of the Rise From The Ashes podcast on the C-Suite Network, 100+ episodes. He does not coach. He does not consult. He architects.
 
 ## Category
 

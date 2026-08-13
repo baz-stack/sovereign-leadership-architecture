@@ -569,7 +569,7 @@ Rank, reputation, and signal — the three structural elements of military autho
 
 **Layer 4  ·  Identity**
 
-The student installs the Prestige Architect identity — authority that is earned through demonstrable mastery, never claimed through positioning alone.
+The student installs the Prestige Architect™ identity — authority that is earned through demonstrable mastery, never claimed through positioning alone.
 
 **Layer 5  ·  Pattern (NLP + Somatic)**
 

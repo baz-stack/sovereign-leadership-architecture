@@ -169,7 +169,7 @@ RAMS exists to produce that. At scale. Across generations.
 
 *Picture a man still standing. Arrows in the back. Blood still fresh. The wounds real and unconcealed. And in his arms, held steady, held safe, a child. Not despite the arrows. With them.*
 
-The Prestige Architect does not study Silent Collapse.
+The Prestige Architect™ does not study Silent Collapse.
 
 He survived it, repeatedly, across every domain simultaneously.
 

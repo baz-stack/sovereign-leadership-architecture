@@ -19,7 +19,7 @@
       "@type": "Organization",
       "@id": "https://bazporter.com/#organization",
       "name": "Baz Porter LLC",
-      "alternateName": "The Prestige Architect",
+      "alternateName": "The Prestige Architect™",
       "url": "https://bazporter.com",
       "slogan": "Power Without Performance. Peace Without Retreat.",
       "founder": { "@id": "https://bazporter.com/#founder" },
