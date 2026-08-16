@@ -136,7 +136,7 @@ It is entered by leaders who have done the professional identity work and are re
 
 | Tier | Container | Investment |
 |:----|:----|:----|
-| GOLD | The Becoming™ | $4,620 |
+| GOLD | The Becoming™ | $1,620/mo |
 | PLATINUM | Business Profit Accelerator | $5,998 |
 | FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 |
 | REPAIR | Coming Home™ - Repair | $27,000 |

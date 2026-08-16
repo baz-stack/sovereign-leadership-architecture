@@ -24,7 +24,7 @@ The Strategic Call is a separate offer. 15 minutes, live. It is not the Diagnost
 |:----|:----|:----|
 | Silent Collapse Diagnostic™ | Free | 60-minute live diagnostic with Baz |
 | The Reclamation Code™ | $97 | Digital course |
-| A Million Dreams™ Circle | $97 / month | 3-month cohort |
+| A Million Dreams™ Community | $97 / month | 3-month cohort |
 | Revenue Architecture System (RAS™) | $497 | Self-paced course |
 | The Becoming™ | $1,620 / month | 12-week private counsel |
 | Business Profit Accelerator | $5,998 | 3-day virtual immersion |
@@ -41,7 +41,7 @@ The Strategic Call is a separate offer. 15 minutes, live. It is not the Diagnost
 ### The Reclamation Code™ · $97
 Digital course. The entry rung. Names the structure of Silent Collapse™ and gives the buyer language for what they have been carrying.
 
-### A Million Dreams™ Circle · $97 / month
+### A Million Dreams™ Community · $97 / month
 Three-month cohort container. Community, structured counsel, and recurring rhythm. A parallel track, not a required rung.
 
 ### Revenue Architecture System (RAS™) · $497

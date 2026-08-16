@@ -125,7 +125,7 @@ Community is real. The right peer architecture matters. But when used as the pri
 
 The leader leaves feeling seen. They return to the same operating system. The collapse continues.
 
-A Million Dreams™ (Silver tier · $397/month) is a sovereign-grade cohort container, designed to operate alongside, not in place of, structural identity rebuild. It is not an Imposter because it knows what it is and is not.
+A Million Dreams™ (Silver tier · $97/month) is a sovereign-grade cohort container, designed to operate alongside, not in place of, structural identity rebuild. It is not an Imposter because it knows what it is and is not.
 
 **The structural truth:**
 Community is supplemental. It is not the architecture. Precision identity work is the architecture.

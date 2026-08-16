@@ -14,7 +14,7 @@ I have a clear picture now. Direct answer:
 | :-- | :-- | :-- | :-- |
 | Internal operating system | Decision engine for every offer, funnel, page, and content piece | Baz Porter LLC™ (you) | Indirect |
 | Inside BPA Gold ($5,997) | Taught as the operating framework of the 3-day immersion | Bundled into offer | Indirect |
-| Inside AMDC ($397/mo) | Taught as the membership operating standard | Bundled into offer | Indirect |
+| Inside AMDC ($97/mo) | Taught as the membership operating standard | Bundled into offer | Indirect |
 | Revenue Architecture System (RAS) downsell | Standalone framework training | Bundled into offer | Indirect |
 | The Reclamation Code ($97) | Referenced as the underlying architecture | Bundled into offer | Indirect |
 | ramsbybaz.com | Historical brand domain | You | None |

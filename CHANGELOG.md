@@ -5,6 +5,26 @@
 
 ---
 
+## v2026.08.16.1, Offer Reconciliation — AMDC Rename + The Becoming™ Recurring
+
+**Date:** August 16, 2026
+**Scope:** Repository-wide reconciliation of two offer changes across live canon, framework, glossary, and machine-layer files. Historical records preserved.
+
+### Offer changes
+
+1. **A Million Dreams™ Circle → A Million Dreams™ Community.** The offer name is renamed across all live surfaces. The bare registered mark **A Million Dreams™** is unchanged. Price confirmed **$97/mo** everywhere (was $397/month).
+2. **The Becoming™ is now recurring.** Replaced the fixed price ($4,620) and the 3 × $1,620 payment plan with **$1,620/mo subscription · 3-month minimum · 1-month written notice to exit**. All references to a fixed total, installment count, and payment-plan-as-bridge language removed. The RAS™→Gold bridge section reframed around the subscription.
+
+### Files touched
+
+`canon/OFFERS.md` · `canon/PROFILE.md` · `canon/METHODOLOGY.md` · `canon/IP-REGISTRY.md` · `canon/FRAMEWORKS.md` · `frameworks/the-becoming.md` · `frameworks/brand-narrative.md` · `frameworks/the-reclamation-code.md` · `frameworks/five-imposters.md` · `frameworks/coming-home.md` · `glossary/glossary-and-terms.md` · `baz-porter.txt` · `institution/curriculum-private/trademarks.md`
+
+### Preserved (history not rewritten)
+
+Dated historical entries in this CHANGELOG, `canon/RETIRED.md`, and the archived `_holding/` snapshots retain their original figures as records of prior state.
+
+---
+
 ## v2026.07.31.2, Canon Restructure + Private Institution
 
 **Date:** July 31, 2026

@@ -1,7 +1,7 @@
 # The Becoming™
 
 ### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
-### Gold Tier | $4,620 (or 3 × $1,620) | 12-Week Private Counsel
+### Gold Tier | $1,620/mo subscription · 3-month minimum · 1-month written notice to exit | 12-Week Private Counsel
 
 **Version:** v2026.07.15.1
 
@@ -96,10 +96,9 @@ The week-12 Ratified Architecture document is the proof. It is held on file. It 
 
 ## Investment
 
-| OPTION | INVESTMENT | TERMS |
-|:----|:----|:----|
-| Pay in full | $4,620 | Stripe accepted · entry within 7 days |
-| Payment plan | 3 × $1,620 | Stripe accepted · $4,860 total · entry within 7 days of first payment |
+$1,620/mo subscription. 3-month minimum. 1-month written notice to exit. Stripe accepted · entry within 7 days.
+
+The Becoming™ is recurring, not a fixed-length program. It bills monthly at $1,620/mo with a 3-month minimum commitment; exit requires 1 month of written notice.
 
 No refunds. The work is architectural, not satisfaction-guaranteed.
 
@@ -107,13 +106,13 @@ No refunds. The work is architectural, not satisfaction-guaranteed.
 
 ## The Revenue Architecture System (RAS™)-to-Gold Bridge
 
-The payment plan ($1,620 × 3) functions as the structural bridge from Revenue Architecture System (RAS™) ($497) to Gold.
+The Becoming™ subscription ($1,620/mo) functions as the structural bridge from Revenue Architecture System (RAS™) ($497) to Gold.
 
 1. Revenue Architecture System (RAS™) at $497, business-side entry
-2. The Becoming™ first payment at $1,620, identity-side entry begins
-3. Cumulative ascent across 3 months, $497 → $1,620 → $1,620 → $1,620
+2. The Becoming™ at $1,620/mo, identity-side entry begins
+3. Cumulative ascent as the subscription runs across the 3-month minimum and beyond
 
-No separate bridge offer required. The payment plan IS the bridge.
+No separate bridge offer required. The subscription IS the bridge.
 
 ---
 
@@ -122,9 +121,9 @@ No separate bridge offer required. The payment plan IS the bridge.
 | Tier | Container | Investment |
 |:----|:----|:----|
 | BRONZE | The Reclamation Code™ | $97 |
-| SILVER | A Million Dreams™ Circle | $397/month |
+| SILVER | A Million Dreams™ Community | $97/month |
 | REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System (RAS™) | $497 |
-| **GOLD** | **The Becoming™** | **$4,620** |
+| **GOLD** | **The Becoming™** | **$1,620/mo** |
 | PLATINUM | Business Profit Accelerator | $5,998 |
 | FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 |
 

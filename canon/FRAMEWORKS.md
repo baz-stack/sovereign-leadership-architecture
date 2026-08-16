@@ -286,9 +286,9 @@ Both modes route into the 12-tier offer stack based on outcome.
 |:----|:----|:----|
 | VALUE | Silent Collapse Diagnostic™ | Free |
 | BRONZE | The Reclamation Code™ | $97 |
-| SILVER | A Million Dreams™ Circle | $397/month |
+| SILVER | A Million Dreams™ Community | $97/month |
 | REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System (RAS™) | $497 |
-| GOLD | The Becoming™ | $4,620 (or 3 × $1,620) |
+| GOLD | The Becoming™ | $1,620/mo |
 | PLATINUM | Business Profit Accelerator (BPA) | $5,998 |
 | FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 · 3 months |
 | REPAIR | Coming Home™ - Repair | $27,000 · 90 days |
@@ -304,7 +304,7 @@ Both modes route into the 12-tier offer stack based on outcome.
 
 **Structure:** 12-week private counsel container · bi-weekly 1-hour sessions · between-session access · The Sovereign Operating System™ installed
 
-**Investment:** $4,620 (or 3 × $1,620)
+**Investment:** $1,620/mo subscription. 3-month minimum. 1-month written notice to exit.
 
 **Status:** Replaced The Becoming™ at the Gold tier in June 2026. Gender-neutral, repurposable across all leaders.
 

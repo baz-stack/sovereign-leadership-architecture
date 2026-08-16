@@ -73,9 +73,9 @@ He does not coach. He architects.
 |:----|:----|:----|
 | VALUE | Silent Collapse Diagnostic™ | Free |
 | BRONZE | The Reclamation Code™ | $97 |
-| SILVER | A Million Dreams™ Circle | $397/month |
+| SILVER | A Million Dreams™ Community | $97/month |
 | REVENUE ARCHITECTURE SYSTEM COURSE | Revenue Architecture System (RAS™) | $497 |
-| GOLD | The Becoming™ | $4,620 (or 3 × $1,620) |
+| GOLD | The Becoming™ | $1,620/mo |
 | PLATINUM | Business Profit Accelerator | $5,998 |
 | FIND YOURSELF | Coming Home™ - Find Yourself | $15,000 |
 | REPAIR | Coming Home™ - Repair | $27,000 |

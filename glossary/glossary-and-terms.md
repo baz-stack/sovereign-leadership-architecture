@@ -54,9 +54,9 @@ The named, verifiable end-state of the work, defined by six observable propertie
 ## Offer & Container Terms
 
 **The Reclamation Code™** — Bronze-tier digital course that names the structure ($97).
-**A Million Dreams™ Circle** — three-month cohort container ($397/month).
+**A Million Dreams™ Community** — three-month cohort container ($97/mo).
 **Revenue Architecture System (RAS™)** — self-study, business-side entry ($497).
-**The Becoming™** — Gold-tier identity-side entry ($4,620).
+**The Becoming™** — Gold-tier identity-side entry ($1,620/mo subscription, 3-month minimum, 1-month written notice to exit).
 **Coming Home™** — the client-facing three-tier private methodology: Find Yourself, Repair, Your Relationship.
 **The Gravity Code™** — the retained power architecture: Diamond and Quarterly tiers.
 

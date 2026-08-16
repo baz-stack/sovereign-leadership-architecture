@@ -50,9 +50,9 @@
 | MARK | TIER | INVESTMENT |
 |:----|:----|:----|
 | The Reclamation Code™ | Bronze | $97 |
-| A Million Dreams™ | Silver | $397/month |
+| A Million Dreams™ | Silver | $97/month |
 | Revenue Architecture System (RAS™) | Course · self-study | $497 |
-| The Becoming™ | Gold | $4,620 (or 3 × $1,620) |
+| The Becoming™ | Gold | $1,620/mo |
 | The Gravity Code™ | Diamond / Quarterly | $100,000 / $132,000 |
 
 ### Container Marks
