@@ -1,7 +1,7 @@
 # Sovereign Leadership Architecture™
 
 **Version:** v2026.07.31.2
-**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Owner:** Baz Porter LLC® · The Prestige Architect™
 **Founder:** Baz Porter
 **Mission:** Power Without Performance. Peace Without Retreat.™
 
@@ -102,7 +102,7 @@ Machine identifiers carried across the layer: ORCID `0009-0006-1670-9956` · USP
 
 ## Founder
 
-**Baz Porter** is the founder of Baz Porter LLC® and The Prestige Architect®.
+**Baz Porter** is the founder of Baz Porter LLC® and The Prestige Architect™.
 
 1. British Army veteran, 6.5 years, 1997 to 2004
 2. Two-time international bestselling author
@@ -161,5 +161,5 @@ This repository is the canon. All downstream Claude skills and Anthropic tooling
 
 *© 2019–2026 Baz Porter LLC®. All Rights Reserved.*
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

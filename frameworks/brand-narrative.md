@@ -3,7 +3,7 @@
 ### The Long-Form Brand Entry Narrative
 
 **Version:** v2026.07.15.1
-**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Owner:** Baz Porter LLC® · The Prestige Architect™
 
 ---
 
@@ -93,13 +93,13 @@ Five pillars, not four.
 
 Running in reverse of every conventional business framework. RAMS™ addresses the leader before the strategy, because the body and the business run on the same architecture.
 
-| Pillar | Weight | Function |
-|:----|:----|:----|
-| Results | 30% | Outcome layer · what gets produced |
-| Attitude | 15% | The identity shift from reactive to decided |
-| Authenticity | 20% | Closing the private/public divide · the gap that drives Silent Collapse™ |
-| Mastery | 20% | Permanent capability install |
-| Systems | 15% | Infrastructure that serves the leader |
+| Pillar | Function |
+|:----|:----|
+| Results | Outcome layer · what gets produced |
+| Attitude | The identity shift from reactive to decided |
+| Authenticity | Closing the private/public divide · the gap that drives Silent Collapse™ |
+| Mastery | Permanent capability install |
+| Systems | Infrastructure that serves the leader |
 
 ---
 
@@ -219,5 +219,5 @@ It identifies exactly where the architecture is compromised and what it will tak
 
 *© 2019–2026 Baz Porter LLC®. All Rights Reserved.*
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

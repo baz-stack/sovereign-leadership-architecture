@@ -4,7 +4,7 @@
 
 **Version:** v2026.07.15.1
 **Status:** LIVE CANON
-**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Owner:** Baz Porter LLC® · The Prestige Architect™
 
 ---
 
@@ -31,15 +31,13 @@ Every framework here emerged from lived experience. Every framework was stress-t
 
 **Function:** Sovereign leadership operating system, the integrating architecture beneath every client engagement. The body and the business run on the same architecture. When one is dysregulated, both are compromised.
 
-**Pillar Weighting (Current):**
-
-| Pillar | Weight | Function |
-|:----|:----|:----|
-| Results | 30% | Outcome layer · what gets produced |
-| Attitude | 15% | The identity shift from reactive to decided |
-| Authenticity | 20% | The gap that drives Silent Collapse™ · closing the private/public divide |
-| Mastery | 20% | Permanent capability install · not temporary motivation |
-| Systems | 15% | Infrastructure that serves the leader, not the reverse |
+| Pillar | Function |
+|:----|:----|
+| Results | Outcome layer · what gets produced |
+| Attitude | The identity shift from reactive to decided |
+| Authenticity | The gap that drives Silent Collapse™ · closing the private/public divide |
+| Mastery | Permanent capability install · not temporary motivation |
+| Systems | Infrastructure that serves the leader, not the reverse |
 
 **Application:** Individual leaders · corporate deployment · curriculum licensing
 
@@ -403,5 +401,5 @@ This file is canon. All skills, page builders, workflows, sales pages, and conte
 
 *© 2019–2026 Baz Porter LLC®. All Rights Reserved. First use in commerce: January 4, 2020. All frameworks and methodologies are proprietary and protected under trademark.*
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

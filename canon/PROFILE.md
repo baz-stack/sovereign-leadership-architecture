@@ -5,7 +5,7 @@
 > *Not transformation. Return.*
 
 **Version:** v2026.07.15.1
-**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Owner:** Baz Porter LLC® · The Prestige Architect™
 
 ---
 
@@ -57,13 +57,13 @@ He does not coach. He architects.
 
 ## RAMS™, The Five Pillars
 
-| Pillar | Weight | Function |
-|:----|:----|:----|
-| Results | 30% | Outcome layer · what gets produced |
-| Attitude | 15% | The identity shift from reactive to decided |
-| Authenticity | 20% | Closing the private/public divide · the gap that drives Silent Collapse™ |
-| Mastery | 20% | Permanent capability install |
-| Systems | 15% | Infrastructure that serves the leader |
+| Pillar | Function |
+|:----|:----|
+| Results | Outcome layer · what gets produced |
+| Attitude | The identity shift from reactive to decided |
+| Authenticity | Closing the private/public divide · the gap that drives Silent Collapse™ |
+| Mastery | Permanent capability install |
+| Systems | Infrastructure that serves the leader |
 
 ---
 
@@ -134,5 +134,5 @@ Free brand-authority assets that route into the Silent Collapse Diagnostic™:
 © 2019–2026 Baz Porter LLC®. All Rights Reserved.
 
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

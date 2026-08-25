@@ -3,7 +3,7 @@
 # RESEARCH PLAN — SCIENCE LAYER FOR THE PHILOSOPHY
 
 **Status:** PRIVATE · Institution tier · **SCOPED, NOT RUN**
-**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Owner:** Baz Porter LLC® · The Prestige Architect™
 
 > This is a **scope**, not a result. The research pass described here has **not** been run. Every claim below that touches physics, quantum mechanics, or any specific scientific mechanism is marked **`[RESEARCH PENDING]`** and stays that way until a real, verifiable citation — real paper, real authors, accuracy-checked — is attached. **No invented papers. No invented authors. No fabricated links.** (HARD STOP: nothing here is written as settled fact without a real source.)
 

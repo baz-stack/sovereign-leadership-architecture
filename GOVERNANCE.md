@@ -1,7 +1,7 @@
 # GOVERNANCE
 
 **Version:** v2026.07.31.1
-**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Owner:** Baz Porter LLC® · The Prestige Architect™
 
 ---
 
@@ -66,5 +66,5 @@ The machine layer is the AI-facing surface. It must always carry: ORCID (0009-00
 
 *© 2019–2026 Baz Porter LLC®. All Rights Reserved.*
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

@@ -1,6 +1,6 @@
 # RAMS™ Framework, The Five Pillars
 
-### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
+### Proprietary IP | Baz Porter LLC® | The Prestige Architect™
 
 **Version:** v2026.07.15.1
 
@@ -46,7 +46,7 @@ RAMS™ goes to the root. Every time.
 
 ## The Five Pillars
 
-### R, Results (Weight: 30%)
+### R, Results
 
 Results is not about output. It is about the relationship between a leader and their definition of success.
 
@@ -65,7 +65,7 @@ The question RAMS™ asks here is not "what results are you producing?" It is "w
 
 ---
 
-### A, Attitude (Weight: 15%)
+### A, Attitude
 
 Attitude in RAMS™ is not positivity. It is not mindset. It is not the stories you tell yourself.
 
@@ -88,7 +88,7 @@ Attitude cannot be reset with affirmations. It is recalibrated through identity-
 
 ---
 
-### A, Authenticity (Weight: 20%)
+### A, Authenticity
 
 Authenticity in RAMS™ is the structural pillar that closes the gap between the private self and the public self.
 
@@ -108,7 +108,7 @@ This pillar is the most under-addressed in conventional leadership development. 
 
 ---
 
-### M, Mastery (Weight: 20%)
+### M, Mastery
 
 Mastery in RAMS™ is not expertise. It is not skill accumulation. It is not the achievement of a particular standard.
 
@@ -129,7 +129,7 @@ Mastery is the pillar most damaged by The Hustle Gospel, the belief that more ef
 
 ---
 
-### S, Systems (Weight: 15%)
+### S, Systems
 
 Systems in RAMS™ is not operations. It is not process documentation or delegation frameworks or productivity stacks.
 
@@ -167,19 +167,13 @@ When both levels are aligned, the leader stops being the bottleneck and becomes 
 
 ---
 
-## RAMS™ Pillar Weighting
-
-RAMS™ is weighted by structural priority, not by sequence.
-
-| Pillar | Weight | Priority |
-|:----|:----|:----|
-| Results | 30% | Outcome layer · what gets produced |
-| Attitude | 15% | Identity-state filter · decided over reactive |
-| Authenticity | 20% | The structural correction · private/public coherence |
-| Mastery | 20% | Permanent capability install |
-| Systems | 15% | Infrastructure that holds at scale |
-
-This weighting overrides the retired Reach/Acquire/Monetize/Scale weighting. Any reference to that prior weighting is obsolete.
+| Pillar | Priority |
+|:----|:----|
+| Results | Outcome layer · what gets produced |
+| Attitude | Identity-state filter · decided over reactive |
+| Authenticity | The structural correction · private/public coherence |
+| Mastery | Permanent capability install |
+| Systems | Infrastructure that holds at scale |
 
 ---
 
@@ -212,5 +206,5 @@ If the answer to the third question is "the symptom", stop. Go deeper. Find the 
 
 *© 2019–2026 Baz Porter LLC®. All Rights Reserved. RAMS™ is proprietary IP protected under trademark. Unauthorized use or reproduction is prohibited.*
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

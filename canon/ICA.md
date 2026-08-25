@@ -1,56 +1,121 @@
-# ICA, Ideal Client Architecture
-## Sovereign Leadership Architecture™ · Baz Porter®
+# Ideal Client Architecture (ICA)
 
-**Version:** v2026.07.15.1 · **Status:** LIVE CANON
-
----
-
-## The Primary Individual Client, Victoria Reynolds
-
-Her name in the work is Victoria Reynolds. She is the active working case: the leader in Silent Collapse™ in real time, the living proof the architecture moves in the real world.
-
-She is a high-achieving woman, 40 to 55. A C-Suite executive or a founder operating a company at $1 million to $50 million or more. Household income $250,000 or more. Buying capacity $25,000 to $100,000 or more.
-
-She projects total control. Privately she is on the edge of burnout. She has built an external life that works and an internal one that is quietly failing. She does not present as broken. She presents as misaligned. And she is.
-
-### What she is experiencing
-- The performance is intact. The person underneath it is not.
-- She has become the infrastructure of her own life: essential, load-bearing, invisible.
-- Her hyper-competence, the thing that built the empire, is now the thing limiting it.
-- She succeeded completely at building a life that does not fully belong to her.
-
-### What she cannot name
-It is not burnout. It is not depression. It is Silent Collapse™: the slow, structural erosion of identity beneath intact performance.
-
-### What she actually needs
-Return. Not transformation. The dismantlement of installed worth-distortion patterns, and the return to the self that existed before the performance began.
-
-### When she is present
-Her active windows are 6:30 to 7:15 AM and 9:30 to 10:30 PM EST. Reach her inside them.
-
-### What she buys
-She buys when she believes you already understand her before she speaks. The offer is return. You never tell her to slow down.
+**Owner:** Baz Porter LLC® · The Prestige Architect™
+**Source of truth:** The Rosetta Stone v4.0
+**Rule:** The buyer is defined by STATE, not by job title, age, or gender. All client-facing copy stays gender-neutral, always.
 
 ---
 
-## The Primary Corporate Client
+## The buyer is a state, not a demographic
 
-The CHRO, board member, family office principal, or PE operating partner responsible for C-Suite performance at institutional level. They are not looking for counsel they can dismiss. They are looking for a result they can specify, verify, and hold on file: a written diagnostic recommendation, a go/no-go determination, and a Ratified Architecture document that survives the close.
+The person who buys is not defined by what they do or how old they are. They are defined by where they stand. A defining role has ended, their sense of self was fused to that role, and they are ready to ask who they are now.
 
----
+### The formula
 
-## The Benchmark, The Oliver Standard™
+Buyer = transition state × achievement-identity fusion × readiness.
 
-Oliver is not a persona and not an after-state name for Victoria. Oliver is The Oliver Standard™: the composite benchmark sovereign leadership is verified against. Six properties, all six required. The work is finished when the leader stops paying for the seat.
-
-Signature line: "Victoria is paying for the seat. Oliver is occupying it. The work is finished when the leader stops paying for the seat."
-
----
-
-## Reach and Repurposing
-
-Victoria Reynolds is the primary ICA. All content is written to be repurposable for any high-achieving leader regardless of gender.
+1. **Transition state.** A defining role just ended. A divorce. A business exit. A step-down. A retirement. A career pivot. An empty nest. A public reinvention.
+2. **Achievement-identity fusion.** Self-worth was staked on the role that ended. They did not run the company. They *were* the company. The title. The marriage.
+3. **Readiness.** They have stopped trying to restore the old self. They have started asking who the next self is. The ready buyer converts. The not-yet-ready one needs pre-work first.
 
 ---
 
-*© 2019-2026 Baz Porter LLC®. All Rights Reserved.*
+## What they are really buying
+
+The door they walk in through changes. It may be business. It may be psychological. It may be esoteric. The real purchase is always the same. The identity rebuild.
+
+In their own words: "I don't want to be looked over anymore."
+
+They buy the end of being invisible. They buy the private, confidential, non-performative room where it is safe to drop the mask.
+
+---
+
+## The fear to sell from
+
+Not stress. Not "what will people think."
+
+One layer down: "If I'm not the founder, the CEO, the one who had it together, who am I?"
+
+The root: the fear of being ordinary once the thing that made them special is gone.
+
+---
+
+## The five-move road
+
+Collapse → Recognition → Subject-Object Shift → Rebuild → Arrival.
+
+The rebuild is the road from the turning point to the sovereign self. It lands fully at The Gravity Code™.
+
+---
+
+## How they buy: the ascension ladder
+
+- **Front door.** The free audit hour, done together. The reflect-back. It costs nothing and earns the next rung. This is the moment that closes.
+- **First paid rung.** Most land in The Becoming™.
+- **Higher rungs.** As trust compounds, up to six figures.
+
+---
+
+## The money filter
+
+The filter is the wound, plus the hunger, plus a real way to invest, even in installments.
+
+It is NOT "has large funds sitting ready right now." The affluent can afford liminality. They can afford the runway to sit in the in-between and pay a guide.
+
+### Where the money sits
+
+- About 64% of US household net worth is held by the 60+ cohort.
+- About 80% of a business owner's wealth is locked in the business until exit.
+- The highest-intent window is the liquidity-plus-identity-rupture moment: the 6 to 18 months around a business sale, a gray-divorce settlement, or a retirement.
+- Reach about 90 days AFTER the event: the decree, the wire, the last day. Not the event itself.
+
+---
+
+## Targeting markers (not a cage)
+
+- **Age.** Center late 50s to early 60s (about 58 to 62). The band holds from late 30s to mid 60s. State is the marker, not age.
+- **Location.** Locate by WEALTH metro, never by divorce geography: NYC, SF Bay Area, LA, South Florida, Chicago, Houston, Austin.
+
+---
+
+## Two ramps, one destination - INTERNAL TARGETING ONLY
+
+**Hard rule: this section is internal only. It never appears in client-facing copy.**
+
+Internally, buyers tend to arrive along one of two ramps.
+
+- Men often arrive via a business exit or step-down. Lead with the next chapter, legacy, counsel not therapy.
+- Women often arrive via a gray divorce. Lead with reinvention, meaning, reflective identity work.
+
+Same wound. Same destination.
+
+**HARD RULE:** All client-facing copy stays gender-neutral, always. Never split the core offer or the copy by demographic. Target on state internally. The words on the page fit any buyer at the turning point.
+
+---
+
+## The face: Lisa (entry)
+
+Lisa is the person to talk to when writing. Her wound and her voice are gender-neutral, so they fit any buyer.
+
+Her want, in her own words: "I want to feel valued. I want to feel seen. I want to feel safe. I need to feel understood. I don't want to be looked over anymore."
+
+**Hard rule:** Lisa is the FACE, not the filter. Do not target Lisa demographically. She is where the buyer ENTERS.
+
+---
+
+## The destination: Victoria (exit)
+
+Victoria is who the buyer BECOMES on the other side. The sovereign, aligned self. Home in themselves. Allowed to want. Valid without performing.
+
+Victoria is the PROMISE, the destination archetype. She is NOT the buyer. The rebuild is the road from the turning point to Victoria, and it lands fully at The Gravity Code™.
+
+---
+
+## Stats discipline
+
+- The frugal-but-six-figure-on-identity bridge is proven on Baz's own client history. It is not yet in public literature. Treat it as a strong hypothesis. Validate with live price testing.
+- Do not quote a single precise wellness or personal-development market size. Vendors vary 3 to 4x. Use growth rates. Prefer the Global Wellness Institute and ICF as sources.
+
+---
+
+*Silent Collapse™ · Sovereign Leadership™ · The Gravity Code™ · The Becoming™ · Baz Porter® · The Prestige Architect™*
