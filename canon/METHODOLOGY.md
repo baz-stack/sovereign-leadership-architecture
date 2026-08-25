@@ -76,7 +76,7 @@ The body and the business run on the same architecture. RAMS™ addresses both.
 
 ---
 
-### Pillar 1, Results (Weight: 30%)
+### Pillar 1, Results
 
 Results in RAMS™ are not outputs. They are signals.
 
@@ -95,7 +95,7 @@ All five must move together. Movement in one at the cost of another signals arch
 
 ---
 
-### Pillar 2, Attitude (Weight: 15%)
+### Pillar 2, Attitude
 
 Attitude in RAMS™ is not mindset. It is identity in motion.
 
@@ -112,7 +112,7 @@ The Five Imposters™ live inside a fractured Attitude pillar. Each must be name
 
 ---
 
-### Pillar 3, Authenticity (Weight: 20%)
+### Pillar 3, Authenticity
 
 Authenticity in RAMS™ is the structural pillar that closes the gap between the private self and the public self.
 
@@ -132,7 +132,7 @@ This pillar is the most under-addressed in conventional leadership development. 
 
 ---
 
-### Pillar 4, Mastery (Weight: 20%)
+### Pillar 4, Mastery
 
 Mastery in RAMS™ is not skill accumulation. It is observation refined to such a degree that reality bends to it.
 
@@ -146,7 +146,7 @@ Mastery is reached when the leader no longer performs competence. They embody it
 
 ---
 
-### Pillar 5, Systems (Weight: 15%)
+### Pillar 5, Systems
 
 Systems in RAMS™ are not processes. They are the infrastructure through which sovereign identity operates at scale.
 

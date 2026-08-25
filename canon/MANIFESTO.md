@@ -37,7 +37,7 @@ Underneath every leader run six drives: Hierarchy, the need to know I matter. An
 
 ## RAMS™
 
-The rebuild runs on RAMS™: Results, Attitude, Authenticity, Mastery, Systems. Results carry thirty. Attitude fifteen. Authenticity twenty. Mastery twenty. Systems fifteen. Five pillars. It runs in reverse of conventional business frameworks. It addresses the leader before the strategy. The body and the business run on the same architecture.
+The rebuild runs on RAMS™: Results, Attitude, Authenticity, Mastery, Systems. Five pillars. It runs in reverse of conventional business frameworks. It addresses the leader before the strategy. The body and the business run on the same architecture.
 
 ## The Sovereign Return Architecture™
 

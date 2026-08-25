@@ -93,13 +93,13 @@ Five pillars, not four.
 
 Running in reverse of every conventional business framework. RAMS™ addresses the leader before the strategy, because the body and the business run on the same architecture.
 
-| Pillar | Weight | Function |
-|:----|:----|:----|
-| Results | 30% | Outcome layer · what gets produced |
-| Attitude | 15% | The identity shift from reactive to decided |
-| Authenticity | 20% | Closing the private/public divide · the gap that drives Silent Collapse™ |
-| Mastery | 20% | Permanent capability install |
-| Systems | 15% | Infrastructure that serves the leader |
+| Pillar | Function |
+|:----|:----|
+| Results | Outcome layer · what gets produced |
+| Attitude | The identity shift from reactive to decided |
+| Authenticity | Closing the private/public divide · the gap that drives Silent Collapse™ |
+| Mastery | Permanent capability install |
+| Systems | Infrastructure that serves the leader |
 
 ---
 
