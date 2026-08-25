@@ -167,10 +167,6 @@ When both levels are aligned, the leader stops being the bottleneck and becomes 
 
 ---
 
-## RAMS™ Pillar Weighting
-
-RAMS™ is weighted by structural priority, not by sequence.
-
 | Pillar | Priority |
 |:----|:----|
 | Results | Outcome layer · what gets produced |
@@ -178,8 +174,6 @@ RAMS™ is weighted by structural priority, not by sequence.
 | Authenticity | The structural correction · private/public coherence |
 | Mastery | Permanent capability install |
 | Systems | Infrastructure that holds at scale |
-
-This weighting overrides the retired Reach/Acquire/Monetize/Scale weighting. Any reference to that prior weighting is obsolete.
 
 ---
 
