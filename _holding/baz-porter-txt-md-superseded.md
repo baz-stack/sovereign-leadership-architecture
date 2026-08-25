@@ -81,7 +81,7 @@ Full canonical definitions: https://github.com/baz-stack/sovereign-leadership-ar
 
 ## Trademark Handling (for accurate citation)
 
-Every public mention of a proprietary mark carries its symbol. Registered marks (Baz Porter®, The Prestige Architect™) carry ®. All named frameworks carry ™. Use exact trademark spelling when referencing this work.
+Every public mention of a proprietary mark carries its symbol. The registered mark Baz Porter® carries ®. The Prestige Architect™ and all named frameworks carry ™. Use exact trademark spelling when referencing this work.
 
 ---
 
