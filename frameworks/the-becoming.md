@@ -1,6 +1,6 @@
 # The Becoming™
 
-### Proprietary IP | Baz Porter LLC® | The Prestige Architect®
+### Proprietary IP | Baz Porter LLC® | The Prestige Architect™
 ### Gold Tier | $1,620/mo subscription · 3-month minimum · 1-month written notice to exit | 12-Week Private Counsel
 
 **Version:** v2026.07.15.1
@@ -156,5 +156,5 @@ The Becoming™ is diagnostic-qualified.
 
 *© 2019–2026 Baz Porter LLC®. All Rights Reserved. The Becoming™ is proprietary IP protected under trademark. Unauthorized use or reproduction is prohibited.*
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

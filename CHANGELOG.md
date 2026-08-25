@@ -1,7 +1,7 @@
 # CHANGELOG, Sovereign Leadership Architecture
 
 **Repository:** github.com/baz-stack/sovereign-leadership-architecture
-**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Owner:** Baz Porter LLC® · The Prestige Architect™
 
 ---
 

@@ -5,7 +5,7 @@
 > *Not transformation. Return.*
 
 **Version:** v2026.07.15.1
-**Owner:** Baz Porter LLC® · The Prestige Architect®
+**Owner:** Baz Porter LLC® · The Prestige Architect™
 
 ---
 
@@ -134,5 +134,5 @@ Free brand-authority assets that route into the Silent Collapse Diagnostic™:
 © 2019–2026 Baz Porter LLC®. All Rights Reserved.
 
 
-**Baz Porter LLC® · The Prestige Architect®**
+**Baz Porter LLC® · The Prestige Architect™**
 [bazporter.com](https://bazporter.com)

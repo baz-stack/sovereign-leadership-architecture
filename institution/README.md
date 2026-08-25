@@ -4,7 +4,7 @@
 
 **STATUS: PRIVATE. WALLED OFF. NOT PUBLIC.**
 
-This directory is the private institution tier for Baz Porter LLC® / The Prestige Architect®. Nothing in `/institution/` is public. It is:
+This directory is the private institution tier for Baz Porter LLC® / The Prestige Architect™. Nothing in `/institution/` is public. It is:
 
 - **Never** listed in `sitemap.xml`.
 - **Always** disallowed in `robots.txt` (`Disallow: /institution/`).
