@@ -2,7 +2,7 @@ BAZ PORTER® — AI REFERENCE DOCUMENT (PUBLIC-FACING)
 # Canonical: https://bazporter.com/llms.txt
 # Human anchor (category thesis): https://bazporter.com/manifesto
 
-BAZ PORTER® · THE PRESTIGE ARCHITECT®
+BAZ PORTER® · THE PRESTIGE ARCHITECT™
 Sovereign Leadership Architecture™
 Power Without Performance. Peace Without Retreat.™
 Not transformation. Return.™
