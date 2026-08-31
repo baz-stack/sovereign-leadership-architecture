@@ -1,0 +1,818 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sovereign Ops Console · Baz Porter</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --bg-2: #161b22;
+    --bg-3: #1c2128;
+    --line: #30363d;
+    --line-soft: #21262d;
+    --ink: #e6edf3;
+    --ink-dim: #9da7b1;
+    --ink-mute: #6e7681;
+    --gold: #e3b341;
+    --gold-soft: #b8893a;
+    --green: #56d364;
+    --green-soft: #1f4d2b;
+    --yellow: #e3b341;
+    --yellow-soft: #4d3e1f;
+    --red: #f85149;
+    --red-soft: #4d1f1f;
+    --blue: #58a6ff;
+    --blue-soft: #1f3b5d;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--mono);
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ========== LAYOUT ========== */
+  .console {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: var(--bg);
+    border-left: 1px solid var(--line);
+    border-right: 1px solid var(--line);
+  }
+
+  /* ========== HEADER ========== */
+  header.bar {
+    background: var(--bg-2);
+    border-bottom: 1px solid var(--line);
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  header.bar .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--red); }
+  header.bar .dot.y { background: var(--yellow); }
+  header.bar .dot.g { background: var(--green); }
+  header.bar .title {
+    flex: 1;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--ink-dim);
+    letter-spacing: 0.02em;
+  }
+  header.bar .title strong { color: var(--gold); }
+  header.bar .zones {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 12px;
+    color: var(--ink-mute);
+  }
+  header.bar .zone-light {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: var(--bg-3);
+    cursor: help;
+  }
+  header.bar .zone-light .led { width: 8px; height: 8px; border-radius: 50%; }
+  .led.g { background: var(--green); box-shadow: 0 0 6px var(--green); }
+  .led.y { background: var(--yellow); box-shadow: 0 0 6px var(--yellow); }
+  .led.r { background: var(--red); box-shadow: 0 0 6px var(--red); }
+
+  /* ========== QUICK COMMANDS ========== */
+  .quickbar {
+    padding: 12px 18px;
+    background: var(--bg-2);
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  }
+  .quickbar .label {
+    font-size: 11px;
+    color: var(--ink-mute);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-right: 4px;
+  }
+  .chip {
+    background: var(--bg-3);
+    border: 1px solid var(--line);
+    color: var(--ink);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font: inherit;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.12s;
+  }
+  .chip:hover { background: var(--gold-soft); color: white; border-color: var(--gold); }
+  .chip.primary { background: var(--gold); color: #1a1408; border-color: var(--gold); font-weight: 600; }
+  .chip.primary:hover { background: var(--gold-soft); color: white; }
+
+  /* ========== FEED ========== */
+  .feed {
+    flex: 1;
+    overflow-y: auto;
+    padding: 18px;
+    background: var(--bg);
+  }
+  .feed::-webkit-scrollbar { width: 10px; }
+  .feed::-webkit-scrollbar-track { background: var(--bg); }
+  .feed::-webkit-scrollbar-thumb { background: var(--line); border-radius: 5px; }
+  .feed::-webkit-scrollbar-thumb:hover { background: var(--ink-mute); }
+
+  .entry { margin-bottom: 22px; animation: slideIn 0.18s ease-out; }
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .entry .prompt-line {
+    color: var(--green);
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  .entry .prompt-line .you { color: var(--blue); margin-right: 6px; }
+  .entry .prompt-line .ts { color: var(--ink-mute); font-weight: 400; font-size: 12px; margin-left: 8px; }
+  .entry .output {
+    background: var(--bg-2);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--gold);
+    border-radius: 8px;
+    padding: 14px 18px;
+  }
+  .entry.welcome .output { border-left-color: var(--blue); }
+  .entry.ok .output { border-left-color: var(--green); }
+  .entry.warn .output { border-left-color: var(--yellow); }
+  .entry.risk .output { border-left-color: var(--red); }
+
+  .output h4 {
+    margin: 0 0 8px;
+    font-size: 15px;
+    color: var(--ink);
+    font-weight: 600;
+    font-family: -apple-system, "Inter", sans-serif;
+  }
+  .output p { margin: 0 0 8px; font-family: -apple-system, "Inter", sans-serif; color: var(--ink-dim); }
+  .output ul { margin: 6px 0 8px; padding-left: 22px; font-family: -apple-system, "Inter", sans-serif; color: var(--ink-dim); }
+  .output li { margin-bottom: 4px; }
+  .output strong { color: var(--ink); }
+  .output code { background: var(--bg-3); padding: 1px 6px; border-radius: 4px; font-size: 13px; color: var(--gold); }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+    margin: 8px 0 10px;
+  }
+  .stat {
+    background: var(--bg-3);
+    border-radius: 6px;
+    padding: 10px 12px;
+  }
+  .stat .k { font-size: 11px; color: var(--ink-mute); text-transform: uppercase; letter-spacing: 0.05em; }
+  .stat .v { font-size: 18px; color: var(--ink); font-weight: 600; margin-top: 4px; }
+  .stat .v.g { color: var(--green); }
+  .stat .v.y { color: var(--yellow); }
+  .stat .v.r { color: var(--red); }
+
+  .alert {
+    background: var(--yellow-soft);
+    border-left: 3px solid var(--yellow);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    margin: 8px 0;
+    font-family: -apple-system, sans-serif;
+  }
+  .alert.r { background: var(--red-soft); border-left-color: var(--red); }
+  .alert.g { background: var(--green-soft); border-left-color: var(--green); }
+  .alert strong { display: inline; }
+
+  .prompt-block {
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin-top: 10px;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--ink-dim);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 220px;
+    overflow-y: auto;
+  }
+  .prompt-block::-webkit-scrollbar { width: 6px; }
+  .prompt-block::-webkit-scrollbar-thumb { background: var(--line); }
+  .action-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .action-btn {
+    background: var(--blue);
+    color: white;
+    border: 0;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .action-btn:hover { background: #4f95eb; }
+  .action-btn.ghost { background: transparent; color: var(--blue); border: 1px solid var(--blue); }
+  .action-btn.ghost:hover { background: var(--blue-soft); }
+
+  /* ========== INPUT BAR ========== */
+  .input-bar {
+    background: var(--bg-2);
+    border-top: 1px solid var(--line);
+    padding: 10px 14px 14px;
+  }
+  .input-bar .suggestions {
+    font-size: 11px;
+    color: var(--ink-mute);
+    margin-bottom: 6px;
+    height: 16px;
+  }
+  .input-bar .suggestions .s {
+    color: var(--gold);
+    cursor: pointer;
+  }
+  .input-bar .suggestions .s + .s::before {
+    content: " · ";
+    color: var(--ink-mute);
+  }
+  .input-wrap {
+    display: flex;
+    align-items: center;
+    background: var(--bg);
+    border: 1.5px solid var(--line);
+    border-radius: 8px;
+    padding: 0 12px;
+    transition: border 0.15s;
+  }
+  .input-wrap:focus-within { border-color: var(--gold); }
+  .input-wrap .arrow {
+    color: var(--green);
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .input-wrap input {
+    flex: 1;
+    background: transparent;
+    border: 0;
+    color: var(--ink);
+    padding: 12px 0;
+    font: inherit;
+    font-family: var(--mono);
+    font-size: 15px;
+    outline: none;
+  }
+  .input-wrap input::placeholder { color: var(--ink-mute); }
+  .input-wrap .send {
+    background: var(--gold);
+    color: #1a1408;
+    border: 0;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .input-wrap .send:hover { background: var(--gold-soft); color: white; }
+
+  /* ========== TOAST ========== */
+  .toast {
+    position: fixed; bottom: 110px; left: 50%; transform: translateX(-50%);
+    background: var(--green); color: #0a1f0d;
+    padding: 10px 18px; border-radius: 6px; font-size: 13px; font-weight: 700;
+    opacity: 0; pointer-events: none; transition: opacity 0.2s, transform 0.2s; z-index: 100;
+    font-family: var(--mono);
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(-8px); }
+  .toast.err { background: var(--red); color: white; }
+
+  @media (max-width: 700px) {
+    header.bar .zones .zone-light .name { display: none; }
+    header.bar .title { font-size: 13px; }
+    .feed { padding: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="console">
+
+  <header class="bar">
+    <span class="dot"></span>
+    <span class="dot y"></span>
+    <span class="dot g"></span>
+    <div class="title"><strong>Sovereign Ops Console</strong> · Baz Porter LLC®</div>
+    <div class="zones">
+      <span class="zone-light" title="Offers & Funnel — All good"><span class="led g"></span><span class="name">offers</span></span>
+      <span class="zone-light" title="IP & Trademark — Worth a look"><span class="led y"></span><span class="name">ip</span></span>
+      <span class="zone-light" title="Frameworks & Methods — Worth a look"><span class="led y"></span><span class="name">methods</span></span>
+      <span class="zone-light" title="Channels & Reputation — All good"><span class="led g"></span><span class="name">reputation</span></span>
+    </div>
+  </header>
+
+  <div class="quickbar">
+    <span class="label">Try:</span>
+    <button class="chip primary" data-cmd="check everything">🔍 check everything</button>
+    <button class="chip" data-cmd="show offers">💰 show offers</button>
+    <button class="chip" data-cmd="show trademarks">🛡️ show trademarks</button>
+    <button class="chip" data-cmd="show methods">🧰 show methods</button>
+    <button class="chip" data-cmd="show reputation">⭐ show reputation</button>
+    <button class="chip" data-cmd="show numbers">📊 show numbers</button>
+    <button class="chip" data-cmd="help">? help</button>
+  </div>
+
+  <div class="feed" id="feed">
+    <!-- entries are appended here -->
+  </div>
+
+  <div class="input-bar">
+    <div class="suggestions" id="suggestions">
+      <span class="s" data-cmd="check everything">check everything</span>
+      <span class="s" data-cmd="show offers">show offers</span>
+      <span class="s" data-cmd="fix the rams mix-up">fix the rams mix-up</span>
+      <span class="s" data-cmd="help">help</span>
+    </div>
+    <div class="input-wrap">
+      <span class="arrow">›</span>
+      <input id="cmd" autocomplete="off" placeholder='Type a command... try "check everything" or just "help"' />
+      <button class="send" id="send">Run</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast">Copied!</div>
+
+<script>
+// ============================================================
+// DATA — extracted from the canonical markdown files
+// ============================================================
+const OFFERS = [
+  { t: 0, name: "Content Universe", price: "Free" },
+  { t: 1, name: "Silent Collapse Diagnostic™", price: "Free" },
+  { t: 2, name: "The Reclamation Code", price: "$97" },
+  { t: 3, name: "A Million Dreams™ Bronze", price: "$397/mo" },
+  { t: 4, name: "Revenue Architecture System", price: "$497" },
+  { t: 5, name: "Reclaim Her Power", price: "$4,620" },
+  { t: 6, name: "Business Profit Accelerator", price: "$5,997" },
+  { t: 7, name: "Coming Home — Find Yourself", price: "$15,000" },
+  { t: 8, name: "Coming Home — Your Relationships", price: "$27,000" },
+  { t: 9, name: "Coming Home — Embodiment", price: "$45,000" },
+  { t: 10, name: "Gravity Code™ Diamond", price: "$100,000" },
+  { t: 11, name: "Coming Home Project", price: "$1M/yr" },
+];
+
+// ============================================================
+// AGENT PROMPTS (full instructions for Claude)
+// ============================================================
+const AGENT_PROMPTS = {
+  full: `Use the ops-orchestrator agent to run a FULL ecosystem audit of the Sovereign Leadership Architecture™ portfolio.
+
+Dispatch all three specialist agents in parallel:
+  • offers-funnel-agent — audit OFFERS.md
+  • frameworks-methodology-agent — audit FRAMEWORKS.md, METHODOLOGY.md, frameworks/**
+  • channels-credibility-agent — audit CREDIBILITY.md, PROFILE.md, README.md
+
+Handle the IP zone yourself (IP-REGISTRY.md).
+
+Write a single report in PLAIN ENGLISH (assume the reader is not technical). Sections:
+  • What's working
+  • What needs attention
+  • Top 3 things to do this week
+
+Mark anything you can't verify as "I don't know — you'll need to fill this in."`,
+
+  offers: `Use the offers-funnel-agent to audit my Full Ascension Stack in OFFERS.md.
+
+In plain English, tell me:
+  1. Are all 12 tiers in good shape?
+  2. Does the $497 → $5,997 Kill Zone bridge work?
+  3. Any inconsistent prices across files? (Known: BPA is $5,997 in OFFERS.md but $5,998 in README.md)
+  4. Am I drifting into discounting or fake scarcity?
+  5. Top 3 things to fix this week.
+
+Under 400 words. No jargon.`,
+
+  killzone: `Use the offers-funnel-agent to check whether the pricing path between my $497 offer and my $5,997 offer is solid.
+
+Plain English. Check:
+  • Is Reclaim Her Power ($4,620) clearly the bridge?
+  • Is the $500 BPA Priority Gateway credit documented everywhere?
+  • Does "after RHP, BPA is a $1,377 re-up" still add up?
+  • Does the Financial Partner Pathway separate genuine money issues from worth issues?
+
+Under 250 words.`,
+
+  ip: `Use the ops-orchestrator agent to audit the trademark zone (IP-REGISTRY.md).
+
+Plain English (assume the reader is not a lawyer):
+  1. Which names are officially registered (safe)
+  2. Which names are being used commercially but NOT registered (risky)
+  3. Which one to file FIRST and why
+  4. Top 3 next moves
+
+Quote the registry's own line: "Licensing without federal registration is a structural vulnerability." Explain what that means plainly.`,
+
+  ipPriority: `Use the ops-orchestrator agent to assess the trademark filing priority queue in IP-REGISTRY.md.
+
+For each priority tier, tell me in plain English: which names are still unfiled, where they're being used in my business right now, and which one is most urgent. Under 250 words.`,
+
+  methods: `Use the frameworks-methodology-agent to audit my whole framework portfolio.
+
+Plain English:
+  1. Which frameworks have their own document file, and which are missing one
+  2. Whether RAMS™ is named consistently everywhere (it's not — flag this)
+  3. Frameworks I mention but haven't trademarked
+  4. Top 3 things to fix
+
+Under 400 words. No jargon.`,
+
+  ramsFix: `Use the frameworks-methodology-agent to fix the RAMS™ naming mix-up.
+
+The problem in plain English:
+  • METHODOLOGY.md and README.md say RAMS = "Results · Attitude · Mastery · Systems" (4 words)
+  • FRAMEWORKS.md says RAMS = "Results, Attitude, Authenticity, Mastery, Systems" (5 words — adds Authenticity)
+  • A Million Dreams Bronze uses RAMS = "Regulate, Activate, Modulate, Stabilize" (a completely different RAMS)
+
+Tell me which version should be the OFFICIAL one. List every file that needs to change. Do NOT make the changes yet — just show me the plan. Under 300 words.`,
+
+  gaps: `Use the frameworks-methodology-agent to find frameworks documented in IP-REGISTRY.md that don't have their own file in frameworks/. List them plainly. Under 250 words.`,
+
+  reputation: `Use the channels-credibility-agent to check my reputation and channels.
+
+Plain English:
+  1. Are my credentials consistent in README.md, PROFILE.md, and CREDIBILITY.md?
+  2. Are all my platforms (LinkedIn, podcast, Substack, etc.) listed everywhere they should be?
+  3. Does my Content Universe (the 20-piece system) actually exist anywhere as a document?
+  4. Top 3 things to fix
+
+Under 400 words. No jargon.`,
+
+  voice: `Use the channels-credibility-agent to check that my writing voice is consistent across STORY.md, VOICE.md, README.md, and PROFILE.md.
+
+Plain English. Check for:
+  • "Architect, not coach" positioning
+  • Consistent use of Silent Collapse™
+  • Declarative tone — no coach-speak, no motivational language
+  • The phrase "the price is the price"
+
+Flag any drift. Under 250 words.`,
+
+  content: `Use the channels-credibility-agent to check whether my Content Universe (Tier 0) is actually documented.
+
+OFFERS.md describes a "20-piece deployment system across the Four Worth Distortion Patterns (Boundaries, Courage, Deservability, Love)." Is this actually documented with the 20 pieces listed anywhere? If not, where should it live? Under 250 words.`,
+};
+
+// ============================================================
+// COMMAND HANDLERS — what each command shows in the feed
+// Each returns { kind, html } — html is rendered into the entry
+// ============================================================
+function cmdWelcome() {
+  return {
+    kind: "welcome",
+    html: `
+      <h4>👋 Welcome to your Ops Console</h4>
+      <p>This is the command center for your whole business. Type a command below or click a button at the top.</p>
+      <p>Don't worry — you can't break anything. Try <code>help</code> if you're stuck.</p>
+      <p style="margin-top:10px;"><strong>Easy first step:</strong> click <code>🔍 check everything</code> at the top.</p>
+    `
+  };
+}
+
+function cmdHelp() {
+  return {
+    kind: "welcome",
+    html: `
+      <h4>📖 Commands you can type</h4>
+      <p>You can type any of these, or click the buttons at the top. The console understands plain English.</p>
+      <ul>
+        <li><code>check everything</code> — runs a full health check on all 4 parts of your business</li>
+        <li><code>show offers</code> — shows your 12 offers from Free to $1M</li>
+        <li><code>check offers</code> — asks Claude to audit your offer prices and path</li>
+        <li><code>check kill zone</code> — checks the $497→$5,997 bridge</li>
+        <li><code>show trademarks</code> — shows what's registered and what's not</li>
+        <li><code>check trademarks</code> — asks Claude which one to file first</li>
+        <li><code>show methods</code> — shows your frameworks</li>
+        <li><code>fix the rams mix-up</code> — asks Claude how to fix the RAMS naming problem</li>
+        <li><code>show reputation</code> — shows your books, awards, and proof points</li>
+        <li><code>check reputation</code> — asks Claude if your story is consistent</li>
+        <li><code>show numbers</code> — shows the numbers you've entered</li>
+        <li><code>set income 42000</code> — saves your monthly income (only on your computer)</li>
+        <li><code>clear</code> — clears the screen</li>
+      </ul>
+      <p style="margin-top:10px;color:var(--ink-mute);font-size:13px;">When the console gives you Claude prompts, copy them and paste into your Claude chat. Claude does the work.</p>
+    `
+  };
+}
+
+function cmdShowOffers() {
+  const rows = OFFERS.map(o =>
+    `<div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid var(--line-soft);"><span><span style="color:var(--ink-mute);">${o.t}</span> · ${o.name}</span><span style="color:var(--gold);font-weight:600;">${o.price}</span></div>`
+  ).join("");
+  return {
+    kind: "ok",
+    html: `
+      <h4>💰 Your 12 offers</h4>
+      <p style="font-size:13px;">From Free all the way up to $1M/year invitation-only.</p>
+      <div style="margin-top:8px;font-family:var(--mono);font-size:13px;">${rows}</div>
+      <div class="alert">
+        <strong>⚠️ One thing to fix:</strong> Business Profit Accelerator is <strong>$5,997</strong> in OFFERS.md but <strong>$5,998</strong> in README.md. Pick one and update the other.
+      </div>
+      <div class="action-row">
+        <button class="action-btn" onclick="runCmd('check offers')">Ask Claude to audit them</button>
+      </div>
+    `
+  };
+}
+
+function cmdShowTrademarks() {
+  return {
+    kind: "warn",
+    html: `
+      <h4>🛡️ Your trademarks</h4>
+      <p style="font-size:13px;">A trademark is like a "no trespassing" sign on a name. ® = officially filed. ™ = you're using it but it's not legally protected yet.</p>
+      <div class="stat-grid">
+        <div class="stat"><div class="k">Registered ®</div><div class="v g">2</div></div>
+        <div class="stat"><div class="k">File now</div><div class="v r">2</div></div>
+        <div class="stat"><div class="k">File this quarter</div><div class="v y">2</div></div>
+        <div class="stat"><div class="k">File this year</div><div class="v y">2</div></div>
+      </div>
+      <div class="alert r">
+        <strong>🚨 Important:</strong> Your <strong>RAMS™ framework</strong> is being taught in 3 places (Horizon Leaders, Basque, Master Curriculum) but it isn't officially trademarked. Someone else could file it before you. <strong>File this one first.</strong>
+      </div>
+      <div class="action-row">
+        <button class="action-btn" onclick="runCmd('check trademarks')">Ask Claude what to file first</button>
+      </div>
+    `
+  };
+}
+
+function cmdShowMethods() {
+  return {
+    kind: "warn",
+    html: `
+      <h4>🧰 Your frameworks (methods)</h4>
+      <p style="font-size:13px;">These are the teaching tools you use with clients — your "recipes."</p>
+      <div class="stat-grid">
+        <div class="stat"><div class="k">Total frameworks</div><div class="v">11</div></div>
+        <div class="stat"><div class="k">Have a file ✓</div><div class="v g">7</div></div>
+        <div class="stat"><div class="k">Missing a file</div><div class="v y">4</div></div>
+        <div class="stat"><div class="k">Naming mix-ups</div><div class="v r">1</div></div>
+      </div>
+      <div class="alert">
+        <strong>⚠️ Naming mix-up:</strong> Your <strong>RAMS</strong> framework means different things in different documents. Sometimes 4 words, sometimes 5, and your A Million Dreams program uses a completely different RAMS entirely. Pick one official version.
+      </div>
+      <div class="action-row">
+        <button class="action-btn" onclick="runCmd('check methods')">Ask Claude to audit</button>
+        <button class="action-btn ghost" onclick="runCmd('fix the rams mix-up')">Fix the RAMS mix-up</button>
+      </div>
+    `
+  };
+}
+
+function cmdShowReputation() {
+  return {
+    kind: "ok",
+    html: `
+      <h4>⭐ Your reputation</h4>
+      <p style="font-size:13px;">Proof that you're the real deal. This is solid.</p>
+      <div class="stat-grid">
+        <div class="stat"><div class="k">Bestselling books</div><div class="v g">2</div></div>
+        <div class="stat"><div class="k">Podcast episodes</div><div class="v">100+</div></div>
+        <div class="stat"><div class="k">Delphi Clone</div><div class="v">24.7K</div></div>
+        <div class="stat"><div class="k">Awards</div><div class="v">1 (2024)</div></div>
+      </div>
+      <div class="alert g">
+        <strong>✅ Strong proof points:</strong> Princeton (invited speaker) · Tony Robbins Platinum · Excel Arena London (35,000 attendees) · Yahoo Finance, CEO Weekly, Thrive Global · British Army 6.5 years.
+      </div>
+      <div class="action-row">
+        <button class="action-btn" onclick="runCmd('check reputation')">Ask Claude to audit</button>
+        <button class="action-btn ghost" onclick="runCmd('check voice')">Check my voice</button>
+      </div>
+    `
+  };
+}
+
+function cmdShowNumbers() {
+  const k = key => localStorage.getItem("ops-kpi-" + key) || "(not set)";
+  return {
+    kind: "welcome",
+    html: `
+      <h4>📊 Your numbers</h4>
+      <p style="font-size:13px;">These are saved on your computer only. Use <code>set income 42000</code>, <code>set diamond 3</code>, etc. to update.</p>
+      <div class="stat-grid">
+        <div class="stat"><div class="k">Monthly income</div><div class="v">${k("mrr")}</div></div>
+        <div class="stat"><div class="k">Diamond clients</div><div class="v">${k("diamond")}</div></div>
+        <div class="stat"><div class="k">SCD completions</div><div class="v">${k("scd")}</div></div>
+        <div class="stat"><div class="k">Active cohorts</div><div class="v">${k("cohorts")}</div></div>
+      </div>
+    `
+  };
+}
+
+function cmdSet(args) {
+  const knownKeys = {
+    income: "mrr", mrr: "mrr",
+    diamond: "diamond",
+    scd: "scd", assessments: "scd",
+    cohorts: "cohorts", groups: "cohorts",
+  };
+  const [name, ...rest] = args;
+  const val = rest.join(" ");
+  if (!name || !val) {
+    return { kind: "warn", html: `<h4>⚠️ Try:</h4><p><code>set income 42000</code> or <code>set diamond 3</code></p>` };
+  }
+  const key = knownKeys[name.toLowerCase()];
+  if (!key) {
+    return { kind: "warn", html: `<h4>⚠️ I don't know that number</h4><p>Try one of: <code>income</code>, <code>diamond</code>, <code>scd</code>, <code>cohorts</code></p>` };
+  }
+  localStorage.setItem("ops-kpi-" + key, val);
+  return { kind: "ok", html: `<h4>✓ Saved</h4><p>Set <code>${name}</code> to <strong>${val}</strong>. Run <code>show numbers</code> to see all your numbers.</p>` };
+}
+
+function cmdAgent(promptKey, title, describe) {
+  const prompt = AGENT_PROMPTS[promptKey];
+  const id = "p" + Date.now();
+  return {
+    kind: "welcome",
+    html: `
+      <h4>${title}</h4>
+      <p>${describe}</p>
+      <p style="font-size:13px;color:var(--ink-mute);"><strong>What to do:</strong> click <em>Copy</em>, then paste into your Claude chat.</p>
+      <div class="prompt-block" id="${id}">${prompt.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</div>
+      <div class="action-row">
+        <button class="action-btn" onclick="copyEl('${id}')">📋 Copy this for Claude</button>
+      </div>
+    `
+  };
+}
+
+function cmdNotFound(input) {
+  return {
+    kind: "warn",
+    html: `
+      <h4>🤔 Hmm, I don't know that one</h4>
+      <p>I didn't recognize "<code>${input}</code>". Try <code>help</code> to see what you can do, or click one of the buttons up top.</p>
+    `
+  };
+}
+
+// ============================================================
+// COMMAND ROUTER — plain English in, action out
+// ============================================================
+function route(input) {
+  const raw = input.trim().toLowerCase();
+  if (!raw) return null;
+
+  // simple keyword match
+  if (raw === "clear" || raw === "cls") {
+    document.getElementById("feed").innerHTML = "";
+    return null;
+  }
+  if (raw.startsWith("set ")) return cmdSet(raw.slice(4).trim().split(/\s+/));
+  if (raw === "help" || raw === "?" || raw === "h") return cmdHelp();
+  if (raw === "hi" || raw === "hello" || raw === "hey") return cmdWelcome();
+
+  // "check everything" / "full" / "audit"
+  if (/check.*every|full.*(audit|check)|everything|audit.*all/.test(raw)) {
+    return cmdAgent("full", "🔍 Full ecosystem health check", "This will ask Claude to look at all 4 parts of your business at once and write you one short report.");
+  }
+
+  // offers
+  if (/show.*offer|list.*offer|my.*offer/.test(raw)) return cmdShowOffers();
+  if (/check.*offer|audit.*offer/.test(raw)) {
+    return cmdAgent("offers", "💰 Audit my offers", "Claude will check all 12 of your offers — prices, the path from low to high, and any inconsistencies between your files.");
+  }
+  if (/kill.?zone|497.*5997|497.*5998|497.*to.*5/.test(raw)) {
+    return cmdAgent("killzone", "🌉 Check the pricing bridge", "Claude will check whether your $4,620 program properly bridges the big jump from $497 to $5,997.");
+  }
+  if (/pricing.*integrity|discount|scarcity/.test(raw)) {
+    return cmdAgent("offers", "💰 Audit my offers", "Claude will check for any discounting, fake bonuses, or fake scarcity in your offers — things you've said you don't do.");
+  }
+
+  // trademarks / ip
+  if (/show.*trademark|show.*ip|list.*trademark|my.*trademark/.test(raw)) return cmdShowTrademarks();
+  if (/check.*trademark|check.*ip|audit.*ip|audit.*trademark/.test(raw)) {
+    return cmdAgent("ip", "🛡️ Audit my trademarks", "Claude will tell you which trademarks are legally protected, which are risky, and which one to file first.");
+  }
+  if (/file.*first|priority|what.*file/.test(raw)) {
+    return cmdAgent("ipPriority", "🛡️ What to file first", "Claude will rank your unfiled trademark names by urgency and tell you the next move.");
+  }
+
+  // methods / frameworks
+  if (/show.*method|show.*framework|list.*framework|my.*framework|my.*method/.test(raw)) return cmdShowMethods();
+  if (/check.*method|check.*framework|audit.*framework|audit.*method/.test(raw)) {
+    return cmdAgent("methods", "🧰 Audit my frameworks", "Claude will check that all your frameworks are documented, named consistently, and used correctly across your offers.");
+  }
+  if (/rams.*(mix|fix|drift|inconsistent|naming)|fix.*rams/.test(raw)) {
+    return cmdAgent("ramsFix", "🔧 Fix the RAMS naming mix-up", "Claude will look at every place RAMS appears, find every different version, and tell you which one should be official.");
+  }
+  if (/find.*gap|missing.*file|missing.*framework/.test(raw)) {
+    return cmdAgent("gaps", "📂 Find missing framework files", "Claude will find every framework you've trademarked that doesn't have its own document file yet.");
+  }
+
+  // reputation / channels
+  if (/show.*reputation|show.*credibility|show.*channel|my.*reputation/.test(raw)) return cmdShowReputation();
+  if (/check.*reputation|audit.*reputation|check.*channel|check.*credibility/.test(raw)) {
+    return cmdAgent("reputation", "⭐ Audit my reputation", "Claude will check your credentials, channels, and proof points across all your files.");
+  }
+  if (/check.*voice|voice.*consistency|sound.*consistent/.test(raw)) {
+    return cmdAgent("voice", "🎙️ Check my voice", "Claude will check whether you sound like yourself across every file — same tone, same trademark phrases.");
+  }
+  if (/content.*universe|20.?piece|20.*content/.test(raw)) {
+    return cmdAgent("content", "📦 Check my Content Universe", "Claude will check whether your 20-piece free content system is actually documented anywhere.");
+  }
+
+  // numbers
+  if (/show.*number|my.*number|kpi|metric/.test(raw)) return cmdShowNumbers();
+
+  return cmdNotFound(input);
+}
+
+// ============================================================
+// RENDER + INTERACTION
+// ============================================================
+function append(entry, userInput) {
+  if (!entry) return;
+  const ts = new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+  const el = document.createElement("div");
+  el.className = "entry " + entry.kind;
+  el.innerHTML = `
+    <div class="prompt-line"><span class="you">›</span>${userInput || ""}<span class="ts">${ts}</span></div>
+    <div class="output">${entry.html}</div>
+  `;
+  const feed = document.getElementById("feed");
+  feed.appendChild(el);
+  feed.scrollTop = feed.scrollHeight;
+}
+
+function runCmd(cmd) {
+  const input = document.getElementById("cmd");
+  const text = cmd || input.value;
+  if (!text.trim()) return;
+  const result = route(text);
+  append(result, text);
+  input.value = "";
+  input.focus();
+}
+
+window.runCmd = runCmd;
+window.copyEl = async function(id) {
+  const text = document.getElementById(id).textContent;
+  try {
+    await navigator.clipboard.writeText(text);
+    toast("Copied! Now paste into Claude.");
+  } catch (e) {
+    toast("Copy failed — select the text manually.", true);
+  }
+};
+
+function toast(msg, err) {
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.classList.toggle("err", !!err);
+  t.classList.add("show");
+  setTimeout(() => t.classList.remove("show"), 2200);
+}
+
+// ============================================================
+// WIRE UP
+// ============================================================
+document.getElementById("send").addEventListener("click", () => runCmd());
+document.getElementById("cmd").addEventListener("keydown", e => {
+  if (e.key === "Enter") runCmd();
+});
+document.querySelectorAll("[data-cmd]").forEach(el => {
+  el.addEventListener("click", () => runCmd(el.dataset.cmd));
+});
+
+// Welcome message
+append(cmdWelcome(), "welcome");
+</script>
+
+</body>
+</html>
